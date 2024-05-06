@@ -4,7 +4,7 @@ from django.contrib.auth import login, logout, authenticate
 
 
 def home(request):
-    return render(request, 'index.html')
+    return render(request, 'main/index.html')
 
 # View for sign up page
 def register(request): 

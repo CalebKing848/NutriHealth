@@ -13,21 +13,41 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333;
   }
   
+.nav-color {
+  background-color: #333;
+}
+
   li {
     float: left;
   }
   
   li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
+    display: block !important;
+    color: white !important;
+    text-align: center !important;
+    padding: 8px 8px !important;
+    text-decoration: none !important;
   }
   
   li a:hover {
     background-color: #111;
+  }
+
+  .registration {
+    float: right;
+    display: flex;
+    align-items: center;
+  }
+
+  .username-txt {
+    color: #fff;
+    padding-right: 10px;
+  }
+
+  .btn-sign-out {
+    color: #fff;
+    background: none;
+    border: none;
   }

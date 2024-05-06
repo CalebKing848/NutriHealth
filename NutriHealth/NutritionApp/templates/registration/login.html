@@ -1,19 +1,12 @@
+
+{% extends 'main/base.html' %}
 {% load static %}
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login</title>
-    <link rel="stylesheet" , href="{% static 'css/style.css' %}">
-    <link rel="stylesheet" , href="{% static 'css/bootstrap.css' %}">
-</head>
-<body>
+{% block content %} <!-- Start of Block Content -->
     <div class="registration-container">
 
         <h2>Login - Page</h2>
 
-        {% load crispy_forms_tags %} {% block content%}
+        {% load crispy_forms_tags %}
         <li>{{user.username}}</li> <!-- Displays the logged in user username-->
         <form method="post">
             {% csrf_token %}{{form|crispy}}
@@ -21,7 +14,6 @@
             <button type="submit" class="btn btn-success">Login</button>
         </form>
         {{from.errors}}
-        {% endblock %}
+
     </div>
-</body>
-</html>
+{% endblock  %} <!-- End of Block Content -->

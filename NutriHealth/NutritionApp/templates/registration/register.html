@@ -1,31 +1,21 @@
+{% extends 'main/base.html' %}
 {% load static %}
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Register</title>
-    <link rel="stylesheet" , href="{% static 'css/style.css' %}">
-    <link rel="stylesheet" , href="{% static 'css/bootstrap.css' %}">
-</head>
-<body>
-     
-    <div class="registration-container">
-
-        <h2>Register - Page</h2>
+{% block content %} <!-- Start of Block Content -->
 
 
-        {% load crispy_forms_tags %} {% block content %}
-        <form method="post">
-            {% csrf_token %}{{form|crispy}}
-            <p>Don't have an account? Login <a href="/login">Here</a>!</p>
-            <button type="submit" class="btn btn-success">Register</button>
-        </form>
-        {{form.errors}}
+<div class="registration-container">
 
-        {% endblock %}
-    </div>
+    <h2>Register - Page</h2>
 
-</body>
-</html>
+    {% load crispy_forms_tags %}
+    <form method="post">
+        {% csrf_token %}{{form|crispy}}
+        <p>Don't have an account? Login <a href="/login">Here</a>!</p>
+        <button type="submit" class="btn btn-success">Register</button>
+    </form>
+    {{form.errors}}
 
+
+</div>
+
+{% endblock %} <!-- End of Block Content -->

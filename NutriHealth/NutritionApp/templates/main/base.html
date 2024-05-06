@@ -1,1 +1,38 @@
 {% load static %} <!-- Tells the template engine to use the files in the static folder -->
+<!DOCTYPE html>
+<html lang="en"> <!-- Specifies the language code of the page-->
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" , href="{% static 'css/style.css' %}">
+    <link rel="stylesheet" , href="{% static 'css/bootstrap.css' %}">
+    <title>{% block title %} My Site {% endblock %}</title> <!-- Title of the Page -->
+</head>
+
+<body>
+
+
+    <ul class="nav-color">
+        <div class="registration">
+            {% if user.is_authenticated %} <!-- Checks to see if the user is authenticated-->
+                <li> <!-- Start of Nav Item -->
+                    <li class="username-txt">{{user.username}}</li> <!-- Displays the logged in user username-->
+                    <form action="{% url 'logout' %}" method="post">
+                    {% csrf_token %}
+                    <button class="navbar-text px-3 btn-sign-out" type="submit">Logout</button> <!-- Logout Button-->
+                    </form>
+                </li> <!-- End of Nav Item -->
+            {% else%}
+                <li><a class="nav-link px-3" href="/register">Sign Up</a></li> <!-- Sign Up Link-->
+                <li><a class="nav-link px-3" href="{% url 'login' %}">login</a></li><!---login.link-->
+            {% endif %}
+        </div>
+    </ul>
+
+    {% block content %}
+    {% endblock %}
+
+</body>
+
+</html>
