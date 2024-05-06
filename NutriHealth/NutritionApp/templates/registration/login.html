@@ -14,6 +14,7 @@
         <h2>Login - Page</h2>
 
         {% load crispy_forms_tags %} {% block content%}
+        <li>{{user.username}}</li> <!-- Displays the logged in user username-->
         <form method="post">
             {% csrf_token %}{{form|crispy}}
             <p>Don't have an account? Login <a herf="login>">Here</a>!</p>

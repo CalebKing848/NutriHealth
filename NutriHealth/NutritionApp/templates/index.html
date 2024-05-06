@@ -10,13 +10,24 @@
 
 <body>
 
-    <li class="nav-item"> <!-- Start of Nav Item -->
-        <a class="nav-link px-3" href="/register">Sign Up</a> <!-- Sign Up Link-->
-      </li> <!-- End of Nav Item -->
+    <ul>
+        {% if user.is_authenticated %} <!-- Checks to see if the user is authenticated-->
+            <li> <!-- Start of Nav Item -->
+                <li class="navbar-text pr-l">{{user.username}}</li> <!-- Displays the logged in user username-->
+                <form action="{% url 'logout' %}" method="post">
+                {% csrf_token %}
+                <button class="navbar-text px-3 btn-sign-out" type="submit">Logout</button> <!-- Logout Button-->
+                </form>
+            </li> <!-- End of Nav Item -->
+        {% else%}
+            <li><a class="nav-link px-3" href="/register">Sign Up</a></li> <!-- Sign Up Link-->
+            <li><a class="nav-link px-3" href="{% url 'login' %}">login</a></li><!---login.link-->
+        {% endif %}
+    </ul>
+      
 
-    <li class="nav-item">
-    <a class="nav-link px-3" href="{% url 'login' %}"</a>login</a> </a><!---login.link-->
-    </li>
+
+
 
 </body>
 
