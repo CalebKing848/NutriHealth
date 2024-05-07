@@ -3,13 +3,21 @@
 
 {% block content %} <!-- Start of Block Content -->
 
-<h2> User Infromation Page </h2>
+<div class="main-container">
+    <h2> User Infromation Page </h2>
 
-<form method="post">
-    {% csrf_token %}
-    {{form|crispy}}
-    <buttom type="submit" name="save">Add User Infromation</buttom>
-</form>
+    <form method="POST">
+        {% csrf_token %}
+        {{form|crispy}}
+        <button class="btn btn-success" type="submit" name="save">Add User Infromation</button>
+    </form>
 
+    {% for user in user_info %}
 
-{% endblock  %} <!-- End of Block Content -->
+    {{ user.age }}
+
+    {% endfor %}
+
+</div>
+
+{% endblock %} <!-- End of Block Content -->

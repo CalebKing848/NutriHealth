@@ -23,9 +23,11 @@ def register(request):
 
 def user_infromation(request):
     user_info = UserInformation.objects.all()
-    form = UserInformationForm(request.POST)
-    if form.is_valid():
-        item = form.save(commit=False)
-        item.save()
-        return render(request, 'main/index.html', {"form": form})
-    return render(request, 'main/user-infromation.html', {"UserInformation": user_info, "form": form})
+    form = UserInformationForm()
+    if request.method == 'POST':
+        form = UserInformationForm(request.POST)
+        if form.is_valid():
+            item = form.save(commit=False)
+            item.save()
+            return render(request, 'main/index.html')
+    return render(request, 'main/user-infromation.html', {"user_info": user_info, "form": form})

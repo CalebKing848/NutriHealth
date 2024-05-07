@@ -8,6 +8,12 @@
     margin: 0px auto 0px auto;
 }
 
+.main-container {
+  width: 800px;
+  margin: 0px auto 0px auto;
+}
+
+
 ul {
     list-style-type: none;
     margin: 0;
@@ -47,7 +53,7 @@ ul {
   }
 
   .btn-sign-out {
-    color: #fff;
+    color: #fff !important;
     background: none;
     border: none;
   }
