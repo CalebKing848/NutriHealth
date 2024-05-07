@@ -6,6 +6,7 @@ urlpatterns = [
 
     path('register', views.register, name='register'), # Register Page
 
-    path('user-infromation', views.user_infromation, name='user-infromation'), # User Infromation 
+    path('user-information/<int:user_id>/', views.user_information, name='user_information'),
+
 
 ]
