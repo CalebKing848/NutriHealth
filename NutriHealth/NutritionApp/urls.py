@@ -10,5 +10,4 @@ urlpatterns = [
 
     path('contact-us', views.contact, name='contact_us'), # Contact Page
 
-
 ]

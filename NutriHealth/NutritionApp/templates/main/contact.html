@@ -1,12 +1,15 @@
 {% extends 'main/base.html' %}
 {% block content %} <!-- Start of Block Content -->
 
-<h2>Contact Page</h2>
+<div class="main-container">
+    <h2>Contact Page</h2>
 
-{% load crispy_forms_tags %}
-<form method="post">
-    {% csrf_token %}{{form|crispy}} 
-    <button type="submit" class="btn btn-success">Submit</button>
-</form>
+    {% load crispy_forms_tags %}
+    <form method="post">
+        {% csrf_token %}{{form|crispy}}
+        <button type="submit" class="btn btn-success">Submit</button>
+    </form>
 
-{% endblock  %} <!-- End of Block Content -->
+</div>
+
+{% endblock %} <!-- End of Block Content -->

@@ -3,9 +3,7 @@ from .forms import RegisterForm, UserInformationForm
 from django.contrib.auth import login, logout, authenticate
 from django.contrib.auth.decorators import login_required
 from django.contrib.auth.models import User  # Import the User model
-from .models import UserInformation
-from .forms import UserInformationForm
-
+from .forms import UserInformationForm, ContactInformationForm
 
 from .models import UserInformation
 
@@ -27,11 +25,15 @@ def register(request):
 
 @login_required(login_url="/login")
 def user_information(request, user_id):
-   
+    # Check if the logged-in user matches the requested user_id
     if request.user.id == user_id:
-
-        user_info = UserInformation.objects.get(author_id=user_id)
-
+        try:
+            # Attempt to get the UserInformation object
+            user_info = UserInformation.objects.get(author_id=user_id)
+        except UserInformation.DoesNotExist:
+            # Handle the case where UserInformation does not exist
+            user_info = None
+        
         if request.method == 'POST':
             if user_info:
                 form = UserInformationForm(request.POST, instance=user_info)
@@ -47,10 +49,19 @@ def user_information(request, user_id):
                 form = UserInformationForm(instance=user_info)
             else:
                 form = UserInformationForm()
-        return render(request, 'main/user-information.html', {"user_info": user_info, "form": form})
+        return render(request, 'user/user-information.html', {"user_info": user_info, "form": form})
     else:
-        return render(request, 'registration/register.html')
+        return render(request, 'user/user-denied.html')
     
 
 def contact(request):
-    return render(request, 'main/contact.html')
+
+    if request.method == 'POST':
+        form = ContactInformationForm(request.POST)
+        if form.is_valid():
+            item = form.save(commit=False)
+            item.save()
+            return redirect('/') 
+    else:
+        form = ContactInformationForm()
+    return render(request, 'main/contact.html', {"form": form})
