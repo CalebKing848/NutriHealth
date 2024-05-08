@@ -50,3 +50,7 @@ def user_information(request, user_id):
         return render(request, 'main/user-information.html', {"user_info": user_info, "form": form})
     else:
         return render(request, 'registration/register.html')
+    
+
+def contact(request):
+    return render(request, 'main/contact.html')

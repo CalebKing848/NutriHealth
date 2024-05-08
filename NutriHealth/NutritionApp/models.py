@@ -15,3 +15,14 @@ class UserInformation(models.Model):
     height = models.FloatField() 
     energy_intake = models.IntegerField()
     existing_medical_conditions = models.TextField() 
+
+class ContactInformation(models.Model):
+    name = models.CharField(max_length=100)
+    email = models.EmailField()
+    message = models.TextField()
+    created_at = models.DateTimeField(auto_now_add=True)
+
+
+
+   
+

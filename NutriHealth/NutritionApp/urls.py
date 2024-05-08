@@ -8,5 +8,7 @@ urlpatterns = [
 
     path('user-information/<int:user_id>/', views.user_information, name='user_information'),
 
+     path('contact-us', views.contact, name='contact_us'), # Contact Page
+
 
 ]
