@@ -64,4 +64,4 @@ def contact(request):
             return redirect('/') 
     else:
         form = ContactInformationForm()
-    return render(request, 'main/contact.html', {"form": form})
+    return render(request, 'user-contact/contact.html', {"form": form})
