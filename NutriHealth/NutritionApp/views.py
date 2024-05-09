@@ -8,7 +8,11 @@ from .forms import UserInformationForm, ContactInformationForm
 from .models import UserInformation
 
 def home(request):
-    return render(request, 'main/index.html')
+    return render(request, 'main/home.html')
+
+def about(request):
+    return render(request, 'main/about.html')
+
 
 # View for sign up page
 def register(request): 
@@ -49,9 +53,14 @@ def user_information(request, user_id):
                 form = UserInformationForm(instance=user_info)
             else:
                 form = UserInformationForm()
-        return render(request, 'user/user-information.html', {"user_info": user_info, "form": form})
+        return render(request, 'user-info/user-information.html', {"user_info": user_info, "form": form})
     else:
-        return render(request, 'user/user-denied.html')
+        return render(request, 'user-info/user-denied.html')
+    
+
+def team(request):
+    return render(request, 'main/team.html')
+
     
 
 def contact(request):
@@ -65,3 +74,5 @@ def contact(request):
     else:
         form = ContactInformationForm()
     return render(request, 'user-contact/contact.html', {"form": form})
+
+
