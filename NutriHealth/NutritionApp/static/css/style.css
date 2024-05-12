@@ -1,11 +1,15 @@
 * {
-    margin: 0px;
-    padding: 0px;
+  margin: 0px;
+  padding: 0px;
+}
+
+.page-heading {
+  text-align: center;
 }
 
 .registration-container {
-    width: 800px;
-    margin: 0px auto 0px auto;
+  width: 800px;
+  margin: 0px auto 0px auto;
 }
 
 .main-container {
@@ -13,47 +17,87 @@
   margin: 0px auto 0px auto;
 }
 
-
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-  }
-  
-.nav-color {
-  background-color: #333;
+nav {
+  background-color: #68f;
 }
 
-  li {
-    float: left;
-  }
-  
-  li a {
-    display: block !important;
-    color: white !important;
-    text-align: center !important;
-    padding: 8px 8px !important;
-    text-decoration: none !important;
-  }
-  
-  li a:hover {
-    background-color: #111;
-  }
 
-  .registration {
-    float: right;
-    display: flex;
-    align-items: center;
-  }
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
 
-  .username-txt {
-    color: #fff;
-    padding-right: 10px;
-  }
+li {
+  float: left;
+}
 
-  .btn-sign-out {
-    color: #fff !important;
-    background: none;
-    border: none;
-  }
+li a {
+  display: block !important;
+  color: white !important;
+  text-align: center !important;
+  padding: 8px 8px !important;
+  text-decoration: none !important;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+.registration {
+  float: right;
+  display: flex;
+  align-items: center;
+}
+
+.username-txt {
+  color: #fff;
+  padding-right: 10px;
+}
+
+.btn-sign-out {
+  color: #fff !important;
+  background: none;
+  border: none;
+}
+
+.about-container {
+  display: flex;
+  justify-content: center;
+}
+
+.about-items {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 1200px;
+  gap: 15px;
+}
+
+.about-items div {
+  background-color: #474747;
+}
+
+.team-container {
+  display: flex;
+  justify-content: center;
+}
+
+.team-member{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  width: 1000px;
+  gap: 40px;
+}
+
+.team-member div {
+  background-color: #474747;
+  height: 250px;
+}
+
+footer {
+  background-color: #68f;
+  padding: 10px;
+  color: #fff;
+  margin-top: 50px;
+}

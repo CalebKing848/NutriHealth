@@ -12,8 +12,8 @@
 
 <body>
 
-
-    <ul class="nav-color">
+<nav>
+    <ul>
 
         <li><a class="nav-link px-3" href="{% url 'home' %}">Home</a></li>
         <li><a class="nav-link px-3" href="{% url 'about' %}">About us</a></li>
@@ -48,9 +48,14 @@
             {% endif %}
         </div>
     </ul>
+</nav>
 
     {% block content %}
     {% endblock %}
+
+<footer>
+    @NutriHealth 2024
+</footer>
 
 </body>
 
