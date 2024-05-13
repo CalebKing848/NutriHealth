@@ -75,7 +75,7 @@ li a:hover {
 }
 
 .about-items div {
-  background-color: #474747;
+  background-color: #f2f2f2;
 }
 
 .team-container {
@@ -95,9 +95,20 @@ li a:hover {
   height: 250px;
 }
 
+.item-container {
+  display: grid;
+  grid-template-columns: 1.6fr 3fr;
+  border-bottom: 1px solid green;
+}
+
 footer {
   background-color: #68f;
   padding: 10px;
   color: #fff;
   margin-top: 50px;
+}
+
+.image-container {
+  background-color: #808080 !important;
+  height: 175px;
 }
