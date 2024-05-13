@@ -95,11 +95,6 @@ li a:hover {
   gap: 40px;
 }
 
-.team-member-container div {
-  background-color: #474747;
-  height: 313px;
-}
-
 .item-container {
   display: grid;
   grid-template-columns: 1.6fr 3fr;
@@ -121,12 +116,20 @@ footer {
 .team-member-image {
   height: 75%;
   width: 250px;
-  margin-top: 25px;
 }
 
 .team-member {
-  display: flex;
-  justify-content: center;
+  display: inline-block;
+  background-color: #474747;
+  height: 360px;
+  padding: 30px 30px 0px 30px;
+  text-align: center;
+  color: #fff;
+}
+
+.team-member-heading {
+  margin-top: 9px;
+  margin-bottom: 4px;
 }
 
 .apple {
