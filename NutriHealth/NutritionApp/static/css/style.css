@@ -21,13 +21,13 @@ nav {
   background-color: #68f;
 }
 
-
 ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
 }
+
 
 li {
   float: left;
@@ -44,6 +44,11 @@ li a {
 li a:hover {
   background-color: #111;
 }
+
+.nav-header {
+  font-family: 'Amita';
+}
+
 
 .registration {
   float: right;
@@ -75,7 +80,7 @@ li a:hover {
 }
 
 .about-items div {
-  background-color: #474747;
+  background-color: #f2f2f2;
 }
 
 .team-container {
@@ -83,16 +88,22 @@ li a:hover {
   justify-content: center;
 }
 
-.team-member{
+.team-member-container{
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   width: 1000px;
   gap: 40px;
 }
 
-.team-member div {
+.team-member-container div {
   background-color: #474747;
-  height: 250px;
+  height: 313px;
+}
+
+.item-container {
+  display: grid;
+  grid-template-columns: 1.6fr 3fr;
+  border-bottom: 1px solid green;
 }
 
 footer {
@@ -100,4 +111,24 @@ footer {
   padding: 10px;
   color: #fff;
   margin-top: 50px;
+}
+
+.image-container {
+  background-color: #808080 !important;
+  height: 175px;
+}
+
+.team-member-image {
+  height: 75%;
+  width: 250px;
+  margin-top: 25px;
+}
+
+.team-member {
+  display: flex;
+  justify-content: center;
+}
+
+.apple {
+  color: red;
 }

@@ -8,12 +8,17 @@
     <link rel="stylesheet" , href="{% static 'css/style.css' %}">
     <link rel="stylesheet" , href="{% static 'css/bootstrap.css' %}">
     <title>{% block title %} My Site {% endblock %}</title> <!-- Title of the Page -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
 </head>
 
 <body>
 
 <nav>
     <ul>
+
+        <li><a class="nav-link px-3 nav-header" href="{% url 'home' %}">NutriHealth <i class="fa fa-apple apple"></i>   </a></li>
+
 
         <li><a class="nav-link px-3" href="{% url 'home' %}">Home</a></li>
         <li><a class="nav-link px-3" href="{% url 'about' %}">About us</a></li>
