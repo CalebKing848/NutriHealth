@@ -139,6 +139,10 @@ footer {
   width: 272px;
   height: 54px;
   background: red;
+  margin-bottom: 25px;
+}
+.footer-nav-container {
+    margin-bottom: 5px;
 }
 
 .footer-link {
@@ -153,7 +157,7 @@ footer {
 .footer-social-container {
   display: flex;
   gap: 40px;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
 }
 
 .social-item {
