@@ -57,7 +57,24 @@
     {% endblock %}
 
 <footer>
-    @NutriHealth 2024
+    <div class="footer-logo-container">
+
+    </div>
+    <div class="footer-nav-container">
+        <nav class="footer-nav">
+            <ul>
+                <li><a class="footer-link" href="{% url 'home' %}">Home</a></li>
+                <li><a class="footer-link" href="{% url 'about' %}">About us</a></li>
+                <li><a class="footer-link" href="{% url 'login' %}">Dashboard</a></li>             
+                <li><a class="footer-link" href="{% url 'team' %}">Our Team</a></li>
+                <li><a class="footer-link" href="/contact-us">Contact us</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div class="footer-social-container">
+        Social
+    </div>
+   <p>© 2024 NutriHealth, Inc. All Rights Reserved.</p>
 </footer>
 
 </body>

@@ -49,7 +49,6 @@ li a:hover {
   font-family: 'Amita';
 }
 
-
 .registration {
   float: right;
   display: flex;
@@ -101,13 +100,6 @@ li a:hover {
   border-bottom: 1px solid green;
 }
 
-footer {
-  background-color: #68f;
-  padding: 10px;
-  color: #fff;
-  margin-top: 50px;
-}
-
 .image-container {
   background-color: #808080 !important;
   height: 175px;
@@ -132,6 +124,28 @@ footer {
   margin-bottom: 4px;
 }
 
-.apple {
-  color: red;
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #68f;
+  padding: 10px;
+  color: #fff;
+  margin-top: 50px;
+}
+
+.footer-logo-container {
+  width: 272px;
+  height: 54px;
+  background: red;
+}
+
+.footer-link {
+  margin: 0px 55px;
+  transition: none;
+}
+
+.footer-nav li {
+  color:;
 }
