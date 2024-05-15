@@ -45,9 +45,11 @@ li a:hover {
   background-color: #111;
 }
 
-.nav-header {
+.header-nav {
   font-family: 'Amita';
   height: 50px;
+  display: flex;
+  align-items: center;
 }
 
 .registration {
