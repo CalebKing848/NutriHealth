@@ -17,8 +17,11 @@
   margin: 0px auto 0px auto;
 }
 
-.header-nav {
-  background-color: #68f;
+.header-nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
 }
 
 ul {
@@ -27,7 +30,6 @@ ul {
   padding: 0;
   overflow: hidden;
 }
-
 
 li {
   float: left;
@@ -42,7 +44,7 @@ li a {
 }
 
 li a:hover {
-  background-color: #111;
+  color: #808080;
 }
 
 .header-nav {
@@ -50,6 +52,13 @@ li a:hover {
   height: 50px;
   display: flex;
   align-items: center;
+  background-color: #68f;
+  justify-content: space-between;
+}
+
+.sign-up {
+  border: 1px solid #fff;
+  border-radius: 10px;
 }
 
 .registration {

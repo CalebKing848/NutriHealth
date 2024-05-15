@@ -16,7 +16,6 @@
 <nav class="header-nav">
     <ul>
 
-
         <li><a class="nav-link" href="{% url 'home' %}">Home</a></li>
         <li><a class="nav-link" href="{% url 'about' %}">About us</a></li>
 
@@ -34,22 +33,24 @@
         <li><a class="nav-link" href="{% url 'team' %}">Our Team</a></li>
 
         <li><a class="nav-link" href="/contact-us">Contact us</a></li>
-
-        <div class="registration">
-            {% if user.is_authenticated %} <!-- Checks to see if the user is authenticated-->
-                <li> <!-- Start of Nav Item -->
-                    <li class="username-txt">{{user.username}}</li> <!-- Displays the logged in user username-->
-                    <form action="{% url 'logout' %}" method="post">
-                    {% csrf_token %}
-                    <button class="navbar-text btn-sign-out" type="submit">Logout</button> <!-- Logout Button-->
-                    </form>
-                </li> <!-- End of Nav Item -->
-            {% else%}
-                <li><a class="nav-link" href="/register">Sign Up</a></li> <!-- Sign Up Link-->
-                <li><a class="nav-link" href="{% url 'login' %}">login</a></li><!---login.link-->
-            {% endif %}
-        </div>
     </ul>
+
+    <div class="registration">
+        <ul>
+        {% if user.is_authenticated %} <!-- Checks to see if the user is authenticated-->
+            <li> <!-- Start of Nav Item -->
+                <li class="username-txt">{{user.username}}</li> <!-- Displays the logged in user username-->
+                <form action="{% url 'logout' %}" method="post">
+                {% csrf_token %}
+                <button class="navbar-text btn-sign-out" type="submit">Logout</button> <!-- Logout Button-->
+                </form>
+            </li> <!-- End of Nav Item -->
+        {% else%}
+            <li><a class="nav-link" href="{% url 'login' %}">login</a></li><!---login.link-->
+            <li><a class="nav-link sign-up" href="/register">Sign Up</a></li> <!-- Sign Up Link-->
+        {% endif %}
+        </ul>
+    </div>
 </nav>
 
     {% block content %}
