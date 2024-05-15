@@ -17,7 +17,7 @@
   margin: 0px auto 0px auto;
 }
 
-nav {
+.header-nav {
   background-color: #68f;
 }
 
@@ -47,6 +47,7 @@ li a:hover {
 
 .nav-header {
   font-family: 'Amita';
+  height: 50px;
 }
 
 .registration {
@@ -63,7 +64,6 @@ li a:hover {
 .btn-sign-out {
   color: #fff !important;
   background: none;
-  border: none;
 }
 
 .about-container {
@@ -138,7 +138,7 @@ footer {
 .footer-logo-container {
   width: 272px;
   height: 54px;
-  background: red;
+  background: #bbbbbb;
   margin-bottom: 25px;
 }
 .footer-nav-container {
