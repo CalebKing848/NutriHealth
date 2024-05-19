@@ -5,6 +5,7 @@
 
 .page-heading {
   text-align: center;
+  margin: 18px 0px 24px 0px;
 }
 
 .registration-container {
@@ -49,13 +50,17 @@ li a:hover {
   color: #808080;
 }
 
+.nav-link {
+  margin: 0px 8px;
+}
+
 .nav-logo {
-  background: #bbbbbb;
-  color: #fff;
+  background: #fff;
+  padding: 16px 80px;
+  margin-left: 5px;
 }
 
 .header-nav {
-  font-family: 'Amita';
   height: 50px;
   display: flex;
   align-items: center;
@@ -135,6 +140,7 @@ li a:hover {
   padding: 30px 30px 0px 30px;
   text-align: center;
   color: #fff;
+  border-radius: 10px;
 }
 
 .team-member-heading {
@@ -156,7 +162,7 @@ footer {
 .footer-logo-container {
   width: 272px;
   height: 54px;
-  background: #bbbbbb;
+  background: #ffffff;
   margin-bottom: 25px;
 }
 .footer-nav-container {
@@ -187,4 +193,10 @@ footer {
   margin: 0px auto 0px auto;
   display: grid;
   grid-template-columns: 3fr 3fr;
+}
+
+.form-section-one {
+  background-color: #224423;
+  color: #fff;
+  padding: 25px;
 }
