@@ -4,9 +4,9 @@
 }
 
 .image-container img {
-  background-color: #808080 !important;
   height: 100%;
   width: 100%;
+  border-radius: 100px;
 }
 
 .page-heading {
@@ -107,10 +107,6 @@ li a:hover {
   gap: 15px;
 }
 
-.about-items div {
-  background-color: #f2f2f2;
-}
-
 .team-container {
   display: flex;
   justify-content: center;
@@ -126,12 +122,13 @@ li a:hover {
 .item-container {
   display: grid;
   grid-template-columns: 1.6fr 3fr;
-  border-bottom: 1px solid green;
+  border-bottom: 1px solid rgba(0, 128, 0, 0.5);
+  padding-bottom: 10px;
 }
 
 .image-container {
-  background-color: #808080 !important;
-  height: 175px;
+  background-color: #fff !important;
+  height: 200px;
 }
 
 .team-member-image {
