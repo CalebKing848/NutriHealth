@@ -131,6 +131,7 @@ li a:hover {
   grid-template-columns: 1fr 1fr 1fr;
   width: 1000px;
   gap: 40px;
+  margin-top: 30px;
 }
 
 .item-container {
@@ -152,12 +153,13 @@ li a:hover {
 
 .team-member {
   display: inline-block;
-  background-color: #474747;
+  background-image: url("/media/team/team-background.jpg");
+  background-size: cover; 
   height: 360px;
   padding: 30px 30px 0px 30px;
   text-align: center;
   color: #fff;
-  border-radius: 10px;
+  border-radius: 5px;
 }
 
 .team-member-heading {
@@ -179,9 +181,19 @@ footer {
 .footer-logo-container {
   width: 272px;
   height: 54px;
-  background: #ffffff;
   margin-bottom: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
 }
+
+.footer-logo-container img{
+  width: 100%;
+  height: 100%;
+}
+
+
 .footer-nav-container {
     margin-bottom: 5px;
 }
@@ -221,7 +233,10 @@ footer {
 .main-banner {
   background-image: url("/media/banner/images.jpeg");
   background-size: cover; 
-  height: 350px;
+  background-position: center; /* Optional: Centers the background image */
+  height: 380px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 }
 
 .home-section {
