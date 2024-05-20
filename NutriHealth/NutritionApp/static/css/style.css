@@ -206,3 +206,17 @@ footer {
   color: #fff;
   padding: 25px;
 }
+
+.main-banner {
+  background-image: url("/media/banner/images.jpeg");
+  background-size: cover; 
+  height: 350px;
+}
+
+.home-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 90%;
+  background-color: #32794f;
+  margin: 0px auto 0px auto;
+}
