@@ -3,6 +3,12 @@
   padding: 0px;
 }
 
+.image-container img {
+  background-color: #808080 !important;
+  height: 100%;
+  width: 100%;
+}
+
 .page-heading {
   text-align: center;
   margin: 18px 0px 24px 0px;
