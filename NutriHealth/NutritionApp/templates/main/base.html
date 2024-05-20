@@ -16,7 +16,7 @@
 
 <nav class="header-nav">
     <ul>
-        <div class="nav-logo"></div>
+        <div class="nav-logo"> <a class="nav-link" href="{% url 'home' %}"><img src="/media/logo/nutrihealth-logo.png" alt="logo"></a> </div>
         <li><a class="nav-link" href="{% url 'home' %}">Home</a></li>
         <li><a class="nav-link" href="{% url 'about' %}">About us</a></li>
 
@@ -43,11 +43,11 @@
                 <li class="username-txt">{{user.username}}</li> <!-- Displays the logged in user username-->
                 <form action="{% url 'logout' %}" method="post">
                 {% csrf_token %}
-                <button class="navbar-text btn-sign-out" type="submit">Logout</button> <!-- Logout Button-->
+                <button class="btn-sign-out" type="submit">Logout</button> <!-- Logout Button-->
                 </form>
             </li> <!-- End of Nav Item -->
         {% else%}
-            <li><a class="nav-link" href="{% url 'login' %}">login</a></li><!---login.link-->
+            <li><a class="nav-link" href="{% url 'login' %}">Login</a></li><!---login.link-->
             <li><a class="nav-link sign-up" href="/register">Sign Up</a></li> <!-- Sign Up Link-->
         {% endif %}
         </ul>
