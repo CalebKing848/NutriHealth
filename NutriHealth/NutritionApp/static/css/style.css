@@ -235,16 +235,17 @@ footer {
   background-size: cover; 
   background-position: center; /* Optional: Centers the background image */
   height: 380px;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .home-section {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 2fr 1fr;
   width: 90%;
-  background-color: #32794f;
   margin: 0px auto 0px auto;
+  margin-top: 25px;
 }
 
 .text-container {
@@ -253,4 +254,23 @@ footer {
 
 .b-rm {
   border: none;
+}
+
+.home-image-section img {
+  width: 100%;
+}
+
+.main-banner-section {
+  color: #fff;
+  text-align: center;
+}
+
+.dasboard-container {
+  display: grid;
+  grid-template-columns: 0.7fr 5fr;
+}
+
+.side-nav {
+ 
+    box-shadow: 9px 0 5px -5px rgb(61 133 76 / 50%); 
 }

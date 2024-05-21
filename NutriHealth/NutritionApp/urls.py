@@ -14,4 +14,8 @@ urlpatterns = [
 
     path('contact-us', views.contact, name='contact_us'), # Contact Page
 
+    path('dashboard', views.dashboard, name='dashboard'), # Dashbaord Page
+
+        path('nutrition_database', views.nutrition_database, name='nutrition_database'), # Dashbaord Page
+
 ]

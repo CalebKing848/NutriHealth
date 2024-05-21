@@ -3,25 +3,41 @@
 
 {% load crispy_forms_tags %} {% block content %} <!-- Start of Block Content -->
 
-<div class="main-container">
-    <h2> User Infromation Page </h2>
+<div class="dasboard-container">
 
-    <form method="POST">
-        {% csrf_token %}
-        {{ form.age|as_crispy_field }}
-        {{ form.gender|as_crispy_field }}
-        {{ form.weight|as_crispy_field }}
-        {{ form.height|as_crispy_field }}
-        {{ form.energy_intake|as_crispy_field }}
-        {{ form.existing_medical_conditions|as_crispy_field }}
+    <div class="side-nav">
+        <a class="nav-link" href="{% url 'dashboard' %}">Dashboard</a>
+        <a class="nav-link" href="/user-information/{{ user.id }}/">Manage User</a>
+        <a class="nav-link" href="{% url 'nutrition_database' %}">Nutrition Database</a>
+        <a class="nav-link" href="/user-information/{{ user.id }}/">Daily Intake</a>
+        <a class="nav-link" href="/user-information/{{ user.id }}/">Saved Daily Intake</a>
+    </div>
 
-        {% if user_info %}
-            <button class="btn btn-success" type="submit" name="save">Update</button>
-        {% else %}
-            <button class="btn btn-success" type="submit" name="save">Add User Information</button>
-        {% endif %}
-    </form>
+    <div class="dashboard-main-container">
+        <div class="main-container">
+            <h2> User Infromation Page </h2>
+        
+            <form method="POST">
+                {% csrf_token %}
+                {{ form.age|as_crispy_field }}
+                {{ form.gender|as_crispy_field }}
+                {{ form.weight|as_crispy_field }}
+                {{ form.height|as_crispy_field }}
+                {{ form.energy_intake|as_crispy_field }}
+                {{ form.existing_medical_conditions|as_crispy_field }}
+        
+                {% if user_info %}
+                    <button class="btn btn-success" type="submit" name="save">Update</button>
+                {% else %}
+                    <button class="btn btn-success" type="submit" name="save">Add User Information</button>
+                {% endif %}
+            </form>
+        
+        </div>
+    </div>
 
 </div>
+
+
 
 {% endblock %} <!-- End of Block Content -->

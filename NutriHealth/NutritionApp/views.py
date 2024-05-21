@@ -75,4 +75,9 @@ def contact(request):
         form = ContactInformationForm()
     return render(request, 'user-contact/contact.html', {"form": form})
 
+def dashboard(request):
+    return render(request, 'main/dashboard.html')
+    
+def nutrition_database(request):
+    return render(request, 'main/nutrition_database.html')
 

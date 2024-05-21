@@ -1,0 +1,26 @@
+{% extends 'main/base.html' %}
+{% block content %} <!-- Start of Block Content -->
+
+<div class="dasboard-container">
+
+    <div class="side-nav">
+        <a class="nav-link" href="{% url 'dashboard' %}">Dashboard</a>
+        <a class="nav-link" href="/user-information/{{ user.id }}/">Manage User</a>
+        <a class="nav-link" href="{% url 'nutrition_database' %}">Nutrition Database</a>
+        <a class="nav-link" href="/user-information/{{ user.id }}/">Daily Intake</a>
+        <a class="nav-link" href="/user-information/{{ user.id }}/">Saved Daily Intake</a>
+    </div>
+
+    <div class="dashboard-main-container">
+        <h1> Nutrition Database  </h1>
+    </div>
+
+</div>
+
+
+
+
+
+
+
+{% endblock %} <!-- End of Block Content -->
