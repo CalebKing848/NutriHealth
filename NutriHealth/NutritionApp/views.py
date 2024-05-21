@@ -7,6 +7,9 @@ from .forms import UserInformationForm, ContactInformationForm
 
 from .models import UserInformation
 
+from .models import FoodItem
+
+
 def home(request):
     return render(request, 'main/home.html')
 
@@ -79,7 +82,9 @@ def dashboard(request):
     return render(request, 'main/dashboard.html')
     
 def nutrition_database(request):
-    return render(request, 'main/nutrition_database.html')
+    foods = FoodItem.objects.all()
+    return render(request, 'main/nutrition_database.html', {"foods": foods})
+
 
 def daily_intake(request):
     return render(request, 'main/daily_intake.html')
