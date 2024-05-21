@@ -21,3 +21,12 @@ class ContactInformation(models.Model):
     email = models.EmailField()
     message = models.TextField()
     created_at = models.DateTimeField(auto_now_add=True)
+
+class FoodItem(models.Model):
+    code = models.CharField(max_length=10)
+    name = models.CharField(max_length=200)
+    serving_size = models.CharField(max_length=100)
+    energy = models.FloatField()
+    protein = models.FloatField()
+    fat = models.FloatField()
+    carbohydrates = models.FloatField()
