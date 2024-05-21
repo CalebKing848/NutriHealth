@@ -1,0 +1,7 @@
+Code: A1122
+Name: Bagels, white, toasted
+Serving Size: 100.0
+Energy: 28.3
+Protein: 1060.0
+Fat: 1090.0
+Carbohydrates: 9.55
