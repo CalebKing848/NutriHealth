@@ -81,3 +81,7 @@ def dashboard(request):
 def nutrition_database(request):
     return render(request, 'main/nutrition_database.html')
 
+def daily_intake(request):
+    return render(request, 'main/daily_intake.html')
+
+

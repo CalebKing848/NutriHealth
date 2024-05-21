@@ -111,7 +111,7 @@ li a:hover {
 .about-container {
   display: flex;
   justify-content: center;
-  margin-top: 30px;
+  margin: 30px 0px;
 }
 
 .about-items {
@@ -131,7 +131,7 @@ li a:hover {
   grid-template-columns: 1fr 1fr 1fr;
   width: 1000px;
   gap: 40px;
-  margin-top: 30px;
+  margin: 30px 0px;
 }
 
 .item-container {
@@ -168,14 +168,13 @@ li a:hover {
 }
 
 footer {
-  display: flex;
+  display: flex !important;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   background-color: #68f;
   padding: 10px;
   color: #fff;
-  margin-top: 30px;
 }
 
 .footer-logo-container {
@@ -219,7 +218,7 @@ footer {
 
 .form-container {
   width: 70%;
-  margin: 0px auto 0px auto;
+  margin: 30px auto;
   display: grid;
   grid-template-columns: 3fr 3fr;
 }
@@ -244,8 +243,7 @@ footer {
   display: grid;
   grid-template-columns: 2fr 1fr;
   width: 90%;
-  margin: 0px auto 0px auto;
-  margin-top: 25px;
+  margin: 30px auto;
 }
 
 .text-container {
@@ -271,6 +269,9 @@ footer {
 }
 
 .side-nav {
- 
-    box-shadow: 9px 0 5px -5px rgb(61 133 76 / 50%); 
+  border-right: 5px solid #5e8f4f61;
+}
+
+.side-link {
+  padding: 10px !important;
 }

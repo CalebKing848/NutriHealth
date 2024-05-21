@@ -16,6 +16,8 @@ urlpatterns = [
 
     path('dashboard', views.dashboard, name='dashboard'), # Dashbaord Page
 
-        path('nutrition_database', views.nutrition_database, name='nutrition_database'), # Dashbaord Page
+    path('nutrition_database', views.nutrition_database, name='nutrition_database'), # Dashbaord Page
+
+    path('daily_intake', views.daily_intake, name='daily_intake'), # Daily Intake Page
 
 ]
