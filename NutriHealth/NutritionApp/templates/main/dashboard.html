@@ -8,7 +8,7 @@
         <a class="nav-link side-link" href="/user-information/{{ user.id }}/">Manage User</a>
         <a class="nav-link side-link" href="{% url 'nutrition_database' %}">Nutrition Database</a>
         <a class="nav-link side-link" href="{% url 'daily_intake' %}">Daily Intake</a>
-        <a class="nav-link side-link" href="/user-information/{{ user.id }}/">Saved Daily Intake</a>
+        <a class="nav-link side-link" href="{% url 'saved_daily_intake' %}">Saved Daily Intake</a>
     </div>
 
     <div class="dashboard-main-container">

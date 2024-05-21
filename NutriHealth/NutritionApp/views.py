@@ -84,4 +84,6 @@ def nutrition_database(request):
 def daily_intake(request):
     return render(request, 'main/daily_intake.html')
 
+def saved_daily_intake(request):
+    return render(request, 'main/saved_daily_intake.html')
 

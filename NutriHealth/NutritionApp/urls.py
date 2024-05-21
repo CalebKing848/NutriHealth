@@ -20,4 +20,7 @@ urlpatterns = [
 
     path('daily_intake', views.daily_intake, name='daily_intake'), # Daily Intake Page
 
+    path('saved_daily_intake', views.saved_daily_intake, name='saved_daily_intake'), # Saved Daily Intake Page
+
+
 ]
