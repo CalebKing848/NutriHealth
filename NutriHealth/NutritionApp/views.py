@@ -3,7 +3,8 @@ from .forms import RegisterForm, UserInformationForm
 from django.contrib.auth import login, logout, authenticate
 from django.contrib.auth.decorators import login_required
 from django.contrib.auth.models import User  # Import the User model
-from .forms import UserInformationForm, ContactInformationForm
+from .forms import UserInformationForm, ContactInformationForm, FoodItemForm
+from django.core.paginator import Paginator, PageNotAnInteger, EmptyPage
 
 from .models import UserInformation
 
@@ -82,8 +83,31 @@ def dashboard(request):
     return render(request, 'main/dashboard.html')
     
 def nutrition_database(request):
-    foods = FoodItem.objects.all()
-    return render(request, 'main/nutrition_database.html', {"foods": foods})
+    query = request.GET.get('q')
+    if query:
+        foods_list = FoodItem.objects.filter(name__icontains=query)
+    else:
+        foods_list = FoodItem.objects.all()
+
+    paginator = Paginator(foods_list, 10)  # Show 10 food items per page
+    page_number = request.GET.get('page')
+
+    try:
+        foods = paginator.page(page_number)
+    except PageNotAnInteger:
+        foods = paginator.page(1)
+    except EmptyPage:
+        foods = paginator.page(paginator.num_pages)
+
+    if request.method == 'POST':
+        form = FoodItemForm(request.POST)
+        if form.is_valid():
+            form.save()
+            return redirect('nutrition_database')
+    else:
+        form = FoodItemForm()
+
+    return render(request, 'main/nutrition_database.html', {"foods": foods, "query": query, "form": form})
 
 
 def daily_intake(request):

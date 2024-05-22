@@ -5,6 +5,7 @@ from django.contrib.auth.models import User
 
 from .models import UserInformation
 from .models import ContactInformation
+from .models import FoodItem
 
 class RegisterForm(UserCreationForm):
     email = forms.EmailField(required=True)
@@ -22,3 +23,9 @@ class ContactInformationForm(forms.ModelForm):
     class Meta:
         model = ContactInformation
         fields = ["name", "email", "message"]
+
+
+class FoodItemForm(forms.ModelForm):
+    class Meta:
+        model = FoodItem
+        fields = ['code', 'name', 'serving_size', 'energy', 'protein', 'fat', 'carbohydrates']
