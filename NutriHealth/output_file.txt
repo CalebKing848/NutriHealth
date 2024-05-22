@@ -1,0 +1,1310 @@
+A148	Biscuit, Afghan	100.0	2.6	2000.0	2050.0	5.59
+A146	Biscuit, Arrowroot	100.0	2.7	1800.0	1820.0	7.01
+A1060	Biscuit, Chocolate Chip Fudge, Farmbake™, Arnott's™	100.0	3.0	2010.0	2030.0	5.86
+A1061	Biscuit, Chocolate Chip, Cookie Time®	100.0	7.1	2020.0	2040.0	6.41
+A1076	Biscuit, Classic Dark, Tim Tam™, Arnott's™	100.0	1.0	2170.0	2200.0	5.45
+A1069	Biscuit, Dark Chocolate, Digestive™, Arnott's™	100.0	2.7	2030.0	2070.0	6.09
+A1070	Biscuit, Dark Chocolate, Wheaten™, Griffin's™	100.0	1.6	1930.0	1970.0	6.38
+A1072	Biscuit, Double Deck Dark Chocolate Delight, Chit Chat™, Griffin's™	100.0	1.1	2100.0	2110.0	5.54
+A5	Biscuit, Gingernuts	100.0	4.2	1740.0	1750.0	4.96
+A71	Biscuit, MallowPuffs™, Griffin's™	100.0	12.0	1790.0	1800.0	5.32
+A64	Biscuit, Malt	100.0	3.1	1840.0	1850.0	7.47
+A1074	Biscuit, Milk Chocolate, Digestives™, Arnott's™	100.0	2.5	2040.0	2070.0	6.03
+A1066	Biscuit, White & Dark Chocolate, Farmbake™, Arnott's™	100.0	3.6	2060.0	2080.0	4.96
+A1067	Biscuit, milk chocolate, Double Chocolate, Cookies, Ernest Adams®	100.0	4.7	2000.0	2020.0	5.54
+A1064	Biscuit, milk chocolate, Double Coat, Tim Tam™, Arnott's™	100.0	0.9	2210.0	2220.0	4.93
+A1071	Biscuit, milk chocolate, Original, Tim Tam™, Arnott's™	100.0	1.2	2210.0	2220.0	4.9
+A1075	Biscuit, milk chocolate, Wheaten™, Griffin's™	100.0	1.6	2020.0	2050.0	6.15
+A66	Biscuit, peanut brownie	100.0	4.1	2020.0	2040.0	7.12
+A63	Biscuit, shortbread	100.0	3.9	1990.0	2010.0	5.53
+A12	Biscuit, wafer, raspberry, cream filled	100.0	2.3	2070.0	2080.0	3.31
+A62	Biscuit, with coconut, Krispie™, Griffin's™	100.0	2.9	1830.0	1860.0	5.36
+A9	Biscuit, with cream filling	100.0	1.6	1930.0	1950.0	5.02
+A1125	Bread roll or bun, white, fortified folate	100.0	33.4	1010.0	1040.0	9.41
+A1126	Bread roll or bun, wholemeal, fortified folate	100.0	36.4	909.0	960.0	10.2
+A206	Bread roll, currant, commercial	100.0	34.1	1150.0	1190.0	7.45
+A1141	Bread, French, stick or loaf, white, toasted	100.0	8.2	1400.0	1440.0	13.2
+A1100	Bread, Gluten Free Ancient Grain & Seeds, Bürgen®	100.0	38.5	957.0	1050.0	4.35
+A1098	Bread, Gluten Free White, Bürgen®	100.0	40.4	970.0	1030.0	2.3
+A1101	Bread, Gluten free 6 Seed, Vogel's®	100.0	40.8	919.0	947.0	6.05
+A1195	Bread, banana, white, loaf, as purchased	100.0	33.1	1320.0	1330.0	7.06
+A1123	Bread, chapatti or roti, wholemeal, restaurant	100.0	34.3	1040.0	1090.0	8.28
+A1139	Bread, ciabatta, loaf, toasted	100.0	29.3	1170.0	1210.0	10.0
+A1205	Bread, crumbs, Japanese-style (white Panko), dried	100.0	9.3	1520.0	1550.0	11.9
+A1206	Bread, crumbs, regular, white, dried	100.0	9.1	1430.0	1470.0	10.9
+A1207	Bread, crumbs, regular, wholegrain, dried	100.0	9.1	1470.0	1520.0	11.0
+A1185	Bread, gluten free & sprouted seeds (<10%), sliced, as purchased	100.0	45.1	903.0	981.0	8.44
+A1015	Bread, gluten free, mixed grain, sliced, prepacked	100.0	43.5	920.0	948.0	4.76
+A1014	Bread, gluten free, white, sliced & unsliced, prepacked	100.0	42.8	911.0	919.0	3.57
+A1173	Bread, multigrain & seeds, heavy (dense), sliced, as purchased	100.0	40.3	1070.0	1120.0	10.8
+A1167	Bread, multigrain, heavy (dense), sliced, as purchased	100.0	43.2	882.0	936.0	10.1
+A1169	Bread, multigrain, light, sliced, as purchased	100.0	38.0	926.0	971.0	9.5
+A1124	Bread, naan, white, restaurant	100.0	34.5	1070.0	1100.0	7.13
+A1097	Bread, pita, white	100.0	33.7	1050.0	1070.0	10.4
+A45	Bread, pita, wholemeal	100.0	35.9	966.0	1030.0	10.1
+A234	Bread, plain, Panini, prepacked	100.0	27.6	1260.0	1290.0	9.35
+A1177	Bread, rye, sliced, as purchased	100.0	45.8	693.0	772.0	5.18
+A1187	Bread, sourdough, white, loaf, as purchased	100.0	34.7	985.0	1020.0	9.23
+A1191	Bread, sprouted wheat, loaf, as purchased	100.0	40.0	1070.0	1090.0	6.67
+A1171	Bread, wheat, soy & linseed added, sliced, as purchased	100.0	37.1	1040.0	1090.0	11.9
+A1165	Bread, wheatmeal, sliced, as purchased	100.0	37.4	958.0	1000.0	9.12
+A1210	Bread, white, garlic filling with butter, as purchased	100.0	32.1	1320.0	1340.0	7.35
+A1208	Bread, white, garlic filling with vegetable oil, as purchased	100.0	30.7	1390.0	1410.0	7.24
+A1175	Bread, white, seeds added, light, sliced, as purchased	100.0	35.6	1040.0	1080.0	10.9
+A1161	Bread, white, sliced, as purchased	100.0	36.0	981.0	1010.0	8.66
+A1163	Bread, wholemeal or wholegrain, sliced, as purchased	100.0	40.7	852.0	906.0	9.68
+A130	Bun, iced	100.0	27.4	1420.0	1450.0	4.96
+A1158	Bun, sweetened with dried fruit, un-iced	100.0	31.6	1070.0	1100.0	7.48
+A1160	Bun, sweetened, plain, spiced, un-iced	100.0	35.7	969.0	1000.0	8.44
+A1159	Bun, sweetened, with chocolate, spiced, un-iced	100.0	31.8	1140.0	1180.0	7.75
+A1153	Cake, assorted fruits, light, un-iced	100.0	20.7	1380.0	1390.0	4.2
+A1152	Cake, assorted fruits, rich or dark, un-iced	100.0	21.6	1230.0	1250.0	4.05
+A1154	Cake, carrot, iced	100.0	21.1	1710.0	1730.0	3.27
+A1136	Cake, chocolate, iced	100.0	23.5	1560.0	1590.0	4.79
+A1148	Cake, sponge, plain	100.0	30.1	1220.0	1230.0	6.44
+A1029	Cracker, corn, Cruskits™, Arnott's™	100.0	6.9	1430.0	1440.0	8.13
+A1031	Cracker, mixed grain, Cruskits™, Light, Arnott's™	100.0	6.3	1410.0	1440.0	12.5
+A1032	Cracker, mixed grain, Litebread™, Original Crisp bread, Huntley & Palmers™	100.0	4.9	1440.0	1460.0	11.7
+A233	Cracker, rice, barbecue flavoured	100.0	3.6	1590.0	1610.0	6.9
+A1034	Cracker, rice, plain	100.0	3.8	1540.0	1540.0	6.55
+A1035	Cracker, rice, seaweed flavoured, Sakata®	100.0	5.8	1430.0	1440.0	8.33
+A141	Cracker, rye, Crispbread, Ryvita®	100.0	3.6	1390.0	1510.0	11.3
+A1033	Cracker, wheat, Cream Crackers, Reduced Fat, Huntley & Palmers™	100.0	3.9	1480.0	1520.0	11.7
+A119	Cracker, wheat, Meal Mates™, Griffin's™	100.0	1.8	1940.0	1960.0	8.03
+A1030	Cracker, wheat, Salada™, Light, Original, Arnott's™	100.0	4.7	1410.0	1440.0	10.8
+A137	Cracker, wheat, Snax™, Griffin's™	100.0	3.6	1960.0	1980.0	7.19
+A140	Cracker, wheat, Water Cracker, Arnott's™	100.0	3.5	1690.0	1710.0	10.0
+A134	Cracker, wheat, cheese-flavoured	100.0	2.8	2010.0	2040.0	11.6
+A135	Cracker, wheat, sesame	100.0	2.5	1930.0	1980.0	9.69
+A1189	Croissant, white, plain, as purchased	100.0	24.2	1570.0	1590.0	7.98
+A1120	Crumpet, white, toasted	100.0	47.0	726.0	746.0	6.56
+A1143	Doughnut, chocolate iced	100.0	19.9	1650.0	1660.0	6.42
+A1142	Doughnut, cinnamon & sugar dusted	100.0	21.4	1650.0	1660.0	5.23
+A1145	Doughnut, cream & jam filled	100.0	38.1	1330.0	1340.0	4.83
+A1144	Doughnut, non-chocolate iced	100.0	18.2	1640.0	1650.0	5.63
+A1197	Muffin split, English style, white, plain, as purchased	100.0	46.1	881.0	908.0	8.78
+A1199	Muffin split, English style, white, with cheese, as purchased	100.0	45.0	934.0	960.0	9.01
+A1201	Muffin split, English style, white, with spicy dried fruits, as purchased	100.0	42.3	916.0	950.0	8.38
+A1203	Muffin split, English style, wholegrain, as purchased	100.0	44.0	928.0	958.0	9.74
+A127	Muffin, blueberry	100.0	28.1	1520.0	1540.0	4.16
+A129	Muffin, bran	100.0	32.7	1090.0	1130.0	6.06
+A128	Muffin, chocolate	100.0	17.1	1730.0	1740.0	5.29
+A1147	Pizza base, thick, from white flour, no topping	100.0	34.4	1070.0	1090.0	8.51
+A1134	Scone, white	100.0	30.7	1110.0	1130.0	8.58
+A1135	Scone, white, with cheese	100.0	33.2	1190.0	1210.0	10.8
+A1133	Scone, white, with dates	100.0	30.8	1100.0	1130.0	7.05
+A1011	Stuffing, from chicken, deli cooked	100.0	68.1	590.0	606.0	4.56
+A1181	Wrap, bread, wholemeal, as purchased	100.0	31.6	1130.0	1170.0	8.75
+A1183	Wrap, multigrain, as purchased	100.0	32.2	1150.0	1180.0	8.8
+A1179	Wrap, white, as purchased	100.0	31.5	1130.0	1150.0	8.15
+B	BEVERAGES, ALCOHOLIC	nan	nan	nan	0	nan
+B1016	Beer, full-strength, 5% alcohol by volume	100.0	93.0	114.0	116.0	0.4
+B1015	Beer, high-strength, >5% alcohol by volume	100.0	91.0	144.0	146.0	0.5
+B35	Beer, low alcohol	100.0	97.2	41.0	41.0	0.13
+B1018	Beer, low-strength, 2.5% alcohol by volume	100.0	94.5	64.0	65.0	0.2
+B1017	Beer, mid-strength, 4% alcohol by volume	100.0	94.1	93.0	95.0	0.3
+B1032	Bourbon & regular cola, 5% alcohol by volume, pre-mixed	100.0	88.5	198.0	198.0	0.0
+B1031	Bourbon & regular cola, 7% alcohol by volume, pre-mixed	100.0	85.9	290.0	290.0	0.0
+B1030	Cider, apple, 5% alcohol by volume	100.0	89.2	209.0	217.0	0.0
+B12	Cider, sweet	100.0	91.2	152.0	152.0	0.0
+B1042	Gin & tonic water, 9% alcohol by volume, pub or home-mixed	100.0	85.7	326.0	326.0	0.0
+B17	Port, wine, fortified	100.0	71.1	672.0	672.0	0.13
+B1038	Rum or whiskey & regular cola, 10% alcohol by volume, pub or home-mixed	100.0	84.2	330.0	330.0	0.0
+B1037	Rum or whiskey & regular cola, 8% alcohol by volume, pub or home-mixed	100.0	85.2	296.0	296.0	0.0
+B18	Sherry, dry	100.0	81.0	481.0	481.0	0.19
+B20	Sherry, sweet	100.0	74.8	633.0	633.0	0.31
+B21	Spirit, 70 proof	100.0	68.3	921.0	921.0	0.0
+B1010	Spirit, gin, 90 proof	100.0	62.1	1100.0	1100.0	0.0
+B1012	Spirit, rum, 80 proof	100.0	66.6	969.0	969.0	0.0
+B1011	Spirit, vodka, 80 proof	100.0	66.6	969.0	969.0	0.0
+B1009	Spirit, whiskey, 86 proof	100.0	63.9	1050.0	1050.0	0.0
+B1035	Vodka & chocolate flavoured milk blend, 4% alcohol by volume, pre-mixed	100.0	79.3	409.0	409.0	2.37
+B1041	Vodka & energy drink V™, 10% alcohol by volume, pub or home-mixed	100.0	83.2	353.0	353.0	0.0
+B1039	Vodka & lemonade, 10% alcohol by volume, pub or home-mixed	100.0	84.9	347.0	347.0	0.0
+B1036	Vodka & non-chocolate flavoured milk blend, 4% alcohol by volume, pre-mixed	100.0	79.8	394.0	394.0	2.34
+B1034	Vodka & non-cola flavoured soft drink, 5% alcohol by volume, pre-mixed	100.0	88.8	226.0	226.0	0.0
+B1033	Vodka & non-cola flavoured soft drink, 7% alcohol by volume, pre-mixed	100.0	86.9	252.0	252.0	0.0
+B1040	Vodka & orange juice, 10% alcohol by volume, pub or home-mixed	100.0	83.1	331.0	332.0	0.48
+B1028	Wine, red, 13.5% alcohol by volume, Pinot Noir	100.0	86.9	317.0	325.0	0.2
+B1026	Wine, red, 14% alcohol by volume, Cabernet Sauvignon	100.0	86.1	329.0	336.0	0.3
+B1027	Wine, red, 14% alcohol by volume, Merlot	100.0	86.3	329.0	336.0	0.3
+B1025	Wine, red, 14% alcohol by volume, Shiraz	100.0	85.5	339.0	347.0	0.2
+B1029	Wine, rose, 12% alcohol by volume	100.0	88.2	287.0	295.0	0.2
+B1020	Wine, white, dry, 11% alcohol by volume, Semillon	100.0	89.2	267.0	275.0	0.2
+B1021	Wine, white, dry, 12% alcohol by volume, Sauvignon Blanc	100.0	88.3	295.0	304.0	0.2
+B1019	Wine, white, dry, 13% alcohol by volume, Chardonnay	100.0	87.7	307.0	314.0	0.3
+B1022	Wine, white, medium dry, 12% alcohol by volume, Riesling	100.0	88.5	289.0	298.0	0.2
+B1023	Wine, white, sparkling, 12% alcohol by volume	100.0	88.3	302.0	311.0	0.2
+B1024	Wine, white, sweet, dessert, 11.5% alcohol by volume	100.0	71.2	502.0	517.0	0.4
+nan	nan	nan	nan	nan	0	nan
+C	BEVERAGES, NON-ALCOHOLIC	nan	nan	nan	0	nan
+C1128	Almond and coconut milk blend, sugar-sweetened, fortified Ca and vitamins B1, B2 & B12	100.0	94.6	109.0	112.0	0.52
+C1129	Almond and coconut milk blend, unsweetened, fortified Ca and vitamins B1, B2 & B12	100.0	96.9	76.0	79.0	0.55
+C1126	Almond milk, sugar-sweetened	100.0	93.2	120.0	127.0	0.59
+C1127	Almond milk, unsweetened	100.0	96.9	64.0	71.0	0.54
+C1036	Baking cocoa, powder, Bournville®, Cadbury®	100.0	2.7	1220.0	1530.0	24.7
+C1137	Coconut milk, sugar-sweetened, ready to drink	100.0	93.8	144.0	146.0	0.28
+C1136	Coconut milk, unsweetened	100.0	95.9	96.0	97.0	0.21
+C1130	Coconut water, unsweetened	100.0	95.1	50.0	50.0	0.06
+C1044	Coffee mix, instant, dry powder, Cafe Menu Cappuccino, Nescafe®	100.0	1.5	1690.0	1770.0	14.3
+C1047	Coffee, brewed from grounds, dripped prepared	100.0	99.4	54.0	54.0	1.46
+C1046	Coffee, brewed from grounds, plunger prepared	100.0	99.4	54.0	54.0	1.46
+C1045	Coffee, espresso, cafe variety	100.0	96.3	54.0	54.0	1.46
+C10006	Coffee, flat white, double shot & milk standard, regular takeaway cup (285 mL)	100.0	90.0	210.0	210.0	3.03
+C1048	Coffee, instant, caffeinated, dry powder with water	100.0	99.3	3.0	5.0	0.16
+C10001	Coffee, instant, caffeinated, dry powder with water & milk standard	100.0	97.8	34.0	36.0	0.59
+C10003	Coffee, instant, caffeinated, dry powder with water & milk trim	100.0	98.1	22.0	23.0	0.7
+C1043	Coffee, instant, decaffeinated, dry powder	100.0	3.3	426.0	630.0	22.5
+C1042	Coffee, instant, dry powder	100.0	3.2	422.0	626.0	22.5
+C10013	Coffee, latte, double shot & milk standard, large cafe cup (300 mL)	100.0	90.2	204.0	204.0	2.98
+C10017	Coffee, latte, double shot & milk trim, large cafe cup (300 mL)	100.0	91.6	128.0	128.0	3.61
+C1092	Coffee, long black, double shot, 150 mL, cafe variety	100.0	98.6	20.0	20.0	0.53
+C1055	Coffee, long black, double shot, 285 mL, cafe variety	100.0	99.3	10.0	10.0	0.28
+C10029	Coffee, mochaccino, double shot & milk standard, large cafe cup (300 mL)	100.0	88.4	225.0	231.0	3.43
+C10033	Coffee, mochaccino, double shot & milk trim, large cafe cup (300 mL)	100.0	89.8	150.0	156.0	4.04
+C1030	Energy drink, assorted flavours, V™, Frucor, fortified vitamins B2, B3, B5, B6 & B12	100.0	88.0	175.0	175.0	0.0
+C1031	Energy drink, sugar free, V™, Frucor, fortified  vitamins B2, B3, B5, B6 & B12	100.0	98.4	0.0	0.0	0.0
+C74	Energy food drink, dry powder, Chocolate, Nesquik®, Nestlé®	100.0	0.6	1530.0	1530.0	1.06
+C1038	Energy food drink, dry powder, Chocolatte Frothy Classic & Extreme Choc, Jarrah	100.0	2.9	1350.0	1430.0	16.6
+C1037	Energy food drink, dry powder, Drinking Chocolate, Cadbury	100.0	0.9	1630.0	1680.0	5.17
+C138	Flavoured drink, assorted fruit flavours, dry powder, Vitafresh™, Hansells, fortified vitamin C	100.0	1.2	1600.0	1650.0	0.06
+C99	Flavoured drink, dry powder, assorted flavours, Raro®	100.0	1.2	1600.0	1660.0	0.06
+C58	Flavoured drink, lemon & barley, dry powder with water	100.0	90.5	158.0	163.0	0.03
+C47	Flavoured drink, orange	100.0	91.1	207.0	207.0	0.0
+C1103	Fruit drink orange, sweetened, fortified vitamin C	100.0	88.9	118.0	118.0	0.25
+C1108	Fruit drink, blackcurrant, sweetened, fortified vitamin C	100.0	92.4	150.0	150.0	0.25
+C1105	Fruit drink, cranberry, sweetened, fortified vitamin C	100.0	89.0	160.0	160.0	0.0
+C1106	Fruit drink, cranberry, unsweetened	100.0	99.1	10.0	10.0	0.0
+C1168	Fruit drink, from apple juice, sugar-sweetened, shelf-stable, fortified vitamin C	100.0	90.0	150.0	150.0	0.03
+C1169	Fruit drink, from apple juice, sweetened with intensive sweetener, shelf-stable, ready to drink	100.0	94.9	68.0	69.0	0.03
+C1102	Fruit drink, orange, unsweetened, fortified vitamin C	100.0	92.9	59.0	59.0	0.25
+C1028	Juice concentrate, blackcurrant, frozen	100.0	40.6	611.0	636.0	1.88
+C1140	Juice concentrate, blackcurrant, reduced sugar, fortified vitamin C	100.0	67.9	468.0	468.0	0.11
+C1132	Juice concentrate, blackcurrant, sugar-sweetened, fortified vitamin C	100.0	46.3	843.0	843.0	0.03
+C1141	Juice concentrate, lemon or lime, reduced sugar, fortified vitamin C	100.0	75.0	382.0	382.0	0.12
+C1133	Juice concentrate, lemon or lime, sugar-sweetened, fortified vitamin C	100.0	50.1	788.0	788.0	0.12
+C55	Juice concentrate, orange	100.0	59.1	641.0	741.0	0.06
+C1167	Juice, apple, unsweetened, shelf-stable, fortified vitamin C	100.0	89.3	164.0	164.0	0.13
+C1165	Juice, apple, with apple pulp, unsweetened, refrigerated, ready to drink, fortified vitamin C	100.0	88.8	165.0	166.0	0.13
+C26	Juice, grape	100.0	88.9	206.0	208.0	0.13
+C12	Juice, grapefruit, unsweetened	100.0	89.8	147.0	148.0	0.31
+C38	Juice, orange with apple base, Just Juice®, fortified vitamin C	100.0	88.2	183.0	186.0	0.31
+C1100	Juice, orange, sweetened, fortified vitamin C	100.0	87.8	147.0	149.0	0.63
+C1099	Juice, orange, unsweetened, fortified vitamin C	100.0	89.3	133.0	136.0	0.63
+C1098	Juice, orange, unsweetened, shelf-stable or refrigerated, Arano	100.0	90.2	113.0	115.0	0.63
+C16	Juice, tomato, McCoy™	100.0	92.3	95.0	99.0	0.94
+C1026	Kava, prepared	100.0	99.0	18.0	18.0	0.07
+C1097	Liquid breakfast, assorted flavours, Fast Start™, Anchor™, fortified vitamins A, B1, B2, B3, B6, B12, D & folate	100.0	78.1	327.0	335.0	5.0
+C1094	Liquid breakfast, assorted flavours, Up&Go™, Sanitarium™, fortified vitamins A, B1, B2, B3, B6, B12, B6, C & folate	100.0	82.1	264.0	268.0	3.15
+C1124	Milo® powder, fortified vitamins B2, B3, B6, B12, C & D, Ca, Fe and P	100.0	1.1	1390.0	1430.0	11.8
+C1125	Oat milk, unsweetened	100.0	86.8	114.0	117.0	0.69
+C1017	Probiotic drink, assorted flavours, Activate® Body Boost Shots, Meadow Fresh, fortified vitamins A, B1, B3, B5, B6, C & E, & Zn	100.0	89.0	184.0	184.0	1.1
+C1006	Rice milk, Get Natural®, fortified Ca & P	100.0	88.1	89.0	89.0	0.12
+C1007	Rice milk, Organic Rice Lactose Free Drink Original, Signature Range	100.0	87.8	163.0	164.0	0.43
+C1002	Rice milk, Original Calcium Enriched, Vitasoy®, fortified Ca & P	100.0	89.1	190.0	191.0	0.36
+C1001	Rice milk, Original Lactose Free Beverage Low Fat & Natural, Rice Dream™	100.0	89.0	128.0	129.0	0.13
+C1003	Rice milk, Protein & Calcium Enriched, Vitasoy®, fortified Ca & P	100.0	87.0	173.0	174.0	1.49
+C1004	Rice milk, Rice Drink Original, Rice Dream™, fortified vitamins A, D & B12, Ca & P	100.0	88.8	128.0	129.0	0.11
+C1005	Rice milk, Rice Drink Vanilla, Rice Dream™, fortified vitamins A, D & B12, Ca & P	100.0	87.9	129.0	130.0	0.17
+C1023	Smoothie, Feijoa Smoothie, Simply Squeezed®, fortified vitamins A, C, E & folate, & Ca	100.0	85.9	199.0	206.0	0.17
+C1022	Smoothie, berry, fortified vitamin C	100.0	86.1	202.0	209.0	0.53
+C1120	Soft drink, assorted fruit flavours, reduced sugar	100.0	92.9	104.0	104.0	0.0
+C1123	Soft drink, assorted tea flavours, artificially sweetened	100.0	99.6	0.0	0.0	0.0
+C1122	Soft drink, assorted tea flavours, reduced sugar	100.0	95.1	75.0	75.0	0.0
+C1121	Soft drink, assorted tea flavours, sugar-sweetened	100.0	92.6	121.0	121.0	0.0
+C1119	Soft drink, carbonated, assorted fruit flavours, sugar-sweetened	100.0	88.5	167.0	167.0	0.0
+C1115	Soft drink, carbonated, cola flavour, artificially sweetened, caffeinated	100.0	99.9	0.0	0.0	0.0
+C1113	Soft drink, carbonated, cola flavour, artificially sweetened, non-caffeinated	100.0	99.8	0.0	0.0	0.0
+C1118	Soft drink, carbonated, lemon flavour, artificially sweetened	100.0	99.2	0.0	0.0	0.0
+C1116	Soft drink, carbonated, lemon flavour, sugar-sweetened	100.0	90.2	168.0	168.0	0.0
+C1114	Soft drink, cola flavour, reduced sugar, caffeinated	100.0	93.6	109.0	109.0	0.0
+C1112	Soft drink, cola flavour, sugar-sweetened, caffeinated	100.0	89.7	134.0	134.0	0.0
+C1135	Soft drink, ginger beer, artificially sweetened, diet	100.0	99.2	10.0	10.0	0.0
+C1158	Soft drink, ginger beer, reduced sugar	100.0	95.2	88.0	88.0	0.0
+C1134	Soft drink, ginger beer, sugar-sweetened	100.0	90.0	163.0	163.0	0.0
+C1117	Soft drink, lemon flavour, reduced sugar	100.0	92.5	119.0	119.0	0.0
+C81	Soft drink, soda water	100.0	99.9	0.0	0.0	0.0
+C79	Soft drink, tonic water	100.0	91.1	150.0	150.0	0.0
+C166	Soy drink, soy milk, So Good™ Essential, Sanitarium™, fortified vitamins A, B1, B2, B3, B6, B12, E & folate, Ca, Fe, Mg & P	100.0	88.2	210.0	212.0	2.79
+C30	Soy milk, So Good™ Lite Soy Milk, Sanitarium™, fortified vitamins A, B1, B2, & B12, Ca, Mg & P	100.0	90.0	171.0	177.0	2.91
+C29	Soy milk, So Good™ Regular Soy Milk, Sanitarium™, fortified vitamins A, B1, B2, & B12, Ca, Mg & P	100.0	87.8	244.0	250.0	2.62
+C92	Soy milk, So Good™, Vanilla Flavoured, Sanitarium™, fortified vitamins A, B1, B2, & B12, Ca, Mg & P	100.0	84.2	311.0	318.0	2.39
+C1034	Sports drink, assorted flavours, Isopower, Low Carb, Mizone®, fortified vitamins B3, B5, B6, B12 & C	100.0	97.2	58.0	58.0	0.0
+C1033	Sports drink, assorted flavours, Isopower, Mizone®, Frucor, fortified  vitamins B3, B5, B6 & B12	100.0	97.2	102.0	102.0	0.0
+C18	Sports drink, flavoured, Lucozade	100.0	81.7	238.0	238.0	0.0
+C86	Sports drink, ready to drink, Gatorade®	100.0	93.0	122.0	122.0	0.06
+C1032	Sports water, assorted flavours, Mizone®, Frucor, fortified  vitamins B3, B5, B6, B12 & C	100.0	97.2	43.0	43.0	0.0
+C1040	Tea, black, brewed	100.0	99.8	0.0	0.0	0.0
+C1041	Tea, black, decaffeinated, brewed	100.0	99.9	0.0	0.0	0.0
+C1163	Tea, fermented (Kombucha), with intense sweetener, ready to drink	100.0	98.0	15.0	15.0	0.03
+C1161	Tea, fermented (kombucha), with cane sugar, ready to drink	100.0	96.7	85.0	85.0	0.03
+C1162	Tea, fermented (kombucha), with fruit juices, ready to drink	100.0	97.5	66.0	66.0	0.03
+C1039	Tea, green, brewed	100.0	99.8	1.0	1.0	0.04
+C76	Tea, herbal, brewed	100.0	99.7	0.0	0.0	0.0
+C41	Water, bottled, New Zealand	100.0	100.0	0.0	0.0	0.0
+C40	Water, tap	100.0	100.0	0.0	0.0	0.0
+nan	nan	nan	nan	nan	0	nan
+D	BREAKFAST CEREALS	nan	nan	nan	0	nan
+D1046	All Bran® Original, Kellogg's®, fortified vitamins B1, B2 & folate	100.0	2.2	1090.0	1320.0	13.6
+D1041	Breakfast cereals, rice puffed, cocoa coated, fortified vitamins B1, B2, B3 & folate, & Fe	100.0	4.2	1490.0	1500.0	5.55
+D1053	Cluster Crisp™, Manuka Honey with Roasted Cashew, Sanitarium™, fortified vitamins B1, B2, B3 & folate, & Fe	100.0	3.4	1580.0	1620.0	7.81
+D1045	Cluster Crisp™, Sanitarium™, fortified vitamins B1, B2, B3 & folate, & Fe	100.0	3.5	1570.0	1610.0	7.81
+D1052	Cluster Crisp™, Vanilla Almond, Sanitarium™, fortified vitamins, B1, B2, B3 & folate, & Fe	100.0	3.4	1560.0	1600.0	7.81
+D1038	Coco Pops®, Kellogg's®, fortified vitamins B1, B2, B3, C & folate, Ca, Fe & Zn	100.0	2.7	1570.0	1580.0	5.55
+D1032	Crunchy Nut Corn Flakes®, Kellogg's®, fortified vitamins B1, B2, B3, C & folate, & Fe	100.0	5.1	1600.0	1620.0	7.7
+D1036	Fruitful Breakfast, Hubbards	100.0	5.9	1610.0	1660.0	8.75
+D1043	Just Right®, Original Kellogg's®, fortified vitamins B1, B2, B3 & folate, & Fe	100.0	6.4	1510.0	1580.0	7.94
+D1049	Light 'n' Tasty™, Apricot, Sanitarium™, fortified vitamins B1, B2, B3, E & folate, Ca & Fe	100.0	5.9	1420.0	1480.0	7.39
+D1050	Light 'n' Tasty™, Berry, Sanitarium™, fortified vitamins B1, B2, B3 & folate, Ca & Fe	100.0	5.9	1400.0	1460.0	7.39
+D1051	Light 'n' Tasty™, Peach & Raspberry, Sanitarium™, fortified vitamins B1, B2, B3, E & folate, Ca & Fe	100.0	5.6	1420.0	1470.0	7.39
+D1037	Nutri-Grain®, Kellogg's®, fortified vitamins B1, B2, B3, B6, C & folate, Ca & Fe	100.0	3.9	1630.0	1650.0	22.4
+D1069	Porridge, oats, assorted fruits flavoured, sugar-sweetened, prepared with water	100.0	73.1	386.0	403.0	2.63
+D1066	Porridge, oats, plain, sweetened with honey and/or sugar, prepared with water	100.0	72.9	436.0	451.0	2.65
+D10005	Porridge, oats, quick sachets, assorted fruits flavoured, sugar-sweetened, prepared with standard milk	100.0	64.5	612.0	629.0	5.61
+D10006	Porridge, oats, quick sachets, assorted fruits flavoured, sugar-sweetened, prepared with trim milk	100.0	66.8	513.0	529.0	5.71
+D10003	Porridge, oats, quick sachets, plain, sweetened with honey and/or sugar, prepared with standard milk	100.0	64.4	646.0	661.0	5.82
+D10004	Porridge, oats, quick sachets, plain, sweetened with honey and/or sugar, prepared with trim milk	100.0	66.2	545.0	560.0	5.81
+D10002	Porridge, oats, rolled, prepared with trim milk, unsweetened	100.0	70.9	450.0	468.0	6.03
+D1060	Porridge, oats, rolled, prepared with water, unsweetened, no salt added	100.0	79.5	319.0	337.0	2.85
+D22	Porridge, prepared with water, salt added	100.0	87.4	206.0	219.0	1.52
+D1017	Puffed Wheat™, Sanitarium™	100.0	7.3	1570.0	1630.0	11.6
+D1029	Ricies™, Sanitarium™, fortified vitamins B1, B2 & B3, & Fe	100.0	4.1	1470.0	1470.0	5.95
+D1018	San Bran™, Sanitarium™	100.0	7.3	966.0	1240.0	12.4
+D1048	Simply Toasted Muesli Apricot, Hubbards	100.0	3.9	1520.0	1600.0	8.81
+D1057	Skippy™ Cornflakes, Sanitarium™, fortified vitamins B1, B2, B3 & folate & Fe	100.0	4.1	1470.0	1500.0	7.5
+D1016	Special K®, Forest Berries, Kellogg's®, fortified  vitamins B1, B2, B3, B6 & folate, Ca, Fe & Zn	100.0	3.0	1530.0	1570.0	18.1
+D1042	Special K®, Original, Kellogg's®, fortified vitamins B1, B2, B3, B6 & folate, Ca & Fe	100.0	3.2	1480.0	1500.0	18.4
+D43	Sultana Bran®, Kellogg's®, fortified vitamins B1, B2, B3, B6 & folate, Fe & Zn	100.0	7.8	1300.0	1460.0	9.22
+D1047	Toasted Muesli Golden Oats & Fruit, Sanitarium™	100.0	4.1	1700.0	1780.0	8.81
+D1055	Toasted Muesli Super Fruity, Sanitarium™, fortified vitamin E	100.0	6.4	1610.0	1690.0	8.81
+D1054	Toasted Strawberry and Rhubarb, Sanitarium™	100.0	4.8	1530.0	1610.0	8.81
+D1056	Weet-Bix™, Sanitarium™, fortified vitamins B1, B2, B3 & folate & Fe	100.0	6.6	1290.0	1380.0	12.5
+D1012	Weet-Bix™ Oat Bran, Sanitarium™, fortified vitamins E & folate	100.0	1.1	1540.0	1640.0	12.8
+D1035	Weeties™, Sanitarium™	100.0	3.4	1330.0	1390.0	11.9
+nan	nan	nan	nan	nan	0	nan
+E	CEREALS AND PSEUDO-CEREALS	nan	nan	nan	0	nan
+E3	Barley, pearl, boiled	100.0	69.6	494.0	521.0	2.68
+E68	Bulgur, boiled	100.0	76.2	359.0	393.0	3.07
+E99	Cornmeal, wholegrain, yellow	100.0	10.3	1350.0	1410.0	8.13
+E1068	Couscous, white wheat, cooked in water, not drained, no salt or fat added	100.0	55.6	707.0	731.0	6.69
+E1067	Couscous, white wheat, dry	100.0	9.2	1440.0	1480.0	13.1
+E1071	Couscous, wholemeal wheat, cooked in water, not drained, no salt or fat added	100.0	59.9	564.0	601.0	5.94
+E6	Custard, dry powder	100.0	12.5	1460.0	1460.0	0.56
+E1096	Flour or meal, from hemp seed, defatted	100.0	8.2	835.0	1230.0	22.3
+E1085	Flour, almond	100.0	4.1	2500.0	2560.0	21.7
+E1086	Flour, chickpea or channa (besan), yellow	100.0	5.3	1380.0	1450.0	21.4
+E1087	Flour, coconut	100.0	6.5	1130.0	1410.0	16.6
+E9	Flour, corn	100.0	12.5	1460.0	1460.0	0.56
+E1098	Flour, from quinoa seed, wholegrain	100.0	13.5	1300.0	1390.0	14.3
+E1093	Flour, gluten free	100.0	11.7	1390.0	1400.0	2.98
+E1083	Flour, pea, yellow	100.0	5.4	1180.0	1260.0	23.4
+E1082	Flour, rice, brown	100.0	11.7	1380.0	1410.0	7.37
+E1081	Flour, rice, white	100.0	12.0	1420.0	1430.0	7.03
+E12	Flour, soy, full fat	100.0	8.3	1590.0	1700.0	29.5
+E1097	Flour, spelt, white	100.0	12.6	1460.0	1480.0	10.7
+E1095	Flour, spelt, wholemeal	100.0	12.4	1330.0	1400.0	12.6
+E1088	Flour, wheat, white, standard	100.0	13.2	1410.0	1440.0	10.9
+E1091	Flour, wheat, wholemeal	100.0	12.3	1280.0	1370.0	12.7
+E1074	Noodle, chow mein style, fried, as purchased	100.0	1.7	1720.0	1750.0	9.86
+E81	Noodle, instant, boiled, drained	100.0	59.3	758.0	786.0	4.67
+E1053	Noodle, rice flour, dry, boiled, drained	100.0	71.0	518.0	521.0	2.2
+E1056	Noodle, shelf-fresh, boiled, drained, Japanese udon noodles	100.0	72.7	409.0	417.0	2.64
+E1057	Noodle, shelf-fresh, stir fried, Japanese udon noodles	100.0	57.9	744.0	754.0	3.68
+E39	Noodle, wheat flour with egg, boiled, drained	100.0	84.3	258.0	272.0	2.28
+E40	Noodle, wheat flour with egg, fried	100.0	75.1	630.0	643.0	1.94
+E1050	Noodle, wheat flour, assorted flavours, boiled, undrained, 2 Minutes, Maggi®	100.0	81.2	274.0	276.0	2.2
+E1049	Noodle, wheat, Shin Ramyun Noodle Soup Hot & Spicy, Nong Shim, boiled, undrained	100.0	84.7	276.0	279.0	1.41
+E23	Oat bran	100.0	9.1	1370.0	1490.0	14.6
+E22	Oatmeal, dry	100.0	6.9	1540.0	1620.0	14.1
+E1022	Oats, Traditional Wholegrain Oats, Harraways™	100.0	1.3	1500.0	1600.0	14.3
+E1075	Oats, rolled, raw, New Zealand	100.0	9.6	1440.0	1510.0	12.2
+E1015	Oats, toasted, Rolled Oats, Harraways™	100.0	0.8	1540.0	1630.0	12.5
+E1076	Oats, wholegrain, raw, New Zealand	100.0	9.2	1420.0	1500.0	12.8
+E10001	Pasta & sauce, dry mix, assorted flavours, prepared with water, milk & butter, boiled	100.0	68.3	520.0	529.0	4.86
+E55	Pasta, fresh, assorted type, cooked	100.0	60.5	549.0	571.0	6.88
+E56	Pasta, fresh, fettuccine, herb & garlic, cooked	100.0	63.8	533.0	545.0	5.74
+E57	Pasta, fresh, ravioli, beef & pork, cooked	100.0	56.0	674.0	690.0	8.87
+E118	Pasta, wheat flour with egg, boiled, drained	100.0	63.5	600.0	609.0	5.75
+E119	Pasta, wheat flour with vegetable flavours, boiled, drained	100.0	61.8	617.0	631.0	5.48
+E1064	Pasta, white wheat flour, assorted shapes, regular, boiled, drained, no salt added	100.0	65.3	548.0	566.0	5.05
+E1066	Pasta, wholemeal wheat flour, assorted shapes, boiled, drained, no salt added	100.0	62.2	526.0	572.0	6.31
+E1025	Quinoa, cooked	100.0	71.6	445.0	467.0	4.37
+E1080	Rice, brown, assorted grains, cooked in unsalted water	100.0	65.7	594.0	604.0	3.23
+E1069	Rice, creamed, canned	100.0	74.6	428.0	434.0	2.94
+E1046	Rice, white, Basmati, boiled, undrained	100.0	66.6	534.0	539.0	3.13
+E1078	Rice, white, assorted grains, cooked in unsalted water	100.0	66.4	549.0	554.0	2.78
+E1016	Rice, wild, cooked	100.0	73.9	413.0	428.0	4.05
+E73	Semolina, cooked	100.0	91.6	128.0	129.0	0.99
+E1005	Spaghetti, canned in tomato sauce	100.0	81.6	261.0	270.0	2.4
+E1054	Taco shell, corn flour, baked, commercial	100.0	7.4	1890.0	1920.0	7.08
+E34	Tapioca, pearl, dry	100.0	12.2	1480.0	1480.0	0.44
+E1012	Tempeh	100.0	59.7	847.0	858.0	18.5
+E1011	Tempeh, fried in sunflower oil	100.0	27.5	1850.0	1880.0	23.2
+E1043	Wafer, wholegrain rice	100.0	6.3	1470.0	1500.0	8.33
+E111	Wheat bran	100.0	8.8	897.0	1250.0	15.0
+E112	Wheat germ	100.0	9.2	1450.0	1570.0	27.9
+E43	Yoghurt, soy	100.0	82.4	306.0	306.0	5.02
+nan	nan	nan	nan	nan	0	nan
+F	DAIRY	nan	nan	nan	0	nan
+F1046	Butter, salted	100.0	15.4	3050.0	3050.0	0.45
+F1051	Butter, semisoft	100.0	15.2	3060.0	3060.0	0.48
+F1050	Butter, unsalted	100.0	15.3	3110.0	3110.0	0.32
+F98	Cheese spread, light, Philadelphia	100.0	73.2	625.0	625.0	9.57
+F5	Cheese, Camembert	100.0	52.4	1190.0	1190.0	22.6
+F1015	Cheese, Cheddar Mild	100.0	34.2	1750.0	1750.0	24.2
+F1014	Cheese, Cheddar, Tasty	100.0	34.0	1730.0	1730.0	24.6
+F1057	Cheese, Cheddar, light, Mainland™	100.0	42.1	1330.0	1330.0	29.3
+F1006	Cheese, Colby	100.0	36.9	1660.0	1660.0	23.9
+F1001	Cheese, Edam	100.0	40.6	1470.0	1470.0	28.1
+F17	Cheese, Mozzarella	100.0	51.6	1130.0	1130.0	27.6
+F4	Cheese, blue vein	100.0	42.5	1480.0	1490.0	21.7
+F1056	Cheese, cottage, light, 1% fat	100.0	83.0	247.0	247.0	10.8
+F12	Cheese, cream	100.0	52.5	1540.0	1540.0	3.06
+F69	Cheese, cream, reduced fat 16%, Country Goodness	100.0	55.5	1060.0	1060.0	10.5
+F1089	Cheese, feta, from cows' milk, reduced fat	100.0	70.3	438.0	438.0	19.2
+F1088	Cheese, feta, from cows' milk, traditional	100.0	54.4	1170.0	1170.0	16.9
+F1090	Cheese, feta, from goats' milk	100.0	57.7	1010.0	1010.0	14.6
+F1091	Cheese, haloumi, from cows' milk	100.0	48.4	1350.0	1350.0	20.0
+F1092	Cheese, parmesan, from cows' milk, ungrated	100.0	34.1	1510.0	1510.0	32.6
+F18	Cheese, parmesan, powder	100.0	15.5	1850.0	1850.0	44.9
+F19	Cheese, processed	100.0	43.3	1410.0	1410.0	21.2
+F79	Cheese, processed, sliced, reduced fat	100.0	52.5	871.0	871.0	22.5
+F1093	Cheese, ricotta, from cows' milk	100.0	72.4	704.0	704.0	10.3
+F22	Cream, reduced fat	100.0	72.4	878.0	878.0	2.74
+F23	Cream, sour	100.0	70.6	921.0	921.0	3.25
+F24	Cream, standard	100.0	55.0	1560.0	1560.0	1.98
+F25	Cream, whipping, ultra-high-temperature (UHT) processed	100.0	57.6	1450.0	1450.0	2.17
+F1061	Crème fraiche	100.0	56.1	1430.0	1430.0	2.65
+F1062	Crème fraiche, light	100.0	73.0	714.0	714.0	3.19
+F1098	Custard, from milk, vanilla flavour, sugar-sweetened, regular	100.0	76.6	375.0	380.0	3.27
+F1099	Custard, from milk, vanilla flavour, sugar-sweetened, thick & creamy	100.0	70.0	618.0	622.0	3.39
+F76	Dessert, vanilla, 99% fat free, frozen, WeightWatchers	100.0	71.1	365.0	365.0	3.25
+F1064	Fromage frais, assorted fruits & flavours, Frûche®	100.0	78.4	364.0	364.0	5.26
+F1063	Fromage frais, vanilla, Frûche®	100.0	77.7	367.0	367.0	5.33
+F110	Ice cream, Jelly Tip, Tip Top™	100.0	60.0	992.0	992.0	2.74
+F113	Ice cream, Paddle Pop®, chocolate	100.0	66.1	580.0	583.0	3.32
+F1095	Ice cream, assorted berry flavours, standard	100.0	58.3	825.0	830.0	1.92
+F1070	Ice cream, chocolate, standard	100.0	62.1	811.0	811.0	3.13
+F118	Ice cream, creamy, fruit ripple	100.0	62.2	742.0	742.0	2.68
+F111	Ice cream, hokey pokey	100.0	58.8	692.0	692.0	4.28
+F78	Ice cream, soft serve	100.0	71.5	415.0	415.0	3.7
+F122	Ice cream, vanilla, low fat	100.0	66.8	545.0	545.0	4.85
+F29	Ice cream, vanilla, premium	100.0	60.5	899.0	899.0	3.32
+F28	Ice cream, vanilla, standard	100.0	63.4	796.0	796.0	3.32
+F1116	Milk, A2, cow, lite, fluid, fresh	100.0	89.8	177.0	177.0	3.11
+F1115	Milk, A2, cow, standard, fluid, fresh	100.0	87.7	259.0	259.0	3.25
+F1104	Milk, coffee flavour, high fat, sugar-sweetened	100.0	77.0	556.0	556.0	2.95
+F1103	Milk, coffee flavour, reduced fat, high protein, sugar-sweetened	100.0	83.0	296.0	296.0	7.06
+F1101	Milk, coffee flavour, reduced fat, sugar-sweetened, fortified vitamin A	100.0	87.1	242.0	242.0	2.81
+F1102	Milk, coffee flavour, reduced fat, sugar-sweetened, fortified vitamins  B2, B3, B5, B6 & B12	100.0	84.8	257.0	257.0	2.81
+F1105	Milk, coffee flavour, regular fat, sugar-sweetened	100.0	85.6	291.0	291.0	3.14
+F30	Milk, condensed, sweetened, skim	100.0	29.7	1150.0	1150.0	10.0
+F31	Milk, condensed, sweetened, whole	100.0	25.6	1390.0	1390.0	9.19
+F1097	Milk, cow, fresh or ultra-heat treated (UHT) milk with coffee flavour, fluid, sugar-sweetened	100.0	85.8	251.0	251.0	2.81
+F1096	Milk, cow, fresh, chocolate flavour, fluid, sugar sweetened, premium	100.0	76.3	527.0	527.0	3.79
+F1111	Milk, cow, lite, fluid, fresh	100.0	89.7	186.0	186.0	3.37
+F1107	Milk, cow, lite, fluid, ultra-heat treated (UHT)	100.0	89.9	181.0	181.0	3.54
+F1087	Milk, cow, low fat 0.2%, fluid, ultra-filtered, Sun Latte®, fortified vitamin D	100.0	88.9	151.0	151.0	4.85
+F36	Milk, cow, powder, instant, skim	100.0	3.4	1450.0	1450.0	38.2
+F37	Milk, cow, powder, instant, whole	100.0	2.6	2050.0	2050.0	30.2
+F1110	Milk, cow, standard, fluid, fresh	100.0	88.2	254.0	254.0	3.48
+F1106	Milk, cow, standard, fluid, ultra-heat treated (UHT)	100.0	88.3	254.0	254.0	3.48
+F1109	Milk, cow, standard, lactose-free, fluid, ultra-heat treated (UHT)	100.0	90.3	255.0	255.0	3.22
+F1114	Milk, cow, trim, fluid, fresh	100.0	90.0	152.0	152.0	4.32
+F1113	Milk, cow, trim, fluid, fresh, fortified Ca	100.0	90.0	152.0	152.0	4.32
+F1112	Milk, cow, trim, fluid, fresh, fortified Ca & vitamin D	100.0	90.0	153.0	153.0	4.32
+F1108	Milk, cow, trim, fluid, ultra-heat treated (UHT), fortified vitamin D	100.0	90.0	159.0	159.0	4.98
+F1086	Milk, cow, whole 4% fat, fluid, non-homogenised	100.0	87.6	278.0	278.0	3.51
+F32	Milk, cow, whole, evaporated, fluid	100.0	73.6	616.0	616.0	8.42
+F52	Milk, goat, whole, fluid	100.0	88.8	243.0	243.0	2.94
+F54	Milk, human, transitional, fluid	100.0	87.4	274.0	274.0	1.47
+F1100	Milk, sheep, whole, fluid, fresh	100.0	83.1	414.0	414.0	5.51
+F1071	Protein powder, whey & vanilla flavoured, 100% Whey Protein WPC/WPI, Balance	100.0	5.3	1560.0	1560.0	78.8
+F1080	Yoghurt dessert, Greek-style, chocolate flavoured, sweetened, premium	100.0	70.7	515.0	519.0	7.59
+F1083	Yoghurt smoothie, assorted fruits, sweetened	100.0	81.0	328.0	328.0	3.57
+F1072	Yoghurt, Fresh'n Fruity™, Lite, assorted fruits, non-fat, fortified Ca, vitamins A & D	100.0	88.9	130.0	132.0	4.15
+F1077	Yoghurt, Fresh'n Fruity™, assorted fruits, regular fat, fortified Ca, vitamins A & D	100.0	77.7	389.0	390.0	4.21
+F1055	Yoghurt, Greek-style, full-fat	100.0	78.8	460.0	460.0	4.56
+F1082	Yoghurt, Greek-style, low fat , Fresh'n Fruity™	100.0	84.4	266.0	266.0	5.68
+F1081	Yoghurt, Greek-style, low fat, Cyclops®	100.0	79.3	379.0	379.0	9.51
+F1075	Yoghurt, Meadow FreshYoghurt, assorted fruits, low fat, sweetened, Meadow Fresh®, fortified Ca, low fat, assorted fruits fortified Ca	100.0	78.1	327.0	330.0	4.34
+F1073	Yoghurt, Meadow Fresh®, Live lite, assorted fruits, non-fat, fortified  Ca, vitamins A & D	100.0	85.4	217.0	218.0	4.91
+F1076	Yoghurt, Symbio Probalance™, assorted fruits, low fat, fortified Ca, vitamins A & D 	100.0	80.2	288.0	291.0	4.08
+F1074	Yoghurt, Yoplait, Delite, assorted fruits, low fat	100.0	82.2	300.0	302.0	4.79
+F1078	Yoghurt, Yoplait, assorted fruits, regular fat	100.0	80.8	349.0	350.0	4.15
+F77	Yoghurt, apricot, frozen, Tip Top™	100.0	76.4	382.0	382.0	2.49
+F84	Yoghurt, plain, low fat, unsweetened	100.0	87.5	168.0	171.0	4.79
+F57	Yoghurt, plain, unsweetened	100.0	86.0	305.0	323.0	3.7
+F1079	Yoghurt, premium, assorted fruits	100.0	74.3	494.0	497.0	4.98
+nan	nan	nan	nan	nan	0	nan
+G	EGGS	nan	nan	nan	0	nan
+G1024	Egg, chicken, white & yolk, pan-fried with oil	100.0	69.1	749.0	749.0	16.4
+G1019	Egg, chicken, white, boiled	100.0	86.7	233.0	233.0	13.4
+G1025	Egg, chicken, white, raw, fresh	100.0	87.4	213.0	213.0	12.3
+G1021	Egg, chicken, whole, boiled	100.0	76.5	546.0	546.0	14.6
+G1022	Egg, chicken, whole, poached	100.0	76.2	571.0	571.0	13.7
+G1016	Egg, chicken, whole, raw, fresh	100.0	75.9	548.0	548.0	12.9
+G1023	Egg, chicken, whole, scrambled, no fat added	100.0	69.8	746.0	746.0	14.8
+G1020	Egg, chicken, yolk, boiled	100.0	49.8	1410.0	1410.0	16.1
+G1017	Egg, chicken, yolk, raw, fresh	100.0	52.3	1360.0	1360.0	16.0
+nan	nan	nan	nan	nan	0	nan
+H	FAST FOODS AND READY TO EAT MEALS	nan	nan	nan	0	nan
+H1020	Beef salad, Thai, takeaway	100.0	76.8	399.0	414.0	11.0
+H1015	Beef, black bean, stir fry, Chinese	100.0	80.8	367.0	370.0	6.25
+H8	Burger, Big Mac®, McDonald's®	100.0	46.3	1130.0	1140.0	13.1
+H24	Burger, Filet-o-Fish®, McDonald's®	100.0	39.7	1190.0	1220.0	11.9
+H10	Burger, Quarter Pounder® with cheese, McDonald's®	100.0	44.0	1130.0	1140.0	17.5
+H3	Burger, cheeseburger	100.0	47.8	1090.0	1100.0	13.6
+H4	Burger, cheeseburger, McDonald's®	100.0	41.1	1080.0	1090.0	15.1
+H6	Burger, hamburger	100.0	50.9	940.0	949.0	10.7
+H7	Burger, hamburger, McDonald's®	100.0	41.6	1050.0	1060.0	13.3
+H1016	Chicken and cashew, stir fry, Chinese	100.0	74.6	504.0	512.0	7.72
+H17	Chicken, crumbed, breast, deep-fried, Kentucky Fried Chicken®	100.0	50.9	1140.0	1140.0	25.6
+H18	Chicken, crumbed, drumstick, fried, Kentucky Fried Chicken®	100.0	49.2	1030.0	1030.0	22.3
+H19	Chicken, crumbed, thigh, fried, Kentucky Fried Chicken®	100.0	44.5	1450.0	1450.0	18.6
+H16	Chicken, crumbed, wing, deep-fried, Kentucky Fried Chicken®	100.0	39.4	1520.0	1530.0	20.9
+H159	Chicken, nugget, deep-fried, McDonald's®	100.0	52.1	1200.0	1210.0	17.6
+H173	Chop suey, chicken, lean & fat, stir fried	100.0	78.2	435.0	452.0	6.94
+H71	Chop suey, pork	100.0	76.1	511.0	524.0	8.81
+H172	Chow mein, beef, lean & fat, stir fried	100.0	73.7	582.0	590.0	9.5
+H199	Chow mein, chicken	100.0	74.5	371.0	378.0	6.16
+H89	Chow mein, prawn	100.0	73.2	603.0	625.0	5.63
+H20	Coleslaw, Kentucky Fried Chicken®	100.0	77.3	410.0	417.0	2.0
+H1026	Curry, beef korma, Indian, takeaway	100.0	61.1	944.0	946.0	13.6
+H1027	Curry, beef madras, Indian, takeaway	100.0	65.9	877.0	878.0	13.3
+H1023	Curry, butter chicken, Indian, takeaway	100.0	61.3	728.0	746.0	11.7
+H1024	Curry, chicken masala, Indian, takeaway	100.0	71.5	624.0	643.0	10.6
+H1021	Curry, chicken, green, Thai, takeaway	100.0	77.0	521.0	524.0	8.19
+H1028	Curry, dhal makani, Indian, takeaway	100.0	66.0	675.0	705.0	4.56
+H1025	Curry, rogan josh, Indian, takeaway	100.0	70.9	683.0	683.0	13.6
+H1012	Egg foo young with chicken, omelette, Chinese, takeaway	100.0	68.3	768.0	781.0	12.5
+H22	Fish, battered, deep-fried, Independent Shops	100.0	51.1	1260.0	1260.0	15.2
+H57	Fish, cake, baked	100.0	51.6	996.0	1000.0	11.5
+H23	Fish, cake, deep-fried in peanut oil	100.0	47.6	993.0	999.0	13.0
+H194	Fish, fillet, crumbed, frozen, baked	100.0	56.0	828.0	833.0	11.0
+H195	Fish, fillet, crumbed, frozen, fried	100.0	53.9	857.0	862.0	11.5
+H61	Fish, fingers, baked	100.0	57.1	881.0	887.0	9.04
+H65	Fish, fingers, deep-fried in peanut oil	100.0	48.1	1130.0	1130.0	9.59
+H1018	Fried rice, combination, Chinese, takeaway	100.0	62.1	590.0	598.0	8.94
+H1046	Fries, potato, Burger King®	100.0	39.7	1320.0	1350.0	4.06
+H1041	Fries, potato, Kentucky Fried Chicken®	100.0	52.0	963.0	1010.0	4.06
+H1042	Fries, potato, McDonald's®	100.0	36.2	1370.0	1410.0	4.0
+H1039	Fries, potato, straight cut, Independent Shops	100.0	54.6	917.0	950.0	4.0
+H10015	Frozen meal, lasagne topper, baked or microwaved	100.0	52.4	927.0	948.0	10.2
+H10016	Frozen meal, lasagne with beef meat mince, baked or microwaved,	100.0	70.3	532.0	546.0	6.81
+H10018	Frozen meal, macaroni pasta with cheese, microwaved	100.0	69.1	601.0	613.0	7.11
+H10008	Frozen meal, roast beef with mashed potato & vegetables, microwaved	100.0	80.0	399.0	422.0	7.09
+H10005	Frozen meal, roast lamb with roast potato & vegetables, microwaved	100.0	78.5	372.0	396.0	6.97
+H10006	Frozen meal, roast pork with mashed potato & vegetables, microwaved	100.0	79.4	333.0	356.0	6.44
+H10017	Frozen meal, spaghetti with Bolognese sauce and beef mince, microwaved	100.0	73.0	496.0	511.0	6.3
+H1017	Noodle, chow mein, combination, Chinese	100.0	78.1	328.0	340.0	7.34
+H1022	Noodle, pad thai with chicken & egg, Thai, takeaway	100.0	58.0	708.0	724.0	8.13
+H151	Pancake, McDonald's®	100.0	55.9	726.0	738.0	4.29
+H1061	Patty, shredded potato, hash brown, pre-cooked, frozen, baked without oil	100.0	52.8	909.0	935.0	2.76
+H10001	Patty, shredded potato, hash brown, pre-cooked, frozen, pan-fried with oil	100.0	59.5	772.0	795.0	2.38
+H27	Pie, apple, McDonald's®	100.0	48.4	1040.0	1050.0	2.26
+H29	Pie, mince, family size	100.0	53.3	874.0	881.0	8.13
+H1056	Pie, savoury, chicken, individual size, ready to eat	100.0	50.8	989.0	1000.0	8.41
+H1055	Pie, savoury, egg & bacon, individual size, ready to eat	100.0	47.8	1070.0	1130.0	10.2
+H1054	Pie, savoury, mince & cheese, individual size, ready to eat	100.0	50.3	983.0	1020.0	7.8
+H191	Pizza, Hawaiian, thick crust	100.0	46.9	964.0	987.0	11.1
+H190	Pizza, barbeque chicken, thick crust	100.0	44.0	1020.0	1040.0	12.6
+H177	Pizza, frozen, Hawaiian & House special, premium, baked	100.0	46.3	863.0	884.0	12.1
+H176	Pizza, frozen, meat lovers, premium, baked	100.0	45.5	908.0	925.0	13.1
+H189	Pizza, meat, thick crust	100.0	40.5	1040.0	1060.0	13.2
+H41	Pizza, supreme, thin crust, Pizza Hut®	100.0	52.4	933.0	946.0	12.8
+H1014	Pork, sweet & sour, Chinese, takeaway	100.0	49.5	1090.0	1090.0	9.63
+H1045	Potato & Gravy, Kentucky Fried Chicken®	100.0	80.0	280.0	291.0	2.19
+H152	Potato, hash brown, McDonald's®	100.0	59.6	881.0	893.0	1.97
+H1058	Salad, coleslaw with dressing, fresh, from deli	100.0	85.2	277.0	303.0	1.24
+H1043	Sausage roll, individual size, microwaved	100.0	41.0	1180.0	1190.0	8.22
+H1044	Sausage roll, party size, baked	100.0	44.3	1150.0	1160.0	8.7
+H1002	Sausage roll, with cheese, baked	100.0	40.6	1270.0	1280.0	9.87
+H52	Saveloy, battered, fried, Independent Shops	100.0	44.4	1280.0	1300.0	11.9
+H1003	Savoury, bacon & egg, baked	100.0	42.1	1190.0	1200.0	12.3
+H1005	Savoury, mince & cheese, heated	100.0	44.4	1150.0	1160.0	8.78
+H1004	Savoury, mince, heated	100.0	46.7	1090.0	1110.0	7.59
+H1006	Savoury, potato top, heated	100.0	55.6	878.0	889.0	5.87
+H1013	Soup, chicken and sweet corn, Chinese, takeaway	100.0	85.3	241.0	249.0	5.81
+H1019	Soup, tom yam gai, chicken, Thai, takeaway	100.0	87.3	169.0	169.0	5.78
+H208	Spring roll, traditional with meat, baked, Highmark	100.0	59.0	990.0	1010.0	5.32
+H212	Spring roll, traditional, with meat, deep-fried, Highmark	100.0	53.5	1070.0	1100.0	5.38
+H211	Spring roll, vegetarian, baked, Highmark	100.0	64.0	748.0	770.0	3.08
+nan	nan	nan	nan	nan	0	nan
+J	FATS AND OILS	nan	nan	nan	0	nan
+J1039	Coconut oil	100.0	0.8	3690.0	3690.0	0.0
+J1030	Dripping, beef, Farmland	100.0	0.1	3700.0	3700.0	0.0
+J7	Lard	100.0	1.0	3670.0	3670.0	0.13
+J1022	Margarine, avocado, Olivani®	100.0	42.0	2110.0	2110.0	0.0
+J1003	Margarine, canola, monounsaturated, 50% fat, fortified vitamins A & D	100.0	47.7	1910.0	1910.0	0.31
+J1001	Margarine, canola, monounsaturated, 70% fat, fortified vitamins A & D	100.0	28.5	2600.0	2600.0	0.31
+J1023	Margarine, catering, Choice	100.0	33.5	2380.0	2380.0	0.0
+J1029	Margarine, light, Logical®	100.0	39.8	2190.0	2190.0	0.0
+J1012	Margarine, light, monounsaturated, 55% fat, Olivani®	100.0	43.5	2060.0	2060.0	0.31
+J1008	Margarine, light, polyunsaturated, 50% fat, Flora®, fortified vitamins A & D	100.0	49.3	1800.0	1800.0	0.31
+J1009	Margarine, monounsaturated, 75% fat, Olivani®	100.0	28.7	2610.0	2610.0	0.31
+J1028	Margarine, original, Flora®, fortified vitamin D	100.0	33.3	2410.0	2410.0	0.0
+J1007	Margarine, polyunsaturated, 60% fat, Sunrise®	100.0	38.6	2230.0	2230.0	0.31
+J1005	Margarine, polyunsaturated, 70% fat, fortified vitamins A & D	100.0	27.6	2610.0	2610.0	0.31
+J1006	Margarine, polyunsaturated, 70% fat, reduced salt, fortified vitamins A & D	100.0	28.3	2600.0	2600.0	0.31
+J1020	Margarine, rice bran, Alfa™ One	100.0	14.2	3050.0	3050.0	0.0
+J1021	Margarine, rice bran, light, Alfa™ One	100.0	40.3	2150.0	2150.0	0.0
+J1002	Margarine, summer gold, canola, monounsaturated, 70% fat, Pams	100.0	27.2	2620.0	2620.0	0.31
+J1004	Margarine, summer gold, lite, canola, monounsaturated, 50% fat, Pams	100.0	41.4	2160.0	2160.0	0.31
+J60	Oil, avocado	100.0	0.0	3700.0	3700.0	0.0
+J1033	Oil, canola	100.0	0.1	3700.0	3700.0	0.0
+J4	Oil, corn	100.0	0.1	3700.0	3700.0	0.0
+J61	Oil, flaxseed	100.0	0.1	3700.0	3700.0	0.1
+J1040	Oil, hemp seed	100.0	0.1	3700.0	3700.0	0.0
+J10001	Oil, olive	100.0	0.1	3700.0	3700.0	0.0
+J10002	Oil, rice bran	100.0	0.1	3700.0	3700.0	0.0
+J14	Oil, safflower	100.0	0.2	3680.0	3680.0	0.0
+J1037	Oil, sesame	100.0	0.0	3700.0	3700.0	0.0
+J31	Oil, vegetable, blend	100.0	0.2	3660.0	3660.0	0.0
+J1013	Semi soft butter, butter & canola oil, spreadable	100.0	25.1	2710.0	2710.0	0.32
+J39	Shortening, Chefade	100.0	0.5	3610.0	3610.0	0.19
+J1032	Shortening, suet, Shreddo®	100.0	2.8	3150.0	3180.0	1.6
+J1031	Shortening, vegetable, Kremelta™	100.0	0.1	3700.0	3700.0	0.0
+nan	nan	nan	nan	nan	0	nan
+K	FIN FISHES	nan	nan	nan	0	nan
+K1016	Basa, fillet, frozen, flesh, pan-fried with oil, no salt added	100.0	81.9	351.0	351.0	15.9
+K1063	Blue Cod, fillet, flesh, fresh, pan-fried with canola oil	100.0	69.9	586.0	586.0	25.0
+K179	Eel, smoked	100.0	65.8	699.0	699.0	16.8
+K56	Flounder, flesh, baked	100.0	71.4	530.0	530.0	24.1
+K1065	Groper, fillet, flesh, fresh, pan-fried with canola oil	100.0	67.9	559.0	559.0	27.4
+K1046	Gurnard, fillet, flesh, fresh, pan-fried with canola oil	100.0	72.1	517.0	517.0	24.4
+K1047	Gurnard, fillet, flesh, fresh, poached or simmered	100.0	74.7	462.0	462.0	24.8
+K1051	Hoki, fillet, flesh, fresh, pan-fried with canola oil	100.0	74.2	423.0	423.0	19.2
+K1014	Hoki, fillet, frozen, flesh, pan-fried with oil, no salt added	100.0	74.5	561.0	561.0	21.2
+K1059	Kahawai,  fillet, flesh, fresh, crumbed, deep-fried in canola oil	100.0	56.0	923.0	935.0	22.6
+K1055	Kahawai, fillet, flesh, fresh, baked with canola oil	100.0	69.3	550.0	550.0	27.7
+K1056	Kahawai, fillet, flesh, fresh, battered, deep-fried in canola oil	100.0	53.6	1160.0	1160.0	19.9
+K1060	Kahawai, fillet, flesh, fresh, crumbed, pan-fried with canola oil	100.0	62.3	797.0	806.0	21.9
+K1054	Kahawai, fillet, flesh, fresh, pan-fried with canola oil	100.0	66.9	596.0	596.0	28.5
+K1057	Kahawai, fillet, flesh, fresh, poached or simmered	100.0	70.4	536.0	536.0	26.2
+K1058	Kahawai, fillet, flesh, fresh, steamed or microwaved	100.0	70.1	549.0	549.0	26.8
+K1067	Kingfish, fillet, flesh, fresh, pan-fried with canola oil	100.0	69.0	551.0	551.0	28.0
+K1026	Mackerel, canned in oil, drained	100.0	63.0	821.0	821.0	21.7
+K1027	Mackerel, canned in oil, undrained	100.0	72.0	633.0	633.0	16.5
+K1028	Mackerel, canned in tomato sauce, undrained	100.0	70.4	698.0	706.0	15.0
+K78	Orange roughy, flesh, baked	100.0	68.4	731.0	731.0	20.5
+K79	Orange roughy, flesh, deep-fried	100.0	65.2	797.0	797.0	22.6
+K1025	Salmon, assorted flavours, canned, undrained	100.0	74.6	606.0	606.0	14.6
+K1023	Salmon, king, fillet, flesh, cold or hot  smoked, New Zealand	100.0	56.6	1050.0	1050.0	21.9
+K1018	Salmon, king, fillet, skin & bones removed, fresh, baked without fat, no salt added, New Zealand	100.0	54.3	1230.0	1230.0	20.5
+K10001	Salmon, king, fillet, skin & bones removed, fresh, pan-fried with oil, New Zealand	100.0	55.2	1320.0	1320.0	20.2
+K1017	Salmon, king, fillet, skin & bones removed, fresh, raw, New Zealand	100.0	60.5	1090.0	1090.0	18.2
+K1019	Salmon, king, fillet, skin & bones removed, fresh, steamed, New Zealand	100.0	54.9	1290.0	1290.0	19.1
+K1024	Salmon, pink or red, flesh, canned in spring water, drained	100.0	69.9	615.0	615.0	23.1
+K1030	Sardines, canned in oil, drained	100.0	63.5	861.0	861.0	21.3
+K1029	Sardines, canned in oil, undrained	100.0	56.9	1130.0	1130.0	18.0
+K1031	Sardines, canned in tomato sauce, undrained	100.0	71.7	590.0	600.0	16.3
+K1032	Sardines, canned in water, drained	100.0	68.9	652.0	652.0	20.5
+K1049	Shark or lemonfish, fillet, flesh, fresh battered, deep-fried in canola oil	100.0	58.6	965.0	979.0	23.0
+K1036	Snapper, fillet, flesh, fresh, baked without oil	100.0	74.0	484.0	484.0	25.2
+K1040	Snapper, fillet, flesh, fresh, battered, deep-fried in canola oil	100.0	54.8	1060.0	1070.0	18.5
+K1039	Snapper, fillet, flesh, fresh, crumbed, deep-fried in canola oil	100.0	56.8	908.0	924.0	20.3
+K1041	Snapper, fillet, flesh, fresh, crumbed, pan-fried with canola oil	100.0	60.7	786.0	802.0	18.1
+K1035	Snapper, fillet, flesh, fresh, pan-fried with canola oil	100.0	70.4	567.0	567.0	25.9
+K1038	Snapper, fillet, flesh, fresh, poached or simmered	100.0	75.0	445.0	445.0	23.4
+K1037	Snapper, fillet, flesh, fresh, steamed or microwaved	100.0	75.6	433.0	433.0	22.4
+K1043	Tarakihi, fillet, flesh, fresh, pan-fried with canola oil	100.0	65.9	687.0	687.0	29.2
+K1044	Tarakihi, fillet, flesh, fresh, poached or simmered	100.0	72.2	539.0	539.0	25.6
+K1012	Tuna, canned in assorted oil, plain, undrained	100.0	56.2	1130.0	1130.0	19.9
+K1011	Tuna, canned in assorted oils, plain, drained	100.0	65.2	731.0	731.0	26.4
+K1007	Tuna, canned in brine, plain, drained	100.0	71.1	492.0	492.0	26.8
+K1008	Tuna, canned in oil, assorted flavours, undrained	100.0	71.6	559.0	559.0	15.4
+K1006	Tuna, canned in spring water, plain, salt added, drained	100.0	72.1	490.0	490.0	26.6
+K1010	Tuna, canned in spring water, plain, salt added, undrained	100.0	78.1	368.0	368.0	20.1
+K1009	Tuna, canned in water, assorted flavours, undrained	100.0	75.1	330.0	330.0	12.3
+K1005	Tuna, in brine, plain, canned, undrained	100.0	77.8	378.0	378.0	20.7
+nan	nan	nan	nan	nan	0	nan
+L	FRUITS	nan	nan	nan	0	nan
+L16	Apple, cooking, flesh, stewed	100.0	87.7	153.0	163.0	0.25
+L1153	Apple, flesh & skin, raw, combined varieties	100.0	86.2	196.0	213.0	0.21
+L1154	Apple, flesh, raw, combined varieties	100.0	86.5	188.0	199.0	0.22
+L1137	Apricot, canned in juice, undrained	100.0	87.6	174.0	181.0	0.38
+L1140	Apricot, canned in syrup, drained	100.0	82.1	245.0	253.0	0.55
+L1141	Apricot, canned in syrup, undrained	100.0	82.5	256.0	264.0	0.41
+L1156	Apricot, dried	100.0	28.1	663.0	722.0	2.56
+L1168	Apricot, flesh & skin, raw, fresh	100.0	86.9	130.0	145.0	0.9
+L25	Apricot, flesh & skin, stewed	100.0	87.9	101.0	114.0	0.44
+L1159	Avocado, 'Hass', New Zealand	100.0	67.6	871.0	912.0	1.78
+L1101	Banana, yellow, ripened, raw	100.0	74.6	382.0	397.0	1.03
+L1226	Blackberries, whole fruit, frozen	100.0	85.5	150.0	186.0	1.16
+L34	Blackberry, raw	100.0	82.0	211.0	260.0	1.25
+L1047	Blackcurrant, 'Ben Ard', frozen	100.0	79.4	184.0	229.0	1.25
+L1225	Blackcurrant, frozen	100.0	79.7	186.0	225.0	1.36
+L1052	Blackcurrant, puree, frozen	100.0	84.1	146.0	168.0	0.63
+L50	Blackcurrant, raw	100.0	82.0	283.0	318.0	0.94
+L1234	Blueberry, frozen	100.0	83.7	193.0	221.0	0.29
+L1051	Blueberry, frozen, New Zealand	100.0	83.7	192.0	220.0	0.63
+L1050	Blueberry, raw	100.0	84.1	180.0	211.0	0.63
+L1231	Boysenberry, frozen	100.0	87.6	141.0	173.0	0.82
+L1045	Boysenberry, frozen, New Zealand	100.0	86.5	147.0	186.0	1.25
+L1046	Boysenberry, puree, seedless, frozen	100.0	88.7	162.0	173.0	1.25
+L40	Boysenberry, raw	100.0	85.2	168.0	227.0	1.13
+L45	Cherry, flesh & skin, raw	100.0	79.6	263.0	273.0	0.94
+L1232	Cherry, frozen	100.0	80.3	204.0	215.0	0.74
+L1023	Cranberry, dried, sweetened	100.0	16.0	1160.0	1200.0	0.07
+L1230	Cranberry, frozen	100.0	88.8	86.0	114.0	0.22
+L49	Currant, dried	100.0	22.0	1190.0	1240.0	2.31
+L1161	Date, pitted, flesh, dried	100.0	13.0	1160.0	1220.0	2.32
+L67	Feijoa, flesh, raw	100.0	85.4	159.0	183.0	0.63
+L68	Fig, dried	100.0	21.3	1050.0	1170.0	3.63
+L196	Fruit mix, dried	100.0	17.9	1230.0	1270.0	2.31
+L1147	Fruit salad, canned in syrup, undrained	100.0	81.5	291.0	303.0	0.26
+L78	Gooseberry, flesh, skin & seeds, raw	100.0	83.7	186.0	220.0	0.56
+L82	Grape, black, flesh, raw	100.0	80.7	277.0	284.0	0.56
+L1018	Grape, red or green, seedless, raw, European type	100.0	80.5	282.0	282.0	0.75
+L83	Grape, white, flesh & skin, raw	100.0	79.3	288.0	295.0	0.63
+L80	Grapefruit, flesh, raw	100.0	90.7	99.0	104.0	0.63
+L91	Juice, lemon, raw	100.0	91.3	40.0	100.0	0.31
+L113	Juice, orange, raw	100.0	87.7	174.0	176.0	0.63
+L1212	Kiwiberry, whole fruit, fresh, raw	100.0	79.9	242.0	269.0	1.33
+L1267	Kiwifruit, Zespri™ Green Kiwifruit, flesh & seeds, raw	100.0	82.2	202.0	220.0	0.82
+L10022	Kiwifruit, Zespri™ Organic Green ('Hayward') Kiwifruit, flesh & seeds, raw	100.0	81.9	215.0	234.0	0.73
+L10021	Kiwifruit, Zespri™ Organic SunGold Kiwifruit, flesh & seeds, raw	100.0	81.5	235.0	245.0	0.77
+L1266	Kiwifruit, Zespri™ RubyRed Kiwifruit, flesh & seeds, raw	100.0	80.4	232.0	246.0	0.92
+L1268	Kiwifruit, Zespri™ SunGold Kiwifruit, flesh & seeds, raw	100.0	81.5	215.0	224.0	0.86
+L1078	Kiwifruit, Zespri™ Sweet Green Kiwifruit, flesh & seeds, raw	100.0	80.3	239.0	289.0	1.27
+L183	Lemon, flesh, raw	100.0	92.2	57.0	80.0	0.63
+L97	Lychee, canned in syrup, undrained	100.0	79.3	307.0	312.0	0.38
+L1183	Mandarin, flesh, fresh, raw	100.0	86.4	161.0	171.0	0.91
+L100	Mango, canned in syrup, undrained	100.0	82.7	288.0	295.0	0.31
+L101	Mango, flesh, raw	100.0	83.0	264.0	276.0	0.5
+L1229	Mango, frozen	100.0	84.8	215.0	224.0	0.5
+L105	Melon, Honeydew, flesh, raw	100.0	88.5	195.0	200.0	1.25
+L106	Melon, rock, flesh, raw	100.0	90.0	129.0	134.0	1.13
+L1166	Nectarine, yellow, flesh & skin, fresh, raw	100.0	85.0	176.0	191.0	0.91
+L112	Olive, in brine	100.0	76.5	452.0	478.0	0.88
+L1155	Orange, flesh, raw, USA	100.0	85.7	170.0	184.0	1.26
+L1182	Orange, peeled, seeded, fresh, raw	100.0	86.0	159.0	173.0	1.06
+L116	Passion fruit, flesh & seed, raw	100.0	74.4	191.0	302.0	2.75
+L1123	Peach, canned in juice, undrained	100.0	86.8	206.0	215.0	0.54
+L1126	Peach, canned in syrup, drained	100.0	82.3	281.0	290.0	0.56
+L1167	Peach, yellow,  flesh and skin, fresh, raw	100.0	86.9	147.0	161.0	0.79
+L204	Pear, canned in juice, undrained	100.0	86.6	157.0	170.0	0.52
+L1015	Pear, flesh & skin, raw	100.0	84.7	188.0	213.0	0.37
+L1185	Pear, golden russet coloured skin, flesh & skin, fresh, raw	100.0	84.1	144.0	170.0	0.3
+L1184	Pear, green to yellow skin, flesh & skin, fresh, raw	100.0	84.9	145.0	164.0	0.36
+L1165	Pear, nashi, gold colour skin, flesh & skin, fresh, raw	100.0	86.7	138.0	162.0	0.28
+L1160	Persimmon, flesh, fresh, raw,  New Zealand	100.0	83.9	266.0	278.0	2.5
+L1130	Pineapple, canned in juice, drained	100.0	85.1	232.0	244.0	0.68
+L1134	Pineapple, canned in syrup, drained	100.0	80.5	306.0	317.0	0.75
+L1135	Pineapple, canned in syrup, undrained	100.0	80.7	305.0	316.0	0.7
+L144	Pineapple, flesh, raw	100.0	86.5	210.0	227.0	0.5
+L1227	Pineapple, frozen	100.0	86.4	193.0	203.0	0.46
+L1053	Plum, 'Royal Star', flesh, raw	100.0	85.2	190.0	204.0	0.0
+L148	Plum, canned in syrup, drained	100.0	70.7	520.0	531.0	0.44
+L154	Plum, cooking, stewed	100.0	86.3	139.0	152.0	0.5
+L155	Plum, flesh & skin, raw	100.0	85.4	271.0	285.0	0.88
+L157	Prune, dried	100.0	37.1	615.0	681.0	2.81
+L159	Prune, dried, stewed	100.0	69.7	366.0	420.0	1.38
+L161	Raisin, seedless	100.0	20.9	1210.0	1250.0	3.25
+L1055	Raspberry, 'Meeker', frozen	100.0	85.1	121.0	150.0	1.25
+L1054	Raspberry, 'Wakefield', frozen	100.0	85.2	124.0	162.0	1.25
+L1228	Raspberry, frozen	100.0	85.9	154.0	189.0	1.17
+L1209	Rhubarb, stalk, stewed without sugar, little water added	100.0	89.9	85.0	112.0	0.97
+L1233	Strawberry, frozen	100.0	90.9	106.0	120.0	0.64
+L1016	Strawberry, raw, New Zealand	100.0	91.3	137.0	151.0	0.72
+L173	Sultana	100.0	16.0	1340.0	1380.0	2.75
+L174	Tamarillo, red, flesh & seed, raw	100.0	86.1	112.0	165.0	2.0
+L179	Tangelo, flesh, raw	100.0	85.9	147.0	163.0	0.63
+L176	Tangerine, flesh, raw	100.0	86.7	153.0	172.0	0.88
+L1121	Watermelon, flesh, raw	100.0	90.0	151.0	155.0	0.86
+M	MEATS	nan	nan	nan	0	nan
+M1232	Beef mince, prime, 5–10% fat, raw	100.0	66.5	759.0	759.0	19.4
+M1233	Beef mince, standard, 10–20% fat, raw	100.0	63.8	951.0	951.0	19.3
+M1034	Beef, canned, Corned Beef, Salisbury	100.0	63.7	849.0	849.0	22.5
+M1036	Beef, canned, Lite Corned Beef, Salisbury	100.0	62.2	891.0	891.0	23.0
+M1039	Beef, corned silverside, raw	100.0	75.7	457.0	457.0	14.5
+M1221	Beef, forequarter & hindquarter assorted cuts, separable lean & fat, cooked	100.0	57.2	970.0	970.0	28.9
+M1149	Beef, forequarter & hindquarter assorted cuts, separable lean, cooked	100.0	60.4	848.0	848.0	30.7
+M1070	Beef, forequarter brisket navel end, separable lean, braised	100.0	54.9	1100.0	1100.0	29.3
+M1071	Beef, forequarter brisket point end, separable lean, braised	100.0	58.6	848.0	848.0	34.5
+M1173	Beef, forequarter chuck steak, separable lean & fat, braised	100.0	57.3	991.0	991.0	30.0
+M1072	Beef, forequarter chuck steak, separable lean, braised	100.0	59.7	874.0	874.0	32.1
+M1175	Beef, forequarter oyster blade, separable lean & fat, braised	100.0	59.7	948.0	948.0	28.5
+M1074	Beef, forequarter oyster blade, separable lean, braised	100.0	62.4	821.0	821.0	29.9
+M1176	Beef, forequarter ribs prepared, separable lean & fat, fast-roasted	100.0	58.1	998.0	998.0	24.9
+M1075	Beef, forequarter ribs prepared, separable lean, fast-roasted	100.0	61.8	823.0	823.0	27.2
+M1174	Beef, forequarter scotch fillet, separable lean & fat, fast-roasted	100.0	54.2	1130.0	1130.0	28.0
+M1073	Beef, forequarter scotch fillet, separable lean, fast-roasted	100.0	56.8	1000.0	1000.0	30.1
+M1185	Beef, hindquarter fillet, separable lean & fat, fast-fried	100.0	59.5	840.0	840.0	29.3
+M1085	Beef, hindquarter fillet, separable lean, fast-fried	100.0	59.7	833.0	833.0	29.4
+M1183	Beef, hindquarter rump steak, separable lean & fat, fast-fried	100.0	61.6	800.0	800.0	30.0
+M1083	Beef, hindquarter rump steak, separable lean, fast-fried	100.0	61.8	790.0	790.0	30.2
+M1180	Beef, hindquarter shank, separable lean & fat, braised	100.0	61.8	825.0	825.0	29.8
+M1080	Beef, hindquarter shank, separable lean, braised	100.0	64.4	703.0	703.0	31.2
+M1079	Beef, hindquarter silverside excluding the eye, separable lean, braised	100.0	56.4	946.0	946.0	33.2
+M1179	Beef, hindquarter silverside, excluding the eye, separable lean & fat, braised	100.0	55.1	1010.0	1010.0	31.9
+M1177	Beef, hindquarter silverside, separable lean & fat, slow-roasted	100.0	65.0	707.0	707.0	29.5
+M1077	Beef, hindquarter silverside, separable lean, slow-roasted	100.0	65.4	689.0	689.0	29.7
+M1184	Beef, hindquarter sirloin, separable lean & fat, fast-fried	100.0	52.4	1250.0	1250.0	24.9
+M1084	Beef, hindquarter sirloin, separable lean, fast-fried	100.0	59.6	907.0	907.0	28.5
+M1178	Beef, hindquarter skirt steak, separable lean & fat, braised	100.0	60.7	853.0	853.0	30.2
+M1078	Beef, hindquarter skirt steak, separable lean, braised	100.0	61.5	816.0	816.0	30.7
+M1182	Beef, hindquarter thick flank, separable lean & fat, fast-fried	100.0	63.1	819.0	819.0	26.6
+M1082	Beef, hindquarter thick flank, separable lean, fast-fried	100.0	64.7	748.0	748.0	27.5
+M1181	Beef, hindquarter topside cap off, separable lean & fat, braised	100.0	57.5	876.0	876.0	34.2
+M1081	Beef, hindquarter topside cap off, separable lean, braised	100.0	57.8	858.0	858.0	34.5
+M20	Beef, mince, lean, stewed	100.0	69.7	628.0	628.0	23.9
+M1076	Beef, mince, premium, simmered	100.0	73.1	532.0	532.0	24.2
+M1089	Beef, offal, sweetbreads, simmered	100.0	56.3	1320.0	1320.0	12.5
+M10015	Chicken, breast, flesh, deli cooked	100.0	67.6	556.0	556.0	24.3
+M10040	Chicken, breast, lean, fresh, baked or roasted, no fat or salt added	100.0	68.4	581.0	581.0	28.2
+M10041	Chicken, breast, lean, fresh, stewed or boiled, no salt added	100.0	66.2	635.0	635.0	31.1
+M10033	Chicken, breast, lean, separable fat & skin, baked or roasted, no fat or salt added	100.0	64.6	744.0	744.0	28.1
+M10019	Chicken, breast, smoked, commercial, skin off	100.0	74.4	431.0	431.0	20.1
+M10064	Chicken, dark meat (leg), flesh, lean & separable fat, fresh, baked or roasted, (skin removed before eaten), no fat or salt added	100.0	65.8	727.0	727.0	25.1
+M10061	Chicken, dark meat (leg), flesh, lean, fresh, baked or roasted, no salt & fat added	100.0	68.9	628.0	628.0	23.7
+M10062	Chicken, dark meat (leg), flesh, lean, separable fat & skin, fresh, baked or roasted, no fat or salt added	100.0	63.5	847.0	847.0	22.8
+M10063	Chicken, dark meat (leg), flesh, lean, stewed or boiled, no salt added	100.0	66.0	686.0	686.0	26.1
+M10073	Chicken, deli cooked, composite cuts, flesh, lean & separable fat	100.0	65.9	640.0	640.0	25.2
+M10016	Chicken, drumstick, flesh, deli cooked	100.0	60.1	783.0	783.0	28.3
+M10012	Chicken, drumstick, flesh, fresh, baked or roasted (skin removed before eaten), no salt or fat added	100.0	66.0	711.0	711.0	26.5
+M10048	Chicken, drumstick, flesh, lean, baked or roasted, no salt or fat added	100.0	64.1	763.0	763.0	28.8
+M10052	Chicken, drumstick, flesh, lean, separable fat & skin, fresh, baked or roasted, no salt or fat added	100.0	51.4	1300.0	1300.0	24.2
+M10049	Chicken, drumstick, flesh, lean, stewed or boiled, no salt added	100.0	68.5	674.0	674.0	26.0
+M10008	Chicken, flesh, breast, fresh, baked or roasted (skin removed before eaten), no fat or salt added	100.0	68.4	588.0	588.0	29.0
+M10045	Chicken, light meat, lean & separable fat, baked or roasted (skin removed before eaten), no salt or fat added	100.0	67.8	612.0	612.0	28.9
+M10038	Chicken, light meat, lean & separable fat, fresh, raw	100.0	73.4	569.0	569.0	20.4
+M10044	Chicken, light meat, lean, baked or roasted, no fat or salt added	100.0	67.3	616.0	616.0	28.6
+M10047	Chicken, light meat, lean, fresh stewed or boiled, no salt added	100.0	66.1	650.0	650.0	30.9
+M10046	Chicken, light meat, lean, separable fat & skin, baked or roasted, no salt or fat added	100.0	61.6	860.0	860.0	27.0
+M10072	Chicken, liver, pan-fried, no added salt or fat	100.0	70.5	577.0	577.0	22.7
+M1153	Chicken, mince, pan-fried, with no added fat, premium, Tegel®	100.0	58.4	791.0	791.0	34.6
+M10017	Chicken, thigh, flesh, deli cooked	100.0	66.1	735.0	735.0	23.9
+M10014	Chicken, thigh, flesh, fresh, baked or roasted (skin removed before eaten), no salt or fat added	100.0	65.6	754.0	754.0	24.1
+M10053	Chicken, thigh, flesh, lean, baked or roasted, no salt or fat added	100.0	73.1	538.0	538.0	20.3
+M10054	Chicken, thigh, flesh, lean, fresh, stewed or boiled, no salt and fat added	100.0	65.2	696.0	696.0	26.2
+M10057	Chicken, thigh, flesh, lean, separable fat & skin, fresh, baked or roasted, no salt and fat added	100.0	62.1	1010.0	1010.0	23.9
+M10068	Chicken, whole, composite cuts, flesh, lean & separable fat, fresh, baked or roasted, (skin removed before eaten), no fat or salt added	100.0	67.5	636.0	636.0	27.7
+M10069	Chicken, whole, composite cuts, flesh, lean, fresh, baked or roasted, no fat or salt added	100.0	67.3	620.0	620.0	27.1
+M10071	Chicken, whole, composite cuts, flesh, lean, fresh, stewed or boiled, no salt added	100.0	65.4	663.0	663.0	28.9
+M10070	Chicken, whole, composite cuts, flesh, lean, separable fat & skin, fresh, baked or roasted, no fat or salt added 	100.0	61.7	856.0	856.0	25.8
+M10020	Chicken, whole, composite cuts, smoked, skin off	100.0	70.5	534.0	534.0	21.6
+M10010	Chicken, wing, flesh, fresh, baked or roasted (skin removed before eaten), no fat or salt added	100.0	63.0	789.0	789.0	28.3
+M10042	Chicken, wing, flesh, lean, baked or roasted, no fat or salt added	100.0	60.0	851.0	851.0	31.1
+M10043	Chicken, wing, flesh, lean, fresh, stewed or boiled, no salt added	100.0	65.4	755.0	755.0	29.4
+M10036	Chicken, wing, lean, separable fat & skin, baked or roasted, no fat or salt added	100.0	57.8	1010.0	1010.0	27.0
+M10018	Chicken, wings, flesh, deli cooked	100.0	60.0	845.0	845.0	29.0
+M75	Duck, composite cuts, separable lean, roasted	100.0	64.2	789.0	789.0	25.3
+M1223	Lamb, forequarter & hindquarter assorted cuts, separable lean & fat, cooked	100.0	55.9	1110.0	1110.0	24.1
+M1151	Lamb, forequarter & hindquarter assorted cuts, separable lean, cooked	100.0	63.2	820.0	820.0	27.6
+M1204	Lamb, forequarter breast, separable lean & fat, braised	100.0	41.6	1810.0	1810.0	18.2
+M1122	Lamb, forequarter breast, separable lean, braised	100.0	54.8	1130.0	1130.0	28.2
+M1205	Lamb, forequarter fore-shank, separable lean & fat, braised	100.0	55.6	1070.0	1070.0	30.3
+M1123	Lamb, forequarter fore-shank, separable lean, braised	100.0	59.3	877.0	877.0	33.3
+M1207	Lamb, forequarter rack fully Frenched, separable lean & fat, fast-roasted	100.0	64.9	807.0	807.0	23.6
+M1125	Lamb, forequarter rack fully Frenched, separable lean, fast-roasted	100.0	66.7	725.0	725.0	24.4
+M1208	Lamb, forequarter rack partially Frenched, separable  lean & fat, fast-roasted	100.0	59.7	1050.0	1050.0	22.1
+M1126	Lamb, forequarter rack partially Frenched, separable lean, fast-roasted	100.0	65.0	809.0	809.0	24.4
+M1206	Lamb, forequarter round neck chops, separable lean & fat, braised	100.0	51.3	1270.0	1270.0	28.6
+M1124	Lamb, forequarter round neck chops, separable lean, braised	100.0	54.6	1100.0	1100.0	31.4
+M1203	Lamb, forequarter shoulder boneless rolled & netted, separable lean & fat, slow-roasted	100.0	56.4	1190.0	1190.0	21.4
+M1121	Lamb, forequarter shoulder boneless rolled & netted, separable lean, slow-roasted	100.0	64.2	831.0	831.0	25.1
+M1210	Lamb, forequarter shoulder chops, separable lean & fat, braised	100.0	50.1	1340.0	1340.0	26.7
+M1128	Lamb, forequarter shoulder chops, separable lean, braised	100.0	55.4	1070.0	1070.0	31.1
+M1209	Lamb, forequarter shoulder square cut, separable lean & fat, slow-roasted	100.0	56.1	1210.0	1210.0	21.0
+M1127	Lamb, forequarter shoulder square cut, separable lean, slow-roasted	100.0	65.0	801.0	801.0	25.1
+M1217	Lamb, hindquarter double loin, separable lean & fat, fast-roasted	100.0	58.3	1130.0	1130.0	21.2
+M1136	Lamb, hindquarter double loin, separable lean, fast-roasted	100.0	68.3	682.0	682.0	25.5
+M1218	Lamb, hindquarter fillet, separable lean & fat, fast-fried	100.0	66.3	658.0	658.0	27.9
+M1137	Lamb, hindquarter fillet, separable lean, fast-fried	100.0	66.4	653.0	653.0	27.9
+M1213	Lamb, hindquarter flap boneless, separable lean & fat, simmered	100.0	48.5	1520.0	1520.0	20.9
+M1132	Lamb, hindquarter flap boneless, separable lean, simmered	100.0	60.1	977.0	977.0	27.9
+M1215	Lamb, hindquarter knuckle, separable lean & fat, braised	100.0	56.9	1030.0	1030.0	29.6
+M1134	Lamb, hindquarter knuckle, separable lean, braised	100.0	60.9	825.0	825.0	32.5
+M1219	Lamb, hindquarter leg boned, separable lean & fat, slow-roasted	100.0	63.9	864.0	864.0	23.4
+M1138	Lamb, hindquarter leg boned, separable lean, slow-roasted	100.0	68.1	668.0	668.0	25.3
+M1211	Lamb, hindquarter leg chop, separable lean & fat, fast-fried	100.0	63.2	883.0	883.0	24.3
+M1130	Lamb, hindquarter leg chop, separable lean, fast-fried	100.0	67.6	682.0	682.0	26.3
+M1216	Lamb, hindquarter middle loin chop, separable lean & fat, fast-fried	100.0	50.2	1360.0	1360.0	21.6
+M1135	Lamb, hindquarter middle loin chop, separable lean, fast-fried	100.0	60.2	862.0	862.0	27.4
+M1212	Lamb, hindquarter rump, separable lean & fat, fast-roasted	100.0	60.9	1030.0	1030.0	20.1
+M1131	Lamb, hindquarter rump, separable lean, fast-roasted	100.0	70.6	597.0	597.0	23.7
+M1214	Lamb, hindquarter striploin, separable lean & fat, fast-roasted	100.0	66.7	661.0	661.0	29.0
+M1133	Lamb, hindquarter striploin, separable lean, fast-roasted	100.0	66.7	659.0	659.0	29.0
+M1129	Lamb, mince, standard, stewed	100.0	66.6	804.0	804.0	22.6
+M1139	Lamb, offal, brain, raw, simmered, drained & fried	100.0	73.1	643.0	643.0	14.0
+M1140	Lamb, offal, heart, simmered & drained	100.0	66.6	676.0	676.0	26.3
+M1141	Lamb, offal, kidney, fried	100.0	75.1	468.0	468.0	19.8
+M1142	Lamb, offal, lambs fry, fried	100.0	64.6	681.0	681.0	25.8
+M598	Mutton, leg, lean, roasted	100.0	59.7	788.0	788.0	30.0
+M1086	Ox, offal, heart, simmered	100.0	62.3	754.0	754.0	31.3
+M1087	Ox, offal, kidney, simmered	100.0	66.4	659.0	659.0	27.3
+M1088	Ox, offal, liver, fast-fried	100.0	66.4	569.0	569.0	23.3
+M429	Pork, forequarter scotch fillet, separable lean, grilled	100.0	59.9	869.0	869.0	30.2
+M465	Pork, forequarter shoulder roast, lean 74%, fat 20% & skin 6%, roasted	100.0	55.1	1150.0	1150.0	27.3
+M124	Pork, ham, separable lean 92% & fat 8%, cooked	100.0	68.1	607.0	607.0	16.8
+M533	Pork, leg roast, lean, roasted	100.0	63.3	730.0	730.0	31.8
+M94	Pork, leg shank, lean & fat, roasted	100.0	55.3	1080.0	1080.0	23.9
+M286	Pork, leg steak, lean & fat, grilled	100.0	70.5	591.0	591.0	22.8
+M411	Pork, leg steak, lean, stewed	100.0	62.1	740.0	740.0	35.1
+M285	Pork, leg steak, separable lean, grilled	100.0	72.5	504.0	504.0	23.4
+M99	Pork, loin chops, lean, grilled	100.0	52.5	741.0	741.0	29.4
+M434	Pork, loin, medallion, lean, grilled	100.0	60.9	770.0	770.0	32.4
+M98	Pork, midloin chops, lean & fat, grilled	100.0	50.6	864.0	864.0	28.0
+M409	Pork, schnitzel, lean, fried	100.0	64.6	678.0	678.0	31.5
+M278	Pork, shoulder, separable lean, roasted	100.0	57.3	955.0	955.0	29.2
+M126	Rabbit, flesh, stewed	100.0	63.9	749.0	749.0	27.3
+M53	Tongue, beef & sheep, canned	100.0	63.9	883.0	883.0	16.0
+M179	Turkey, flesh, roasted	100.0	64.8	678.0	678.0	30.6
+M395	Turkey, lean & fat, raw	100.0	74.4	513.0	513.0	20.0
+M373	Turkey, lean & fat, roasted in oven bag	100.0	64.1	712.0	712.0	30.0
+M178	Turkey, lean, fat & skin, roasted	100.0	62.5	779.0	779.0	28.9
+M1023	Venison, Diced, Silver Fern®, cooked	100.0	69.4	488.0	488.0	25.9
+M1021	Venison, Medallion, Silver Fern®, cooked	100.0	68.5	538.0	538.0	27.7
+M1022	Venison, Stir Fry, Silver Fern®, cooked	100.0	70.2	517.0	517.0	27.7
+M1020	Venison, mince, Silver Fern®, raw	100.0	75.8	465.0	465.0	21.0
+M185	Venison, red deer, leg, flesh, roasted	100.0	66.0	659.0	659.0	26.6
+nan	nan	nan	nan	nan	0	nan
+N	MEAT PRODUCTS	nan	nan	nan	0	nan
+N1051	Bacon rasher, rindless, pan-fried with no added fat, assorted types	100.0	32.6	1570.0	1570.0	31.6
+N31	Beef, pastrami	100.0	46.7	1370.0	1370.0	17.3
+N58	Chicken, nugget, crumbed, baked	100.0	48.6	1070.0	1090.0	15.8
+N57	Chicken, nugget, crumbed, deep-fried	100.0	48.1	1050.0	1050.0	15.8
+N65	Ham, sliced	100.0	70.7	440.0	440.0	13.0
+N22	Pate, chicken liver	100.0	50.6	1460.0	1470.0	13.1
+N23	Pate, pork liver	100.0	50.6	1310.0	1320.0	13.1
+N1053	Patty, burger, beef, not crumbed, frozen, pan-fried without oil	100.0	57.9	925.0	941.0	16.4
+N1055	Patty, burger, chicken, crumbed, frozen, pan-fried with oil	100.0	52.4	1030.0	1040.0	11.1
+N4	Pie, Cornish pasty	100.0	39.2	1370.0	1380.0	8.0
+N12	Pie, pork	100.0	36.8	1550.0	1560.0	9.75
+N63	Sausage, assorted meats & flavours, dry fried	100.0	54.8	918.0	922.0	12.6
+N64	Sausage, assorted meats & flavours, grilled	100.0	50.3	1170.0	1190.0	14.3
+N61	Sausage, assorted meats & flavours, precooked, grilled	100.0	51.3	987.0	987.0	13.2
+N1023	Sausage, beef, barbecued, with no added fat	100.0	57.1	1090.0	1100.0	15.3
+N1024	Sausage, beef, boiled, drained	100.0	60.3	1020.0	1030.0	13.7
+N1022	Sausage, beef, grilled, with no added fat	100.0	56.0	1140.0	1150.0	15.0
+N1021	Sausage, beef, pan-fried, with no added fat	100.0	56.7	1030.0	1050.0	15.9
+N2	Sausage, black pudding, fried	100.0	44.0	1260.0	1280.0	12.9
+N1031	Sausage, chicken, barbecued, with no added fat	100.0	59.5	881.0	894.0	13.9
+N1032	Sausage, chicken, boiled, drained	100.0	64.1	796.0	808.0	12.7
+N1030	Sausage, chicken, grilled, with no added fat	100.0	57.5	925.0	939.0	14.9
+N1029	Sausage, chicken, pan-fried, with no added fat	100.0	59.5	878.0	890.0	13.6
+N6	Sausage, frankfurters, precooked	100.0	59.5	1130.0	1150.0	9.5
+N1035	Sausage, lamb, barbecued, with no added fat	100.0	61.4	869.0	885.0	17.7
+N1036	Sausage, lamb, boiled, drained	100.0	63.8	854.0	868.0	14.8
+N1034	Sausage, lamb, grilled, with no added fat	100.0	58.4	1010.0	1020.0	16.9
+N1033	Sausage, lamb, pan-fried, with no added fat	100.0	60.8	928.0	943.0	16.3
+N1027	Sausage, pork, barbecued, with no added fat	100.0	61.0	939.0	954.0	16.8
+N1028	Sausage, pork, boiled, drained	100.0	62.8	869.0	882.0	14.3
+N1026	Sausage, pork, grilled, with no added fat	100.0	59.2	932.0	947.0	15.9
+N1025	Sausage, pork, pan-fried, with no added fat	100.0	59.9	917.0	932.0	16.2
+N1039	Sausage, salami assorted meats & flavours	100.0	49.2	1230.0	1240.0	21.9
+N1038	Sausage, salami assorted meats & flavours, acidulated, heat treated	100.0	55.1	1120.0	1120.0	18.6
+N43	Sausage, saveloy, boiled	100.0	62.2	899.0	917.0	14.5
+nan	nan	nan	nan	nan	0	nan
+P	MISELLANEOUS	nan	nan	nan	0	nan
+P68	Coffee whitener, powder	100.0	2.2	2330.0	2330.0	4.81
+P1010	Coriander, leaves & stem, fresh, raw	100.0	91.8	78.0	99.0	3.0
+P10	Salt, table, un-iodised	100.0	0.1	0.0	0.0	0.0
+P1003	Seed, poppy	100.0	8.4	1940.0	2090.0	20.2
+P10001	Spice, pepper, black, dried	100.0	10.9	909.0	1170.0	10.4
+P1004	Spread, yeast extract, Marmite™, Sanitarium™, fortified  vitamins B1, B2, B3, B12 & folate, & Fe	100.0	31.1	587.0	676.0	17.4
+P1005	Spread, yeast extract, Vegemite, Kraft, fortified vitamins B1, B2, B3 & folate	100.0	35.5	527.0	602.0	25.3
+P16	Stock, Oxo cubes	100.0	9.1	983.0	983.0	39.3
+P11	Vinegar	100.0	95.5	18.0	58.0	0.44
+P59	Vinegar, cider	100.0	95.5	10.0	79.0	0.0
+P13	Yeast, baker's, dried	100.0	5.0	781.0	949.0	39.5
+nan	nan	nan	nan	nan	0	nan
+Q	NUTS AND SEEDS	nan	nan	nan	0	nan
+Q1041	Almond, dried, blanched	100.0	4.4	2510.0	2590.0	21.8
+Q1008	Almond, dry roasted, salt added	100.0	2.6	2420.0	2510.0	22.1
+Q1004	Almond, dry roasted, unblanched, no salt added	100.0	2.6	2430.0	2520.0	22.1
+Q1025	Almond, kernels, dried, raw, unblanched	100.0	5.1	2400.0	2490.0	20.1
+Q1003	Almond, roasted with oil, unblanched, no salt added	100.0	2.8	2490.0	2570.0	21.2
+Q4	Brazil nut, raw	100.0	8.5	2790.0	2860.0	12.0
+Q1057	Cashew nut, dry roasted, salted	100.0	2.9	2410.0	2450.0	18.4
+Q1058	Cashew nut, dry roasted, unsalted	100.0	1.1	2410.0	2450.0	18.2
+Q1056	Cashew nut, raw	100.0	4.8	2310.0	2350.0	17.6
+Q1034	Coconut yoghurt, from coconut cream, assorted fruit flavours, sugar-sweetened	100.0	72.0	824.0	826.0	1.65
+Q1033	Coconut yoghurt, from coconut cream, plain, unsweetened	100.0	68.7	950.0	952.0	1.98
+Q1036	Coconut yoghurt, from coconut milk, assorted fruit flavours, sugar-sweetened	100.0	77.4	488.0	489.0	0.8
+Q1035	Coconut yoghurt, from coconut milk, plain, unsweetened	100.0	81.1	507.0	508.0	0.83
+Q1014	Coconut, cream, premium	100.0	68.8	1050.0	1060.0	3.57
+Q1055	Coconut, desiccated	100.0	1.9	2770.0	2890.0	7.28
+Q1054	Coconut, mature fruit, white flesh, grated, fresh	100.0	47.2	1490.0	1550.0	4.47
+Q1015	Coconut, milk, standard	100.0	74.3	819.0	821.0	1.25
+Q1023	Hazelnut, whole, skin on, raw	100.0	5.1	2680.0	2770.0	13.5
+Q1042	Hemp seed, hulled, dry	100.0	6.5	2420.0	2460.0	29.8
+Q1039	Linseed (45%), sunflower seed (22.5%), almond (10%) and pumpkin seed (22.5%) (LSA+P), ground	100.0	7.1	2070.0	2200.0	21.9
+Q1045	Macadamia nut, dried, raw	100.0	2.0	3090.0	3150.0	7.63
+Q1050	Macadamia nut, dry roasted, salted	100.0	1.8	3020.0	3090.0	7.71
+Q1049	Macadamia nut, dry roasted, unsalted	100.0	1.3	3110.0	3170.0	7.48
+Q11	Nut, mixed, salted	100.0	2.5	2500.0	2550.0	22.6
+Q1020	Peanut butter, smooth & crunchy, no sugar or salt added	100.0	0.7	2490.0	2610.0	22.4
+Q1021	Peanut butter, smooth & crunchy, salt & sugar added	100.0	0.8	2460.0	2580.0	19.1
+Q1019	Peanut butter, smooth & crunchy, salt added, no sugar added	100.0	0.6	2510.0	2640.0	24.3
+Q1064	Peanut, blanched, dry roasted, unsalted	100.0	1.0	2430.0	2500.0	24.9
+Q1062	Peanut, blanched, raw	100.0	5.2	2310.0	2370.0	23.7
+Q1063	Peanut, blanched, roasted, salted	100.0	1.3	2430.0	2500.0	24.9
+Q1060	Peanut, with skin, dry roasted, salted	100.0	5.3	2410.0	2470.0	24.3
+Q1059	Peanut, with skin, raw	100.0	6.3	2310.0	2370.0	23.3
+Q1061	Peanut, with skin, roasted, unsalted	100.0	2.5	2430.0	2500.0	24.6
+Q1044	Pecan nut, dried, raw	100.0	3.3	2960.0	3030.0	8.96
+Q1048	Pecan nut, dry roasted, unsalted	100.0	0.2	2990.0	3070.0	9.27
+Q1043	Pine nut, dried, raw	100.0	2.8	2810.0	2860.0	16.4
+Q1047	Pine nut, dry roasted, unsalted	100.0	0.4	2890.0	2940.0	15.5
+Q1046	Pistachio nut, dried, raw, unsalted	100.0	4.1	2320.0	2400.0	21.5
+Q1052	Pistachio nut, dry roasted without shell, no salt added	100.0	1.2	2430.0	2510.0	22.5
+Q1051	Pistachio nut, dry roasted, salted	100.0	2.3	2280.0	2350.0	21.4
+Q1053	Protein powder, from hemp seed, dry	100.0	8.4	1180.0	1410.0	35.8
+Q1037	Seed and nut mix, linseed (50%), sunflower seed (33%) and almond (17%) (LSA), ground	100.0	6.9	2060.0	2200.0	19.4
+Q1038	Seed and nut mix, linseed, sunflower seed, almond and chia seed (LSA + chia), ground	100.0	6.8	2010.0	2160.0	19.5
+Q1026	Seed, chia, black or white, whole, dried, raw	100.0	6.4	1530.0	1800.0	19.9
+Q1027	Seed, linseed or flaxseed, brown or golden, whole, dried, raw	100.0	9.2	1690.0	1890.0	18.4
+Q1029	Seed, pumpkin, kernel, shelled, green, dried, raw	100.0	6.8	2310.0	2380.0	31.1
+Q27	Seed, sesame butter, tahini	100.0	3.1	2620.0	2720.0	20.4
+Q1031	Seed, sesame, kernel, shelled, white, dried, raw	100.0	4.0	2510.0	2600.0	23.6
+Q1028	Seed, sunflower, kernel, shelled, dried, raw	100.0	4.2	2450.0	2510.0	20.5
+Q1024	Walnut, kernel, halves & pieces, raw	100.0	3.9	2840.0	2910.0	14.5
+nan	nan	nan	nan	nan	0	nan
+R	RECIPES	nan	nan	nan	0	nan
+R5740	Bolognese, prepared with beef mince, cooked, no salt added	100.0	76.6	451.0	461.0	12.7
+R10021	Cake, banana, baked, home-made, un-iced	100.0	32.0	1300.0	1310.0	5.96
+R10022	Cake, banana, baked, iced with butter icing	100.0	24.6	1500.0	1500.0	4.0
+R10015	Cake, chocolate, baked, iced with butter icing 	100.0	25.4	1520.0	1530.0	4.35
+R5749	Chilli con carne and corn chips	100.0	61.4	702.0	726.0	9.83
+R5748	Chilli con carne, with beef mince and red kidney beans, no salt added	100.0	73.7	392.0	414.0	10.8
+R10014	Custard square, baked	100.0	63.2	892.0	895.0	4.37
+R10025	Egg, chicken, omelette, with cheese and butter, cooked 	100.0	58.2	1100.0	1100.0	15.8
+R10009	Lemon curd, cooked	100.0	50.5	1180.0	1180.0	3.15
+R10026	Omelette, egg, chicken, cooked with butter	100.0	71.0	728.0	728.0	11.1
+R10019	Pancake, plain, pan-fried without oil	100.0	57.0	725.0	735.0	8.27
+R10006	Pastry, short, butter, baked	100.0	18.8	1840.0	1860.0	7.29
+R10017	Pie, lemon meringue, baked	100.0	45.1	1100.0	1100.0	4.48
+R10018	Pikelet, plain, pan-fried without oil, home-made	100.0	45.3	913.0	922.0	7.62
+R10020	Pudding, custard, prepared with standard milk, simmered	100.0	75.5	392.0	393.0	3.26
+R5745	Pudding, custard, prepared with whole milk (4% fat), simmered	100.0	75.2	423.0	424.0	2.98
+R10011	Pudding, rice, cocoa & coconut, cooked	100.0	70.8	580.0	587.0	1.65
+R10016	Quiche, spinach, baked	100.0	60.9	902.0	916.0	8.05
+R10024	Ratatouille, with assorted vegetables, cooked, no salt added	100.0	76.6	441.0	459.0	11.3
+R5741	Spaghetti bolognese, meat base, with spaghetti, no salt added	100.0	72.8	484.0	496.0	10.1
+R10008	Tart, jam, baked	100.0	22.3	1580.0	1600.0	5.02
+nan	nan	nan	nan	nan	0	nan
+S	SAUCES AND CONDIMENTS	nan	nan	nan	0	nan
+S77	Dip, sour cream, assorted flavours, 30% fat, La Bonne	100.0	59.3	1150.0	1150.0	3.06
+S79	Dip, sour cream, lite, assorted flavours, 7% fat	100.0	74.4	492.0	492.0	6.44
+S28	Dressing, French, Kraft	100.0	75.8	430.0	430.0	0.0
+S31	Dressing, Italian, Kraft	100.0	79.1	589.0	595.0	0.94
+S29	Dressing, coleslaw, Lite, Eta®	100.0	73.6	441.0	446.0	0.0
+S45	Dressing, mayonnaise, commercial	100.0	52.2	1350.0	1350.0	0.63
+S64	Dressing, mayonnaise, reduced fat, commercial	100.0	53.3	1190.0	1190.0	0.52
+S50	Dressing, thousand island, Eta®	100.0	50.4	1490.0	1500.0	0.94
+S7	Dressing, vinaigrette	100.0	38.4	1970.0	1970.0	0.69
+S1018	Gravy, dry powder mix, assorted flavours, prepared with water	100.0	90.6	99.0	101.0	0.39
+S73	Hummus, original, 6.5% fat	100.0	68.2	540.0	588.0	6.94
+S2	Pickle, sweet	100.0	58.9	599.0	607.0	0.56
+S14	Sauce, Worcestershire	100.0	73.3	329.0	335.0	1.31
+S22	Sauce, chilli	100.0	71.7	353.0	388.0	1.31
+S1016	Sauce, chilli, sweet, commercial	100.0	47.6	793.0	802.0	0.47
+S1007	Sauce, fish	100.0	71.1	91.0	91.0	0.94
+S68	Sauce, pasta, chunky vegetable, tomato based, heated	100.0	82.9	235.0	254.0	1.8
+S70	Sauce, simmer, butter chicken, heated	100.0	73.2	586.0	602.0	2.44
+S1019	Sauce, simmer, korma, cream & coconut base	100.0	79.1	432.0	467.0	1.59
+S71	Sauce, simmer, satay, heated	100.0	72.6	569.0	594.0	4.12
+S69	Sauce, simmer, sweet & sour, heated	100.0	70.9	477.0	482.0	0.56
+S1014	Sauce, soy, commercial	100.0	68.8	204.0	210.0	5.66
+S1015	Sauce, soy, reduced salt, commercial	100.0	74.9	175.0	182.0	4.28
+S46	Sauce, tartare, Eta®	100.0	26.0	2530.0	2550.0	0.87
+S44	Sauce, tomato	100.0	69.5	447.0	458.0	1.19
+S1008	Sauce, tomato, ketchup	100.0	66.1	455.0	467.0	1.25
+T	SHELLFISHES	nan	nan	nan	0	nan
+T31	Cockle, boiled	100.0	84.6	163.0	163.0	8.5
+T40	Crab, meat stick, surimi	100.0	73.7	354.0	354.0	12.0
+T26	Kina, roe, raw	100.0	80.9	394.0	394.0	10.8
+T1026	Mussel, green, meat, boiled	100.0	72.4	465.0	465.0	15.9
+T1024	Mussel, green, meat, fresh, raw	100.0	81.3	311.0	311.0	10.7
+T1015	Mussel, green, meat, marinated, assorted flavours, drained, ready to eat, Sealord™	100.0	71.0	453.0	453.0	13.2
+T1005	Mussel, green, meat, marinated, drained, ready to eat, Talley's	100.0	68.2	499.0	499.0	16.9
+T1022	Mussel, green, meat, smoked, flavoured, ready to eat, Garlic, Aqua Fresh	100.0	57.7	900.0	900.0	19.0
+T1023	Mussel, green, meat, smoked, ready to eat, Natural, Aqua Fresh	100.0	57.7	900.0	900.0	19.0
+T17	Oyster, battered, deep-fried in peanut oil	100.0	55.4	950.0	951.0	12.4
+T6	Oyster, dredge, raw	100.0	78.3	392.0	392.0	13.6
+T25	Paua, fritter, deep-fried	100.0	47.7	1090.0	1100.0	8.09
+T19	Pipi, flesh, raw	100.0	87.0	172.0	172.0	8.13
+T1027	Prawn, king, flesh, cooked	100.0	73.4	436.0	436.0	23.7
+T1028	Prawn, king, flesh, raw	100.0	76.4	372.0	372.0	20.6
+T20	Scallop, battered, deep-fried	100.0	58.4	875.0	877.0	18.2
+T11	Scallop, raw	100.0	80.6	340.0	340.0	14.9
+T12	Shrimp, canned, drained	100.0	74.9	398.0	398.0	20.8
+T23	Squid, in flour, fried	100.0	64.0	776.0	778.0	20.7
+nan	nan	nan	nan	nan	0	nan
+U	SNACK FOODS	nan	nan	nan	0	nan
+U1016	Corn chip, assorted flavours, salted, fried in assorted oils	100.0	0.0	1930.0	1960.0	6.84
+U1017	Corn snack, extruded, assorted shapes, cheese flavour, salted	100.0	1.6	2180.0	2180.0	6.29
+U21	Fruit bar, wholemeal, assorted flavours, Mother Earth™	100.0	14.6	1460.0	1510.0	5.69
+U34	Fruit leather, apricot	100.0	27.0	1080.0	1090.0	4.81
+U23	Fruit roll, strawberry, Uncle Tobys®	100.0	15.3	1300.0	1320.0	0.75
+U30	Muesli bar, chocolate chip	100.0	9.4	1610.0	1660.0	6.94
+U27	Muesli bar, chocolate coated, Snacker	100.0	8.1	1840.0	1870.0	4.13
+U28	Muesli bar, fruit & nut	100.0	15.2	1600.0	1640.0	8.38
+U67	Muesli bar, fruit filled, twisted, assorted flavours	100.0	17.2	1340.0	1390.0	4.45
+U70	Muesli bar, fruit filled, wholemeal, assorted flavours	100.0	16.9	1400.0	1450.0	5.22
+U24	Muesli bar, yoghurt coated	100.0	9.3	1790.0	1820.0	4.25
+U57	Multigrain chip, assorted flavours, Grainwaves®, Bluebird	100.0	3.0	1910.0	1950.0	7.77
+U1011	Nut bar, peanut & chocolate, Choc Peanut, Tasti	100.0	5.5	1840.0	1890.0	12.2
+U1010	Nut bar, peanut & chocolate, Chocolate Nut Bar Original, Nice & Natural™	100.0	5.2	1950.0	2000.0	14.4
+U1009	Popcorn, air popped	100.0	3.3	1330.0	1450.0	13.1
+U40	Popcorn, buttered, salted, Pop N Good®	100.0	2.0	1860.0	1930.0	7.44
+U1013	Potato chip or crisp, assorted flavours, salted, fried in assorted oils	100.0	1.8	1940.0	1970.0	6.58
+U1012	Potato chip or crisp, plain, salted, fried in assorted oils	100.0	1.7	1990.0	2020.0	6.83
+U1004	Pretzels, wheat flour, salted, baked	100.0	3.3	1380.0	1400.0	9.1
+U1023	Snack, cassava crisps, plain or assorted flavours, salt added	100.0	2.1	2110.0	2120.0	1.1
+U1024	Snack, kumara chips, plain or assorted flavours	100.0	7.5	1790.0	1840.0	2.96
+U18	Snack, popcorn, candied	100.0	3.2	1670.0	1690.0	2.84
+nan	nan	nan	nan	nan	0	nan
+V	SOUPS	nan	nan	nan	0	nan
+V1006	Soup, Tuscan tomato, heated, Wattie's®	100.0	92.1	110.0	117.0	0.94
+V57	Soup, beef, instant dry mix, prepared with water, Continental®	100.0	88.1	172.0	173.0	1.31
+V1	Soup, bone & vegetable broth	100.0	90.3	252.0	270.0	3.69
+V1002	Soup, chicken & corn, heated	100.0	88.8	164.0	171.0	2.94
+V1008	Soup, chicken & corn, heated, Wattie's®	100.0	91.6	100.0	109.0	1.25
+V1003	Soup, chicken & vegetable, heated, Wattie's®	100.0	89.2	110.0	120.0	2.06
+V59	Soup, chicken noodle, instant dry mix, prepared with water, Continental®	100.0	85.9	209.0	210.0	1.49
+V68	Soup, chicken noodle, instant dry mix, prepared with water, Maggi®	100.0	95.8	55.0	56.0	0.2
+V4	Soup, cream of chicken, canned	100.0	87.9	241.0	241.0	1.69
+V9	Soup, cream of mushroom, canned	100.0	89.2	220.0	223.0	1.06
+V15	Soup, cream of tomato, canned	100.0	84.2	229.0	232.0	0.81
+V65	Soup, creme of vegetable, instant dry mix, prepared with water, Maggi®	100.0	94.1	87.0	92.0	0.78
+V1004	Soup, lentil & vegetables, heated, Wattie's®	100.0	90.6	142.0	180.0	1.38
+V8	Soup, minestrone, instant dry mix, prepared with water	100.0	91.6	98.0	115.0	0.75
+V66	Soup, mushroom, instant dry mix, prepared with water, Maggi®	100.0	94.4	75.0	77.0	0.72
+V1001	Soup, pumpkin, heated	100.0	84.5	230.0	238.0	1.72
+V1007	Soup, pumpkin, heated, Wattie's®	100.0	93.7	94.0	102.0	0.63
+V1005	Soup, seafood chowder, heated	100.0	89.4	246.0	251.0	3.72
+V55	Soup, tomato, instant dry mix, prepared with water, Continental®	100.0	91.6	120.0	120.0	0.34
+V18	Soup, vegetable, canned	100.0	86.4	157.0	171.0	1.5
+nan	nan	nan	nan	nan	0	nan
+W	SUGARS, CONFECTIONARIES AND SWEET SPREADS	nan	nan	nan	0	nan
+W1009	Chocolate bar & bite size, Moro, Cadbury	100.0	6.1	1600.0	1610.0	4.41
+W1010	Chocolate bar & block, Dairy Milk Fruit & Nut™, Cadbury®	100.0	3.3	1960.0	1980.0	8.47
+W1013	Chocolate bar & block, Dairy Milk with Crunchie™, Cadbury®	100.0	1.4	2010.0	2020.0	6.81
+W1012	Chocolate bar & block, Energy™, Cadbury®	100.0	0.7	2080.0	2130.0	6.72
+W5	Chocolate bar, Bounty®, Mars	100.0	7.6	1990.0	2050.0	4.81
+W1014	Chocolate bar, Gold Totally Nuts Bar, Moro, Cadbury	100.0	3.6	1970.0	2000.0	9.69
+W6	Chocolate bar, Mars	100.0	6.9	1860.0	1880.0	5.25
+W3	Chocolate bar, milk	100.0	2.2	2230.0	2230.0	8.44
+W1011	Chocolate block & slab, Peanut, Whittaker's®	100.0	1.2	2240.0	2280.0	14.8
+W1015	Chocolate, compound	100.0	0.5	2180.0	2190.0	2.85
+W7	Chocolate, fancy & filled	100.0	5.7	1950.0	1960.0	4.13
+W1025	Dark chocolate, cocoa solids (45–69%), sugar added	100.0	0.5	2200.0	2260.0	6.41
+W1026	Dark chocolate, cocoa solids (70–84 %), sugar added	100.0	0.5	2280.0	2380.0	10.1
+W8	Fruit gum	100.0	14.0	1100.0	1100.0	6.5
+W1018	Honey, manuka	100.0	17.2	1230.0	1230.0	0.19
+W1019	Honey, multifloral	100.0	16.4	1220.0	1220.0	0.28
+W31	Ice block, frozen	100.0	80.2	300.0	300.0	0.31
+W14	Jam, berry fruit	100.0	29.6	1210.0	1220.0	0.38
+W15	Jam, stone fruit	100.0	30.0	1160.0	1170.0	0.25
+W45	Jellybeans, Jaybees, Pascall	100.0	5.7	1570.0	1570.0	0.56
+W29	Liquorice, allsorts	100.0	8.4	1510.0	1540.0	3.94
+W43	Liquorice, black	100.0	15.1	1410.0	1440.0	4.13
+W44	Lollies, Minties, Pascall	100.0	5.8	1540.0	1540.0	1.31
+W57	Lollipop, assorted flavours, Chupa Chup®	100.0	3.0	1460.0	1460.0	0.69
+W1024	Marmalade, assorted citrus fruits, sweetened with artificial or intense sweetener	100.0	38.9	393.0	403.0	0.25
+W1023	Marmalade, assorted citrus fruits, sweetened with juice	100.0	45.6	817.0	827.0	0.54
+W1022	Marmalade, assorted citrus fruits, sweetened with sugar	100.0	29.2	1250.0	1260.0	0.15
+W40	Marshmallow, pink & white	100.0	16.0	1380.0	1380.0	2.81
+W1029	Milk chocolate, plain	100.0	0.8	2270.0	2290.0	8.83
+W46	Sauce, chocolate	100.0	43.4	919.0	924.0	1.39
+W1016	Spread, hazelnut, Nutella®, Ferrero	100.0	1.0	2110.0	2140.0	7.26
+W19	Sugar, brown	100.0	2.3	1620.0	1620.0	0.19
+W23	Sugar, raw	100.0	0.3	1690.0	1690.0	0.0
+W1	Sweet, hard, boiled	100.0	0.6	1420.0	1420.0	0.0
+W18	Sweet, peppermint	100.0	0.2	1680.0	1680.0	0.5
+W25	Syrup, golden	100.0	18.2	1310.0	1310.0	0.31
+W26	Toffees, mixed	100.0	4.8	1870.0	1880.0	2.13
+W1028	White chocolate, plain	100.0	0.9	2340.0	2340.0	6.94
+nan	nan	nan	nan	nan	0	nan
+X	VEGETABLES AND PULSES	nan	nan	nan	0	nan
+X2	Artichoke, globe, boiled, drained, no salt added	100.0	84.4	87.0	129.0	3.5
+X134	Asparagus, canned, drained	100.0	91.3	106.0	141.0	3.13
+X1106	Asparagus, stalk, fresh, boiled, drained, no salt added	100.0	92.4	73.0	88.0	2.13
+X1105	Asparagus, stalk, fresh, raw	100.0	92.7	80.0	95.0	2.69
+X1107	Asparagus, stalk, fresh, steamed	100.0	92.0	74.0	89.0	2.19
+X1004	Baked beans, canned in tomato sauce	100.0	69.7	310.0	352.0	5.0
+X1193	Banana, green, cooking, deep-fried in oil	100.0	51.3	766.0	799.0	1.7
+X1192	Banana, green, cooking, peeled, boiled, drained	100.0	76.7	290.0	310.0	0.9
+X137	Bean, black, boiled, drained, no salt added	100.0	65.7	421.0	490.0	8.88
+X138	Bean, broad, boiled, drained, no salt added	100.0	78.8	248.0	282.0	5.31
+X1225	Bean, butter bean, frozen, boiled, drained, no salt added	100.0	90.3	97.0	126.0	1.68
+X1226	Bean, butter bean, frozen, steamed or microwaved, no salt added	100.0	87.8	124.0	157.0	2.2
+X139	Bean, butter bean, seeds with pod, boiled, drained, no salt added	100.0	91.6	82.0	107.0	2.31
+X1109	Bean, green runner or dwarf, seeds with pod, fresh, boiled, drained, no salt added	100.0	89.5	114.0	141.0	2.19
+X1108	Bean, green runner or dwarf, seeds with pod, fresh, raw	100.0	89.2	115.0	143.0	2.13
+X1110	Bean, green runner or dwarf, seeds with pod, fresh, steamed	100.0	88.8	118.0	147.0	2.13
+X1223	Bean, green, frozen, boiled, drained, no salt added	100.0	90.3	104.0	131.0	1.94
+X1247	Bean, green, frozen, steamed or microwaved, no salt added	100.0	87.4	122.0	152.0	2.26
+X10	Bean, haricot, boiled, drained	100.0	69.6	390.0	460.0	6.63
+X1148	Bean, mixed beans, canned in brine, drained	100.0	69.7	306.0	359.0	6.92
+X1060	Bean, red kidney, boiled, drained	100.0	71.1	307.0	365.0	7.88
+X1250	Bean, soy, (edamame), green, immature, shelled, frozen, boiled, drained, no salt added	100.0	71.3	491.0	536.0	11.6
+X1251	Bean, soy, (edamame), green, immature, shelled, frozen, steamed or microwaved, no salt added	100.0	68.5	554.0	607.0	12.2
+X1096	Beetroot, canned in water, sliced, drained	100.0	86.0	199.0	216.0	0.99
+X1165	Beetroot, peeled, fresh, raw	100.0	88.6	115.0	132.0	1.43
+X1166	Beetroot, peeled, fresh, roasted, no salt added	100.0	86.7	145.0	163.0	1.69
+X1019	Broccoflower, frozen, boiled, drained, no salt added	100.0	91.8	100.0	123.0	2.56
+X1016	Broccoflower, frozen, raw	100.0	90.2	113.0	136.0	3.47
+X1022	Broccoli, boiled, drained, no salt added	100.0	91.9	100.0	127.0	3.03
+X1220	Broccoli, floret, frozen, boiled, drained, no salt added	100.0	93.0	89.0	114.0	2.28
+X1221	Broccoli, floret, frozen, steamed or microwaved, no salt added	100.0	89.7	115.0	145.0	3.43
+X1020	Broccoli, raw	100.0	89.4	113.0	140.0	3.78
+X1094	Brussels sprout, boiled, drained, no salt added	100.0	85.6	160.0	193.0	3.18
+X1095	Brussels sprout, steamed	100.0	84.5	184.0	220.0	3.57
+X250	Cabbage, Chinese, cooked	100.0	96.0	63.0	72.0	2.31
+X1038	Cabbage, bok choy, raw	100.0	93.2	69.0	84.0	1.95
+X1040	Cabbage, choy sum, raw	100.0	94.4	42.0	55.0	1.95
+X1103	Cabbage, green drumhead, leaves, boiled, drained, no salt added	100.0	92.1	92.0	106.0	1.16
+X1102	Cabbage, green drumhead, leaves, raw	100.0	91.7	94.0	108.0	1.19
+X1104	Cabbage, green drumhead, leaves, steamed	100.0	91.9	92.0	106.0	1.16
+X1039	Cabbage, tat soi, raw	100.0	93.1	55.0	72.0	2.6
+X1149	Cannellini bean, canned in brine, drained	100.0	73.0	288.0	332.0	6.74
+X1049	Capsicum, green, raw	100.0	93.6	73.0	85.0	0.94
+X1048	Capsicum, red, raw	100.0	92.6	108.0	120.0	0.94
+X10003	Capsicum, red, sliced, frozen, pan-fried with olive oil, no salt added	100.0	85.8	248.0	270.0	1.4
+X1228	Carrot, cubed or sliced, frozen, boiled, drained, no salt added	100.0	93.2	97.0	120.0	0.46
+X1117	Carrot, flesh, fresh, baked with oil	100.0	81.9	227.0	262.0	1.0
+X1115	Carrot, flesh, fresh, boiled, drained, no salt added	100.0	88.1	144.0	169.0	0.63
+X1114	Carrot, flesh, fresh, raw	100.0	88.9	134.0	156.0	0.63
+X1116	Carrot, flesh, fresh, steamed	100.0	87.7	151.0	176.0	0.75
+X1118	Carrot, flesh, fresh, stir fried	100.0	83.6	260.0	288.0	0.75
+X237	Cassava, baked in traditional Papua New Guinea oven	100.0	58.9	640.0	656.0	0.7
+X1283	Cassava, root tuber, frozen, peeled, boiled, drained, no salt added	100.0	65.3	480.0	495.0	0.64
+X1282	Cassava, root tuber, frozen, peeled, raw	100.0	62.6	543.0	561.0	0.89
+X1129	Cauliflower, boiled, drained, no salt added	100.0	92.9	50.0	67.0	0.78
+X1217	Cauliflower, floret, frozen, boiled, drained, no salt added	100.0	94.1	73.0	92.0	1.5
+X1218	Cauliflower, floret, frozen, steamed or microwaved, no salt added	100.0	92.2	85.0	107.0	1.96
+X1128	Cauliflower, fresh, raw	100.0	92.4	62.0	79.0	0.81
+X1091	Celery, American Green, stalk, raw	100.0	95.0	39.0	50.0	0.54
+X1092	Celery, American Green, stalk, stir fried	100.0	91.4	132.0	143.0	0.68
+X1256	Chickpea (channa dhal), split, seed coat removed, raw, dry	100.0	5.8	1220.0	1340.0	22.4
+X1146	Chickpea, canned in brine, drained	100.0	66.6	399.0	443.0	7.23
+X76	Chickpea, cooked	100.0	74.2	418.0	479.0	5.31
+X1150	Chilli bean, canned in chilli sauce, undrained	100.0	69.5	339.0	384.0	5.35
+X142	Choko, flesh, cooked	100.0	93.6	88.0	97.0	0.63
+X259	Corn, baby sweet corn, canned, drained	100.0	92.5	96.0	121.0	2.88
+X1058	Courgette, green, unpeeled, raw	100.0	94.4	47.0	56.0	1.75
+X1043	Cucumber, Lebanese, unpeeled, raw	100.0	95.6	43.0	51.0	0.44
+X1052	Cucumber, telegraph, raw, unpeeled	100.0	96.6	45.0	51.0	0.75
+X1086	Eggplant, boiled, drained, no salt added	100.0	93.8	62.0	79.0	0.68
+X1088	Eggplant, fried with oil	100.0	64.6	1050.0	1070.0	0.9
+X1087	Eggplant, steamed	100.0	92.5	74.0	94.0	0.81
+X260	Garlic, raw, peeled	100.0	64.3	332.0	467.0	7.94
+X143	Gherkin, pickled, in sweetened brine, drained	100.0	73.4	451.0	469.0	0.38
+X1030	Ginger, preserved	100.0	73.8	356.0	373.0	0.0
+X1265	Green lettuce, assorted varieties, raw, fresh	100.0	96.2	42.0	57.0	1.54
+X1264	Iceberg lettuce, green, raw, fresh	100.0	96.4	46.0	55.0	0.79
+X1268	Kale, baby leaf, raw, fresh	100.0	92.3	62.0	80.0	3.41
+X1241	Kale, chopped, frozen, steamed, no salt added	100.0	89.4	90.0	125.0	3.43
+X1163	Kale, fresh, raw	100.0	84.8	122.0	168.0	4.63
+X1164	Kale, fresh, sautéed with oil, no salt added	100.0	66.1	513.0	600.0	7.29
+X1064	Kumara, 'Owairaka Red', flesh, boiled, drained, no salt added	100.0	74.7	349.0	363.0	1.25
+X10001	Kumara, 'Purple Dawn', peeled, fresh, raw	100.0	79.3	315.0	330.0	1.62
+X10001	1 tuber (24.0 cm long)	800.0	634.0	2520.0	2640.0	13.0
+X10005	Kumara, 'Purple Dawn', peeled, roasted	100.0	56.1	581.0	612.0	2.82
+X1010	Kumara, flesh, boiled, drained, no salt added	100.0	77.4	256.0	273.0	1.38
+X1162	Leek, bulb & stalk, fresh, stir-fried, no salt added	100.0	83.5	159.0	197.0	1.48
+X54	Lentil, split, boiled, drained, no salt added	100.0	72.1	412.0	441.0	7.63
+X305	Lettuce, hydroponic varieties, raw	100.0	94.8	75.0	89.0	1.94
+X57	Marrow, flesh, boiled, drained, no salt added	100.0	97.8	31.0	36.0	0.38
+X1198	Mixed vegetables, beans, carrots, corn & peas, frozen, boiled, drained, no salt added	100.0	87.3	177.0	207.0	2.36
+X1243	Mixed vegetables, broccoli (50%) & cauliflower (50%), frozen, steam or microwaved, no salt added	100.0	91.0	100.0	126.0	2.69
+X1246	Mixed vegetables, broccoli, carrots & cauliflower, frozen, boiled, drained, no salt added	100.0	93.4	87.0	109.0	1.38
+X1200	Mixed vegetables, carrots, corn & peas, frozen, boiled and drained, no salt added	100.0	82.5	241.0	277.0	2.93
+X1202	Mixed vegetables, corn & peas, frozen, boiled and drained, no salt added	100.0	79.9	267.0	308.0	4.88
+X1089	Mushroom, Portobello, whole, raw	100.0	92.1	60.0	72.0	2.16
+X1189	Mushroom, button, white or brown,  fresh, boiled, drained, no salt added	100.0	91.5	97.0	114.0	4.46
+X1190	Mushroom, button, white or brown, fresh, baked, no added fat	100.0	86.3	144.0	165.0	5.7
+X1187	Mushroom, button, white or brown, fresh, raw	100.0	92.0	76.0	89.0	3.48
+X298	Mushroom, fried in butter	100.0	85.0	253.0	277.0	3.54
+X1130	Onion, brown, flesh, fresh, raw	100.0	88.5	115.0	130.0	1.44
+X1131	Onion, brown, flesh, fresh, sautéed	100.0	86.1	186.0	202.0	1.54
+X146	Onion, pickled	100.0	82.1	237.0	249.0	0.5
+X1270	Onion, red, flesh, fresh, sautéed with oil	100.0	77.9	415.0	431.0	1.29
+X1269	Onion, red, flesh, raw, fresh	100.0	89.9	133.0	146.0	1.07
+X68	Parsley, raw	100.0	78.7	120.0	158.0	5.19
+X1099	Parsnip, boiled, drained, no salt added	100.0	82.2	206.0	238.0	0.89
+X1100	Parsnip, flesh, baked without fat	100.0	75.1	272.0	314.0	1.33
+X1101	Parsnip, flesh, steamed	100.0	81.0	221.0	254.0	1.08
+X1135	Pea, green, frozen, boiled, drained, no salt added	100.0	76.8	289.0	336.0	5.5
+X1255	Pea, green, split, dry, boiled, drained, no salt added	100.0	61.3	450.0	559.0	8.88
+X1253	Pea, yellow, split, dry, boiled, drained, no salt added	100.0	61.6	446.0	547.0	8.72
+X1177	Potato, flesh & skin, floury, baked without oil, no added salt	100.0	68.5	393.0	416.0	3.27
+X1184	Potato, flesh & skin, waxy, boiled, drained, no salt added	100.0	83.0	216.0	228.0	1.67
+X1179	Potato, flesh, floury, boiled, drained, mashed, no salt added	100.0	79.5	247.0	259.0	1.88
+X1181	Potato, flesh, floury, fried in canola oil, no salt added	100.0	68.6	498.0	518.0	2.56
+X1032	Potato, fries beer batter, frozen, baked	100.0	59.9	712.0	733.0	3.66
+X1033	Potato, fries tempura, frozen, baked, Crunchy Steak Cut Fries, Wattie's®	100.0	58.6	766.0	784.0	3.13
+X327	Potato, fries, chunky cut, frozen, precooked in canola oil, baked	100.0	55.7	792.0	829.0	3.56
+X324	Potato, fries, chunky cut, frozen, precooked in polyunsaturated oil, baked	100.0	61.3	636.0	652.0	3.56
+X321	Potato, fries, shoestring cut, frozen, precooked in polyunsaturated oil, baked	100.0	52.4	911.0	927.0	3.56
+X322	Potato, fries, straight cut, frozen, precooked in polyunsaturated oil, baked	100.0	60.2	710.0	726.0	3.56
+X1037	Potato, wedges lower fat & salt, baked, Wedges Crunchy, Pams	100.0	60.5	618.0	645.0	3.44
+X314	Potato, wedges, frozen, precooked in polyunsaturated oil, baked	100.0	56.8	782.0	798.0	3.94
+X1186	Pumpkin, Kumi Kumi, flesh and skin, fresh, boiled, drained, no salt added	100.0	93.3	86.0	95.0	1.26
+X1121	Pumpkin, Whangaparaoa crown, flesh, fresh, steamed, Whangaparaoa crown	100.0	85.9	163.0	189.0	1.18
+X1120	Pumpkin, Whangaparaoa crown, fresh, boiled, drained, no salt added	100.0	86.7	154.0	179.0	1.12
+X1119	Pumpkin, Whangaparaoa crown, fresh, raw	100.0	87.4	147.0	170.0	1.06
+X1122	Pumpkin, flesh, Whangaparaoa crown, fresh, baked with oil	100.0	77.2	298.0	338.0	1.81
+X181	Puwha, Sow Thistle, leaves & upper stem, boiled, drained, no salt added	100.0	93.5	69.0	111.0	2.31
+X1012	Puwha, leaves, raw, Prickly Sow Thistle	100.0	90.8	80.0	105.0	2.41
+X1274	Radish, unpeeled, raw, fresh	100.0	94.7	56.0	66.0	0.78
+X1258	Red Cabbage, steamed	100.0	91.2	100.0	117.0	1.38
+X1257	Red cabbage, raw, fresh	100.0	91.2	97.0	115.0	1.33
+X1259	Red cabbage, stir-fried with oil	100.0	80.0	431.0	456.0	1.92
+X1147	Red kidney bean, canned in brine, drained	100.0	72.1	308.0	357.0	7.23
+X1266	Red lettuce, raw, fresh	100.0	95.3	38.0	53.0	1.49
+X1018	Rocket, leaves, raw	100.0	92.8	76.0	95.0	3.22
+X1047	Salad, Mesclun, leaves, raw	100.0	93.0	54.0	71.0	2.5
+X1263	Sauerkraut, canned, undrained, shelf-stable	100.0	90.1	40.0	62.0	0.93
+X1279	Sauerkraut, undrained, refrigerated	100.0	90.4	34.0	54.0	1.11
+X1260	Savoy cabbage, raw, fresh	100.0	90.5	113.0	130.0	1.69
+X1261	Savoy cabbage, steamed	100.0	90.8	112.0	130.0	2.51
+X1262	Savoy cabbage, stir-fried with oil	100.0	78.5	454.0	480.0	2.51
+X1013	Seaweed, sheet, toasted, nori	100.0	2.4	966.0	1270.0	38.8
+X1112	Silverbeet, leaves & stems, fresh, boiled, drained, no salt added	100.0	91.9	68.0	90.0	2.18
+X1111	Silverbeet, leaves & stems, fresh, raw	100.0	91.4	72.0	95.0	2.31
+X1113	Silverbeet, leaves & stems, fresh, steamed	100.0	91.4	72.0	95.0	2.31
+X1046	Spinach, English, boiled, drained, no salt added	100.0	93.9	63.0	81.0	2.81
+X1045	Spinach, English, raw	100.0	93.0	57.0	75.0	2.5
+X1267	Spinach, baby leaf, raw, fresh	100.0	92.7	62.0	81.0	3.0
+X1239	Spinach, chopped, frozen, boiled, undrained, no salt added	100.0	91.0	97.0	123.0	2.96
+X1132	Spring onion, bulb and stalk, fresh, raw	100.0	90.9	88.0	107.0	1.88
+X1133	Spring onion, bulb and stalk, fresh, sautéed	100.0	87.9	169.0	191.0	2.05
+X1284	Sprout, alfalfa, raw	100.0	93.3	85.0	100.0	4.0
+X1285	Sprout, mung bean, raw	100.0	92.1	91.0	104.0	3.04
+X1273	Squash, buttercup, flesh and skin, raw, fresh	100.0	74.9	290.0	316.0	1.61
+X1271	Squash, buttercup, flesh, raw, fresh	100.0	75.3	289.0	312.0	1.48
+X1272	Squash, buttercup, flesh, steamed, no salt added	100.0	75.1	320.0	342.0	1.58
+X1234	Sugar snap pea, frozen, boiled, drained, no salt added	100.0	90.0	133.0	152.0	2.39
+X1235	Sugar snap pea, frozen, steamed or microwaved, no salt added	100.0	85.2	171.0	194.0	2.97
+X1168	Swede, peeled, fresh, boiled, drained, no salt added	100.0	90.3	92.0	115.0	0.8
+X1158	Sweet corn, creamed, canned	100.0	79.3	279.0	294.0	1.76
+X1157	Sweet corn, kernel, canned, drained	100.0	79.3	255.0	294.0	2.34
+X1155	Sweet corn, kernel, fresh, boiled, drained, no salt added	100.0	75.1	374.0	409.0	3.65
+X1156	Sweet corn, kernel, fresh, microwaved, no salt added	100.0	69.7	450.0	490.0	4.16
+X1160	Sweet corn, kernel, frozen, boiled, drained, no salt added	100.0	80.3	261.0	291.0	2.69
+X10012	Taro, corm, flesh, baked	100.0	69.0	481.0	506.0	1.3
+X1063	Taro, corm, flesh, boiled	100.0	65.1	457.0	482.0	1.31
+X1053	Taro, corm, flesh, raw	100.0	65.1	457.0	482.0	1.31
+X1153	Tofu, soy bean curd, regular, firm, simmered or pouched, no salt added	100.0	72.6	530.0	539.0	14.2
+X1152	Tofu, soy bean curd, regular, firm, stir-fried, no salt added	100.0	59.3	856.0	867.0	17.9
+X1126	Tomato, canned in tomato juice, assorted flavours, canned, undrained, salt added	100.0	92.6	78.0	89.0	1.19
+X1125	Tomato, canned in tomato juice, plain, undrained, no salt added	100.0	93.3	66.0	78.0	1.13
+X1124	Tomato, canned in tomato juice, plain, undrained, salt added	100.0	92.8	70.0	82.0	1.38
+X125	Tomato, canned, drained	100.0	94.0	107.0	121.0	1.25
+X1079	Tomato, paste, canned	100.0	74.2	258.0	286.0	3.56
+X1078	Tomato, puree, canned, Wattie's®	100.0	86.9	149.0	163.0	1.51
+X1215	Tomato, red, bite-sized cherry, fresh, ripe, raw	100.0	91.6	111.0	126.0	0.99
+X1213	Tomato, red, medium to large size, fresh, ripe, raw, all year round	100.0	95.9	51.0	62.0	0.38
+X1214	Tomato, red, small, cocktail, fresh, ripe, raw, NZ grown	100.0	93.9	76.0	86.0	0.79
+X295	Tomato, sun-dried	100.0	14.6	1110.0	1210.0	15.2
+X129	Turnip, root, flesh, boiled, drained, no salt added	100.0	94.5	62.0	87.0	0.69
+X1280	Watercress, leafy vegetable, raw, fresh	100.0	93.2	58.0	72.0	2.58
+X1281	Watercress, sautéed with olive oil	100.0	72.5	655.0	671.0	2.84
+X1076	Yams, New Zealand, red, unpeeled, baked without fat	100.0	70.9	400.0	416.0	1.94
+X1077	Yams, New Zealand, red, unpeeled, boiled, drained, no salt added	100.0	83.9	242.0	251.0	1.17

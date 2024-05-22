@@ -15,13 +15,13 @@
         <h1> Nutrition Database  </h1>
         {% for food in foods %}
             <div>
-                {{food.code}}
-                {{food.name}}
-                {{food.serving_size}}
-                {{food.energy}}
-                {{food.protein}}
-                {{food.fat}}
-                {{food.carbohydrates}}
+                <p><b>Cood Code:</b>  {{food.code}}</p>
+                <p><b>Food Name:</b> {{food.name}}</p> 
+                <p><b>Food Serving Size:</b> {{food.serving_size}}</p> 
+                <p><b>Food Energy:</b> {{food.energy}}</p> 
+                <p><b>Food Protein:</b> {{food.protein}}</p> 
+                <p><b>Food Fat:</b> {{food.fat}}</p> 
+                <p><b>Food Carbohydrates:</b> {{food.carbohydrates}}</p> 
             </div>
 
         {% endfor %}
