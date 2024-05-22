@@ -12,17 +12,28 @@
     </div>
 
     <div class="dashboard-main-container">
-        <h1> Nutrition Database  </h1>
+        <h1> Nutrition Database </h1>
+
+        <div class="nutrition-header">
+            <div> <p><b>Code</b></p> </div>
+            <div> <p><b>Name</b></p> </div>
+            <div> <p><b>Serving Size</b></p> </div>
+            <div> <p><b>Energy</b></p> </div>
+            <div> <p><b>Protein</b></p> </div>
+            <div> <p><b>Fat</b></p> </div>
+            <div> <p><b>Carbohydrates</b></p> </div>
+        </div>
+
         {% for food in foods %}
-            <div>
-                <p><b>Cood Code:</b>  {{food.code}}</p>
-                <p><b>Food Name:</b> {{food.name}}</p> 
-                <p><b>Food Serving Size:</b> {{food.serving_size}}</p> 
-                <p><b>Food Energy:</b> {{food.energy}}</p> 
-                <p><b>Food Protein:</b> {{food.protein}}</p> 
-                <p><b>Food Fat:</b> {{food.fat}}</p> 
-                <p><b>Food Carbohydrates:</b> {{food.carbohydrates}}</p> 
-            </div>
+        <div class="nutrition-item">
+            <div> <p>{{food.code}}</p> </div>
+            <div> <p>{{food.name}}</p> </div>
+            <div> <p>{{food.serving_size}}</p> </div>
+            <div> <p>{{food.energy}}</p> </div>
+            <div> <p>{{food.protein}}</p> </div>
+            <div> <p>{{food.fat}}</p> </div>
+            <div> <p>{{food.carbohydrates}}</p> </div>
+        </div>
 
         {% endfor %}
 

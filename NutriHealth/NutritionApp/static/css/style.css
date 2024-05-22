@@ -275,3 +275,15 @@ footer {
 .side-link {
   padding: 10px !important;
 }
+
+.nutrition-header {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr; 
+  width: 1500px;
+}
+
+.nutrition-item {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr; 
+  width: 1500px;
+}
