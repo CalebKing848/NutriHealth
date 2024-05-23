@@ -28,50 +28,50 @@
 
 
         <div class="nutrition-header">
-            <div>
+            <div class="single-item ">
                 <p><b>Food Code</b></p>
             </div>
-            <div>
+            <div class="single-item ">
                 <p><b>Name</b></p>
             </div>
-            <div>
+            <div class="single-item ">
                 <p><b>SS</b></p>
             </div>
-            <div>
+            <div class="single-item">
                 <p><b>Energy</b></p>
             </div>
-            <div>
+            <div class="single-item">
                 <p><b>Protein</b></p>
             </div>
-            <div>
+            <div class="single-item">
                 <p><b>Fat</b></p>
             </div>
-            <div>
+            <div class="single-item">
                 <p><b>CHO</b></p>
             </div>
         </div>
 
         {% for food in foods %}
         <div class="nutrition-item">
-            <div>
+            <div class="single-item">
                 <p>{{ food.code }}</p>
             </div>
-            <div>
+            <div class="single-item">
                 <p>{{ food.name }}</p>
             </div>
-            <div>
+            <div class="single-item">
                 <p>{{ food.serving_size }}</p>
             </div>
-            <div>
+            <div class="single-item">
                 <p>{{ food.energy }}</p>
             </div>
-            <div>
+            <div class="single-item">
                 <p>{{ food.protein }}</p>
             </div>
-            <div>
+            <div class="single-item">
                 <p>{{ food.fat }}</p>
             </div>
-            <div>
+            <div class="single-item">
                 <p>{{ food.carbohydrates }}</p>
             </div>
         </div>

@@ -283,12 +283,14 @@ footer {
   width: 1300px;
   background-color: #32794f;
   color: #fff;
+  border-radius: 10px;
 }
 
 .nutrition-item {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr; 
   width: 1300px;
+  border-bottom: 1px solid #000;
 }
 
 /* Modal styles */
@@ -344,4 +346,19 @@ footer {
   display: flex;
   justify-content: space-between;
   padding: 10px;
+}
+
+.single-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 7px 0px;
+}
+
+.single-item p { 
+  margin: 0px;
+}
+
+.step-links {
+  margin: auto;
 }
