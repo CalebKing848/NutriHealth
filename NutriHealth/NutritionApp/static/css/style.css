@@ -279,7 +279,7 @@ footer {
 
 .nutrition-header {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr; 
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr; 
   width: 1300px;
   background-color: #32794f;
   color: #fff;
@@ -288,7 +288,7 @@ footer {
 
 .nutrition-item {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr; 
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr; 
   width: 1300px;
   border-bottom: 1px solid #000;
 }

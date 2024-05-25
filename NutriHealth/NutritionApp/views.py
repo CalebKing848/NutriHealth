@@ -1,11 +1,11 @@
-from django.shortcuts import render, redirect
+from django.shortcuts import render, redirect, get_object_or_404
 from .forms import RegisterForm, UserInformationForm
 from django.contrib.auth import login, logout, authenticate
 from django.contrib.auth.decorators import login_required
 from django.contrib.auth.models import User  # Import the User model
 from .forms import UserInformationForm, ContactInformationForm, FoodItemForm
 from django.core.paginator import Paginator, PageNotAnInteger, EmptyPage
-
+from django.http import JsonResponse
 from .models import UserInformation
 
 from .models import FoodItem
@@ -108,6 +108,26 @@ def nutrition_database(request):
         form = FoodItemForm()
 
     return render(request, 'main/nutrition_database.html', {"foods": foods, "query": query, "form": form})
+
+def update_food_item(request, pk):
+    food_item = get_object_or_404(FoodItem, pk=pk)
+    if request.method == 'POST':
+        form = FoodItemForm(request.POST, instance=food_item)
+        if form.is_valid():
+            form.save()
+            return redirect('nutrition_database')
+    else:
+        form = FoodItemForm(instance=food_item)
+    return render(request, 'main/nutrition_database.html', {"form": form})
+
+def delete_food_item(request, pk):
+    food_item = get_object_or_404(FoodItem, pk=pk)
+    if request.method == 'POST':
+        food_item.delete()
+        return JsonResponse({'success': True})
+    return JsonResponse({'success': False})
+
+
 
 
 def daily_intake(request):
