@@ -6,6 +6,8 @@ from django.contrib.auth.models import User
 from .models import UserInformation
 from .models import ContactInformation
 from .models import FoodItem
+from .models import DailyIntakeItem
+
 
 class RegisterForm(UserCreationForm):
     email = forms.EmailField(required=True)
@@ -29,3 +31,12 @@ class FoodItemForm(forms.ModelForm):
     class Meta:
         model = FoodItem
         fields = ['code', 'name', 'serving_size', 'energy', 'protein', 'fat', 'carbohydrates']
+
+class DailyIntakeItemForm(forms.ModelForm):
+    class Meta:
+        model = DailyIntakeItem
+        fields = ['food_item', 'quantity']
+        widgets = {
+            'food_item': forms.Select(attrs={'class': 'form-control'}),
+            'quantity': forms.NumberInput(attrs={'class': 'form-control', 'min': 1}),
+        }

@@ -1,22 +1,19 @@
+import datetime
 from django.shortcuts import render, redirect, get_object_or_404
-from .forms import RegisterForm, UserInformationForm
+from .forms import RegisterForm, UserInformationForm, ContactInformationForm, FoodItemForm, DailyIntakeItemForm
 from django.contrib.auth import login, logout, authenticate
 from django.contrib.auth.decorators import login_required
 from django.contrib.auth.models import User  # Import the User model
-from .forms import UserInformationForm, ContactInformationForm, FoodItemForm
 from django.core.paginator import Paginator, PageNotAnInteger, EmptyPage
 from django.http import JsonResponse
-from .models import UserInformation
-
-from .models import FoodItem
-
+from .models import UserInformation, FoodItem, DailyIntakeItem, DailyIntake
+from django.db.models import Sum
 
 def home(request):
     return render(request, 'main/home.html')
 
 def about(request):
     return render(request, 'main/about.html')
-
 
 # View for sign up page
 def register(request): 
@@ -128,10 +125,44 @@ def delete_food_item(request, pk):
     return JsonResponse({'success': False})
 
 
-
-
+@login_required
 def daily_intake(request):
-    return render(request, 'main/daily_intake.html')
+    user = request.user
+    daily_intake, created = DailyIntake.objects.get_or_create(user=user, date=datetime.date.today())
+
+    if request.method == 'POST':
+        form = DailyIntakeItemForm(request.POST)
+        if form.is_valid():
+            daily_intake_item = form.save(commit=False)
+            daily_intake_item.daily_intake = daily_intake
+            daily_intake_item.save()
+            return redirect('daily_intake')
+    else:
+        form = DailyIntakeItemForm()
+
+    daily_intake_items = daily_intake.items.all()
+
+    # Perform aggregation here
+    total_protein = daily_intake_items.aggregate(total_protein=Sum('food_item__protein'))['total_protein'] or 0
+    total_carbohydrates = daily_intake_items.aggregate(total_carbohydrates=Sum('food_item__carbohydrates'))['total_carbohydrates'] or 0
+    total_fat = daily_intake_items.aggregate(total_fat=Sum('food_item__fat'))['total_fat'] or 0
+
+    context = {
+        'form': form,
+        'daily_intake_items': daily_intake_items,
+        'daily_intake': daily_intake,
+        'total_protein': total_protein,
+        'total_carbohydrates': total_carbohydrates,
+        'total_fat': total_fat,
+    }
+    return render(request, 'main/daily_intake.html', context)
+
+@login_required
+def delete_daily_intake_item(request, pk):
+    daily_intake_item = get_object_or_404(DailyIntakeItem, pk=pk)
+    daily_intake_item.delete()
+    return redirect('daily_intake')
+
 
 def saved_daily_intake(request):
     return render(request, 'main/saved_daily_intake.html')

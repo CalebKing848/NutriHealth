@@ -23,6 +23,8 @@ urlpatterns = [
     path('saved_daily_intake', views.saved_daily_intake, name='saved_daily_intake'), # Saved Daily Intake Page
 
     path('update_food_item/<int:pk>/', views.update_food_item, name='update_food_item'),
-    path('delete_food_item/<int:pk>/', views.delete_food_item, name='delete_food_item')
+    path('delete_food_item/<int:pk>/', views.delete_food_item, name='delete_food_item'),
 
+    path('daily_intake/',  views.daily_intake, name='daily_intake'),
+    path('daily_intake/delete/<int:pk>/',  views.delete_daily_intake_item, name='delete_daily_intake_item'),
 ]
