@@ -8,6 +8,11 @@ from django.core.paginator import Paginator, PageNotAnInteger, EmptyPage
 from django.http import JsonResponse
 from .models import UserInformation, FoodItem, DailyIntakeItem, DailyIntake
 from django.db.models import Sum
+from matplotlib import pyplot as plt
+from collections import defaultdict
+import io
+import base64
+
 
 def home(request):
     return render(request, 'main/home.html')
@@ -125,10 +130,40 @@ def delete_food_item(request, pk):
     return JsonResponse({'success': False})
 
 
+
+def generate_pie_chart(daily_intake_items):
+    # Calculate total quantity by category
+    category_totals = defaultdict(int)
+    for item in daily_intake_items:
+        category = item.food_item.name.split()[0]  # Assuming the category is the first word of the food item name
+        category_totals[category] += item.quantity
+
+    # Prepare data for pie chart
+    labels = list(category_totals.keys())
+    quantities = list(category_totals.values())
+
+    # Create pie chart
+    plt.figure(figsize=(8, 8))
+    plt.pie(quantities, labels=labels, autopct='%1.1f%%', startangle=140)
+    plt.axis('equal')  # Equal aspect ratio ensures that pie is drawn as a circle
+
+    # Save the pie chart to a BytesIO object
+    image_stream = io.BytesIO()
+    plt.savefig(image_stream, format='png')
+    image_stream.seek(0)
+
+    # Encode the image to base64 for embedding in HTML
+    base64_image = base64.b64encode(image_stream.getvalue()).decode('utf-8')
+    plt.close()
+
+    return base64_image
+
+
 @login_required
 def daily_intake(request):
     user = request.user
-    daily_intake, created = DailyIntake.objects.get_or_create(user=user, date=datetime.date.today())
+    today = datetime.date.today()
+    daily_intake, created = DailyIntake.objects.get_or_create(user=user, date=today)
 
     if request.method == 'POST':
         form = DailyIntakeItemForm(request.POST)
@@ -142,10 +177,13 @@ def daily_intake(request):
 
     daily_intake_items = daily_intake.items.all()
 
-    # Perform aggregation here
+    # Perform aggregation for total protein, carbohydrates, and fat
     total_protein = daily_intake_items.aggregate(total_protein=Sum('food_item__protein'))['total_protein'] or 0
     total_carbohydrates = daily_intake_items.aggregate(total_carbohydrates=Sum('food_item__carbohydrates'))['total_carbohydrates'] or 0
     total_fat = daily_intake_items.aggregate(total_fat=Sum('food_item__fat'))['total_fat'] or 0
+
+    # Generate pie chart
+    pie_chart = generate_pie_chart(daily_intake_items)
 
     context = {
         'form': form,
@@ -154,8 +192,20 @@ def daily_intake(request):
         'total_protein': total_protein,
         'total_carbohydrates': total_carbohydrates,
         'total_fat': total_fat,
+        'pie_chart': pie_chart,
     }
     return render(request, 'main/daily_intake.html', context)
+
+
+@login_required
+def save_daily_intake(request):
+    user = request.user
+    today = datetime.date.today()
+    daily_intakes = DailyIntake.objects.filter(user=user, date=today)
+
+    # Save the daily intake data here if needed
+
+    return redirect('daily_intake')
 
 @login_required
 def delete_daily_intake_item(request, pk):

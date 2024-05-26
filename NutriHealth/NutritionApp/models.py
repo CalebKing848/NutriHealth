@@ -31,6 +31,9 @@ class FoodItem(models.Model):
     fat = models.FloatField()
     carbohydrates = models.FloatField()
 
+    def __str__(self):
+        return self.name
+
 
 class DailyIntake(models.Model):
     user = models.ForeignKey(User, on_delete=models.CASCADE)

@@ -1,10 +1,12 @@
 {% extends 'main/base.html' %}
 {% load crispy_forms_tags %}
+
 {% block content %}
 
 <div class="dasboard-container">
     <div class="side-nav">
         <a class="nav-link side-link" href="{% url 'dashboard' %}">Dashboard</a>
+        <a class="nav-link side-link" href="/user-information/{{ user.id }}/">Manage User</a>
         <a class="nav-link side-link" href="{% url 'nutrition_database' %}">Nutrition Database</a>
         <a class="nav-link side-link" href="{% url 'daily_intake' %}">Daily Intake</a>
         <a class="nav-link side-link" href="{% url 'saved_daily_intake' %}">Saved Daily Intake</a>
@@ -17,14 +19,18 @@
             {% csrf_token %}
             {{ form|crispy }}
             <button type="submit" class="btn btn-success">Add to Daily Intake</button>
+            <a href="{% url 'save_daily_intake' %}" class="btn btn-primary">Save Daily Intake</a>
         </form>
 
-        <h3>Your Daily Intake</h3>
+        <h3>Your Daily Intakes</h3>
         <div class="daily-intake-list">
             {% for item in daily_intake_items %}
             <div class="daily-intake-item">
-                <p>{{ item.food_item.name }} - Quantity: {{ item.quantity }}</p>
-                <a href="{% url 'delete_daily_intake_item' item.pk %}" class="btn btn-danger">Delete</a>
+                <p>Food Item: {{ item.food_item.name }} - Quantity: {{ item.quantity }}</p>
+                <form method="post" action="{% url 'delete_daily_intake_item' item.pk %}">
+                    {% csrf_token %}
+                    <button type="submit" class="btn btn-danger">Delete</button>
+                </form>
             </div>
             {% endfor %}
         </div>
@@ -35,6 +41,9 @@
             <p>Total Carbohydrates: {{ total_carbohydrates }}</p>
             <p>Total Fat: {{ total_fat }}</p>
         </div>
+
+        <h3>Pie Chart: Total Quantity by Category</h3>
+        <img src="data:image/png;base64,{{ pie_chart }}" alt="Pie Chart">
     </div>
 </div>
 
