@@ -362,3 +362,34 @@ footer {
 .step-links {
   margin: auto;
 }
+----started here---
+.nutrition-header{
+margin: auto;
+}
+ .step-links{
+  margin:auto;
+ }
+.single-item{
+  margin: auto; 
+}
+ .pagination{
+  margin: auto;
+}
+ .modal{
+  margin:0;
+ }
+ .modal-content{
+  margin: auto;
+}
+ .close{
+  margin: auto;
+ }
+.btn btn-success{
+  margin:auto;
+}
+.btn btn-primary btn-update{
+  margin: auto;
+}
+ .btn btn-danger btn-delete{
+  margin:auto;
+ }
