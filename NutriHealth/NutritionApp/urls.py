@@ -26,6 +26,10 @@ urlpatterns = [
     path('delete_food_item/<int:pk>/', views.delete_food_item, name='delete_food_item'),
 
     path('daily_intake/',  views.daily_intake, name='daily_intake'),
-     path('save_daily_intake/', views.save_daily_intake, name='save_daily_intake'),
+
+    path('daily-intake/<int:intake_id>/', views.daily_intake, name='daily_intake_with_id'),
+
+    path('save_daily_intake/', views.save_daily_intake, name='save_daily_intake'),
+
     path('daily_intake/delete/<int:pk>/',  views.delete_daily_intake_item, name='delete_daily_intake_item'),
 ]

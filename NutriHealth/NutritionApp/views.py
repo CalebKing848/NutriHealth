@@ -159,15 +159,27 @@ def generate_pie_chart(daily_intake_items):
     return base64_image
 
 
-@login_required
-def daily_intake(request):
+def daily_intake(request, intake_id=None):
     user = request.user
     today = datetime.date.today()
-    daily_intake, created = DailyIntake.objects.get_or_create(user=user, date=today)
+
+    if intake_id:
+        # If intake_id is provided, fetch the specific daily intake
+        daily_intake = get_object_or_404(DailyIntake, pk=intake_id, user=user, date=today)
+    else:
+        # Ensure there is only one daily intake entry per user per day
+        daily_intake, created = DailyIntake.objects.get_or_create(user=user, date=today)
+        
+        # Remove any extra entries if they exist
+        extra_entries = DailyIntake.objects.filter(user=user, date=today).exclude(pk=daily_intake.pk)
+        extra_entries.delete()
 
     if request.method == 'POST':
         form = DailyIntakeItemForm(request.POST)
         if form.is_valid():
+            # Ensure the daily intake instance is saved before creating items
+            if created:
+                daily_intake.save()
             daily_intake_item = form.save(commit=False)
             daily_intake_item.daily_intake = daily_intake
             daily_intake_item.save()
@@ -202,6 +214,16 @@ def daily_intake(request):
     }
     return render(request, 'main/daily_intake.html', context)
 
+
+@login_required
+def save_daily_intake(request):
+    user = request.user
+    today = datetime.date.today()
+    daily_intakes = DailyIntake.objects.filter(user=user, date=today)
+
+    # Save the daily intake data here if needed
+
+    return redirect('daily_intake')
 
 @login_required
 def delete_daily_intake_item(request, pk):

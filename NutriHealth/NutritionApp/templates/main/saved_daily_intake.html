@@ -16,7 +16,7 @@
         <ul>
             {% for intake in saved_intakes %}
             <li>
-                <a href="{% url 'daily_intake' intake.id %}">User: {{ intake.user }} - Date: {{ intake.date }}</a>
+                <a href="{% url 'daily_intake_with_id' intake.pk %}">User: {{ intake.user }} - Date: {{ intake.date }}</a>
             </li>
             {% endfor %}
         </ul>
