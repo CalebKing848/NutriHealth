@@ -12,7 +12,13 @@
     </div>
 
     <div class="dashboard-main-container">
-        <h1> Saved Daily Intake Page </h1>
+        <h1>Saved Daily Intakes</h1>
+        <ul>
+            {% for intake in saved_intakes %}
+                <li>User: {{ intake.user }} - Date: {{ intake.date }}</li>
+                <!-- Add more details as needed -->
+            {% endfor %}
+        </ul>
     </div>
 
 </div>

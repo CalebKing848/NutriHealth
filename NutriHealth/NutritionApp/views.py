@@ -7,7 +7,7 @@ from django.contrib.auth.models import User  # Import the User model
 from django.core.paginator import Paginator, PageNotAnInteger, EmptyPage
 from django.http import JsonResponse
 from .models import UserInformation, FoodItem, DailyIntakeItem, DailyIntake
-from django.db.models import Sum
+from django.db.models import Sum, F
 from matplotlib import pyplot as plt
 from collections import defaultdict
 import io
@@ -177,10 +177,16 @@ def daily_intake(request):
 
     daily_intake_items = daily_intake.items.all()
 
-    # Perform aggregation for total protein, carbohydrates, and fat
-    total_protein = daily_intake_items.aggregate(total_protein=Sum('food_item__protein'))['total_protein'] or 0
-    total_carbohydrates = daily_intake_items.aggregate(total_carbohydrates=Sum('food_item__carbohydrates'))['total_carbohydrates'] or 0
-    total_fat = daily_intake_items.aggregate(total_fat=Sum('food_item__fat'))['total_fat'] or 0
+    # Perform aggregation for total protein, carbohydrates, and fat considering the quantity
+    total_protein = daily_intake_items.aggregate(
+        total_protein=Sum(F('food_item__protein') * F('quantity'))
+    )['total_protein'] or 0
+    total_carbohydrates = daily_intake_items.aggregate(
+        total_carbohydrates=Sum(F('food_item__carbohydrates') * F('quantity'))
+    )['total_carbohydrates'] or 0
+    total_fat = daily_intake_items.aggregate(
+        total_fat=Sum(F('food_item__fat') * F('quantity'))
+    )['total_fat'] or 0
 
     # Generate pie chart
     pie_chart = generate_pie_chart(daily_intake_items)
@@ -215,5 +221,10 @@ def delete_daily_intake_item(request, pk):
 
 
 def saved_daily_intake(request):
-    return render(request, 'main/saved_daily_intake.html')
+    user = request.user
+    saved_intakes = DailyIntake.objects.filter(user=user)
+    context = {
+        'saved_intakes': saved_intakes,
+    }
+    return render(request, 'main/saved_daily_intake.html', context)
 
