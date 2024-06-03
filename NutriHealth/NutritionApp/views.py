@@ -132,15 +132,20 @@ def delete_food_item(request, pk):
 
 
 def generate_pie_chart(daily_intake_items):
-    # Calculate total quantity by category
-    category_totals = defaultdict(int)
-    for item in daily_intake_items:
-        category = item.food_item.name.split()[0]  # Assuming the category is the first word of the food item name
-        category_totals[category] += item.quantity
+    # Calculate total protein, carbohydrates, and fat
+    total_protein = daily_intake_items.aggregate(
+        total_protein=Sum(F('food_item__protein') * F('quantity'))
+    )['total_protein'] or 0
+    total_carbohydrates = daily_intake_items.aggregate(
+        total_carbohydrates=Sum(F('food_item__carbohydrates') * F('quantity'))
+    )['total_carbohydrates'] or 0
+    total_fat = daily_intake_items.aggregate(
+        total_fat=Sum(F('food_item__fat') * F('quantity'))
+    )['total_fat'] or 0
 
     # Prepare data for pie chart
-    labels = list(category_totals.keys())
-    quantities = list(category_totals.values())
+    labels = ['Total Protein', 'Total Carbohydrates', 'Total Fat']
+    quantities = [total_protein, total_carbohydrates, total_fat]
 
     # Create pie chart
     plt.figure(figsize=(8, 8))
