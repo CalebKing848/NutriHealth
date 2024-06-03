@@ -10,6 +10,7 @@ from .models import UserInformation, FoodItem, DailyIntakeItem, DailyIntake
 from django.db.models import Sum, F
 from matplotlib import pyplot as plt
 from collections import defaultdict
+from django.urls import reverse
 import io
 import base64
 
@@ -76,7 +77,7 @@ def contact(request):
         if form.is_valid():
             item = form.save(commit=False)
             item.save()
-            return redirect('/') 
+            return redirect(reverse('contact_us'))
     else:
         form = ContactInformationForm()
     return render(request, 'user-contact/contact.html', {"form": form})

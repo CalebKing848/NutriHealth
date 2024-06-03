@@ -217,21 +217,29 @@ footer {
 }
 
 .form-container {
-  width: 70%;
+  width: 60%;
   margin: 30px auto;
   display: grid;
   grid-template-columns: 3fr 3fr;
+  border: 1px solid #ced4da;
+  border-radius: 10px;
 }
 
 .form-section-one {
   background-color: #224423;
   color: #fff;
   padding: 25px;
+  border-radius: 10px 0px 0px 10px;
+  margin-right: 5px;
+}
+
+.form-section-two {
+  padding: 15px;
 }
 
 .main-banner {
-  background-image: url("/media/banner/images.jpeg");
-  background-size: cover; 
+  background-image: url("/media/banner/banner.jpg");
+  background-size:cover;
   background-position: center; /* Optional: Centers the background image */
   height: 380px;
   display: flex;
@@ -242,7 +250,7 @@ footer {
 .home-section {
   display: grid;
   grid-template-columns: 2fr 1fr;
-  width: 90%;
+  width: 85%;
   margin: 30px auto;
 }
 
@@ -392,4 +400,24 @@ margin: auto;
 }
  .btn btn-danger btn-delete{
   margin:auto;
+ }
+
+ .light-text {
+    color: #c1c1c1;
+ }
+
+ .space {
+  padding-bottom: 15px;
+ }
+
+ .right-space {
+  margin-right: 15px;
+ }
+
+ .home-image-section {
+  margin-left: 15px;
+ }
+
+ .home-text-section p {
+    line-height: 30px;
  }

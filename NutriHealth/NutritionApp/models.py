@@ -45,10 +45,6 @@ class DailyIntakeItem(models.Model):
     quantity = models.PositiveIntegerField()
 
     @property
-    def total_calories(self):
-        return self.food_item.calories * self.quantity
-
-    @property
     def total_protein(self):
         return self.food_item.protein * self.quantity
 
