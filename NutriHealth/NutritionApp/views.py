@@ -204,16 +204,6 @@ def daily_intake(request):
 
 
 @login_required
-def save_daily_intake(request):
-    user = request.user
-    today = datetime.date.today()
-    daily_intakes = DailyIntake.objects.filter(user=user, date=today)
-
-    # Save the daily intake data here if needed
-
-    return redirect('daily_intake')
-
-@login_required
 def delete_daily_intake_item(request, pk):
     daily_intake_item = get_object_or_404(DailyIntakeItem, pk=pk)
     daily_intake_item.delete()
