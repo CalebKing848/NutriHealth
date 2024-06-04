@@ -228,10 +228,6 @@ footer {
   border-radius: 10px;
 }
 
-.dashboard-main-container {
-  text-align: center;
-}
-
 .form-section-one {
   background-color: #224423;
   color: #fff;
@@ -298,7 +294,8 @@ footer {
   width: 1300px;
   background-color: #32794f;
   color: #fff;
-  border-radius: 10px;
+  border-radius: 5px;
+  padding: 10px;
 }
 
 .nutrition-item {
@@ -368,6 +365,7 @@ footer {
   justify-content: center;
   align-items: center;
   margin: 7px 0px;
+  padding: 5px;
 }
 
 .single-item p { 
@@ -434,5 +432,27 @@ margin: auto;
  }
 
  .new-list li a {
-  color: #000 !important;
+    color: #000 !important;
+    padding: 6px 12px !important;
  }
+
+ .dashboard-items {
+  text-align: center;
+  margin: 20px 0px;
+ }
+
+ .user-info-container {
+    border: 1px solid #ced4da;
+    padding: 30px;
+    border-radius: 10px;
+    margin: 20px 0px;
+}
+
+.user-info-form textarea {
+  height: 200px;
+}
+
+.data-container {
+  margin: 0px auto;
+  width: 80%;
+}

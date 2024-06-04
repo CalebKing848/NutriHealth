@@ -11,7 +11,6 @@ from django.db.models import Sum, F
 from matplotlib import pyplot as plt
 from collections import defaultdict
 from django.urls import reverse
-from datetime import datetime
 import io
 import base64
 
@@ -83,9 +82,9 @@ def contact(request):
         form = ContactInformationForm()
     return render(request, 'user-contact/contact.html', {"form": form})
 
+@login_required(login_url="/login")
 def dashboard(request):
-    now = datetime.now()
-    return render(request, 'main/dashboard.html', {'now': now})
+    return render(request, 'main/dashboard.html')
     
 def nutrition_database(request):
     query = request.GET.get('q')

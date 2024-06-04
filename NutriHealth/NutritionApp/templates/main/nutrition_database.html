@@ -14,7 +14,8 @@
     <div class="dashboard-main-container">
         <div class="search-container">
             <form method="get" action="{% url 'nutrition_database' %}">
-                <input class="search-bar" type="text" name="q" placeholder="Search foods..." {% if query %} value="{{ query }}" {% endif %}>
+                <input class="search-bar" type="text" name="q" placeholder="Search foods..." {% if query %}
+                    value="{{ query }}" {% endif %}>
                 <button class="btn btn-success btn-search" type="submit">Search</button>
             </form>
 
@@ -22,79 +23,87 @@
             <button class="btn btn-success btn-add" id="openFormBtn">Add New Food Item</button>
         </div>
 
-        <div class="nutrition-header">
-            <div class="single-item">
-                <p><b>Food Code</b></p>
+        <div class="data-container">
+            <div class="nutrition-header">
+                <div class="single-item">
+                    <p><b>Food Code</b></p>
+                </div>
+                <div class="single-item">
+                    <p><b>Name</b></p>
+                </div>
+                <div class="single-item">
+                    <p><b>SS</b></p>
+                </div>
+                <div class="single-item">
+                    <p><b>Energy</b></p>
+                </div>
+                <div class="single-item">
+                    <p><b>Protein</b></p>
+                </div>
+                <div class="single-item">
+                    <p><b>Fat</b></p>
+                </div>
+                <div class="single-item">
+                    <p><b>CHO</b></p>
+                </div>
+                <div class="single-item">
+                    <p><b>Actions</b></p>
+                </div>
             </div>
-            <div class="single-item">
-                <p><b>Name</b></p>
-            </div>
-            <div class="single-item">
-                <p><b>SS</b></p>
-            </div>
-            <div class="single-item">
-                <p><b>Energy</b></p>
-            </div>
-            <div class="single-item">
-                <p><b>Protein</b></p>
-            </div>
-            <div class="single-item">
-                <p><b>Fat</b></p>
-            </div>
-            <div class="single-item">
-                <p><b>CHO</b></p>
-            </div>
-            <div class="single-item">
-                <p><b>Actions</b></p>
-            </div>
-        </div>
 
-        {% for food in foods %}
-        <div class="nutrition-item">
-            <div class="single-item">
-                <p>{{ food.code }}</p>
+            {% for food in foods %}
+            <div class="nutrition-item">
+                <div class="single-item">
+                    <p>{{ food.code }}</p>
+                </div>
+                <div class="single-item">
+                    <p>{{ food.name }}</p>
+                </div>
+                <div class="single-item">
+                    <p>{{ food.serving_size }}</p>
+                </div>
+                <div class="single-item">
+                    <p>{{ food.energy }}</p>
+                </div>
+                <div class="single-item">
+                    <p>{{ food.protein }}</p>
+                </div>
+                <div class="single-item">
+                    <p>{{ food.fat }}</p>
+                </div>
+                <div class="single-item">
+                    <p>{{ food.carbohydrates }}</p>
+                </div>
+                <div class="single-item">
+                    <button class="btn btn-primary btn-update" data-id="{{ food.id }}" data-code="{{ food.code }}"
+                        data-name="{{ food.name }}" data-serving_size="{{ food.serving_size }}"
+                        data-energy="{{ food.energy }}" data-protein="{{ food.protein }}" data-fat="{{ food.fat }}"
+                        data-carbohydrates="{{ food.carbohydrates }}">Update</button>
+                    <button class="btn btn-danger btn-delete" data-id="{{ food.id }}">Delete</button>
+                </div>
             </div>
-            <div class="single-item">
-                <p>{{ food.name }}</p>
-            </div>
-            <div class="single-item">
-                <p>{{ food.serving_size }}</p>
-            </div>
-            <div class="single-item">
-                <p>{{ food.energy }}</p>
-            </div>
-            <div class="single-item">
-                <p>{{ food.protein }}</p>
-            </div>
-            <div class="single-item">
-                <p>{{ food.fat }}</p>
-            </div>
-            <div class="single-item">
-                <p>{{ food.carbohydrates }}</p>
-            </div>
-            <div class="single-item">
-                <button class="btn btn-primary btn-update" data-id="{{ food.id }}" data-code="{{ food.code }}" data-name="{{ food.name }}" data-serving_size="{{ food.serving_size }}" data-energy="{{ food.energy }}" data-protein="{{ food.protein }}" data-fat="{{ food.fat }}" data-carbohydrates="{{ food.carbohydrates }}">Update</button>
-                <button class="btn btn-danger btn-delete" data-id="{{ food.id }}">Delete</button>
-            </div>
-        </div>
-        {% endfor %}
 
-        <div class="pagination">
-            <span class="step-links">
-                {% if foods.has_previous %}
-                <a href="?page=1{% if query %}&q={{ query }}{% endif %}">&laquo; first</a>
-                <a href="?page={{ foods.previous_page_number }}{% if query %}&q={{ query }}{% endif %}">previous</a>
-                {% endif %}
+            {% endfor %}
 
-                <span class="current">
-                    Page {{ foods.number }} of {{ foods.paginator.num_pages }}.
+            <div class="pagination">
+                <span class="step-links">
+                    {% if foods.has_previous %}
+                    <a href="?page=1{% if query %}&q={{ query }}{% endif %}">&laquo; first</a>
+                    <a href="?page={{ foods.previous_page_number }}{% if query %}&q={{ query }}{% endif %}">previous</a>
+                    {% endif %}
+
+                    <span class="current">
+                        Page {{ foods.number }} of {{ foods.paginator.num_pages }}.
+                    </span>
+
+                    {% if foods.has_next %}
+                    <a href="?page={{ foods.next_page_number }}{% if query %}&q={{ query }}{% endif %}">next</a>
+                    <a href="?page={{ foods.paginator.num_pages }}{% if query %}&q={{ query }}{% endif %}">last
+                        &raquo;</a>
+                    {% endif %}
                 </span>
+            </div>
 
-                {% if foods.has_next %}
-                <a href="?page={{ foods.next_page_number }}{% if query %}&q={{ query }}{% endif %}">next</a>
-                <a href="?page={{ foods.paginator.num_pages }}{% if query %}&q={{ query }}{% endif %}">last &raquo;</a>
-                {% endif %}
-            </span>
         </div>
 
         <!-- Modal structure -->
@@ -152,7 +161,7 @@
                 modal.style.display = "block";
                 modalTitle.innerText = "Update Food Item";
                 foodForm.action = "{% url 'update_food_item' 0 %}".replace('0', id);
-                
+
                 // Set form values
                 document.querySelector('[name="code"]').value = code;
                 document.querySelector('[name="name"]').value = name;
