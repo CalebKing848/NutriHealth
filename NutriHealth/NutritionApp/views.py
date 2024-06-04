@@ -11,6 +11,7 @@ from django.db.models import Sum, F
 from matplotlib import pyplot as plt
 from collections import defaultdict
 from django.urls import reverse
+import numpy as np
 import io
 import base64
 
@@ -133,6 +134,7 @@ def delete_food_item(request, pk):
 
 
 
+
 def generate_pie_chart(daily_intake_items):
     # Calculate total protein, carbohydrates, and fat
     total_protein = daily_intake_items.aggregate(
@@ -144,6 +146,11 @@ def generate_pie_chart(daily_intake_items):
     total_fat = daily_intake_items.aggregate(
         total_fat=Sum(F('food_item__fat') * F('quantity'))
     )['total_fat'] or 0
+
+    # Handle NaN values
+    total_protein = total_protein if not np.isnan(total_protein) else 0
+    total_carbohydrates = total_carbohydrates if not np.isnan(total_carbohydrates) else 0
+    total_fat = total_fat if not np.isnan(total_fat) else 0
 
     # Prepare data for pie chart
     labels = ['Total Protein', 'Total Carbohydrates', 'Total Fat']
