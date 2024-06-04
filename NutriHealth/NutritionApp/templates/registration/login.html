@@ -4,14 +4,12 @@
 {% block content %} <!-- Start of Block Content -->
     <div class="registration-container">
 
-        <h2>Login - Page</h2>
+        <h2>Login</h2>
 
         {% load crispy_forms_tags %}
-        <li>{{user.username}}</li> <!-- Displays the logged in user username-->
         <form method="post">
             {% csrf_token %}{{form|crispy}}
-            <p>Don't have an account? Login <a herf="login>">Here</a>!</p>
-            <p>Forgot password</p>
+            <p>Don't have an account? <a href="/register">Register Here</a>! </p>
             <button type="submit" class="btn btn-success">Login</button>
         </form>
         {{from.errors}}

@@ -16,7 +16,10 @@
 
 .registration-container {
   width: 800px;
-  margin: 0px auto 0px auto;
+  margin: 123.5px auto 123.5px auto;
+  border: 1px solid #ced4da;
+  padding: 30px;
+  border-radius: 10px;
 }
 
 .main-container {
@@ -225,6 +228,10 @@ footer {
   border-radius: 10px;
 }
 
+.dashboard-main-container {
+  text-align: center;
+}
+
 .form-section-one {
   background-color: #224423;
   color: #fff;
@@ -420,4 +427,12 @@ margin: auto;
 
  .home-text-section p {
     line-height: 30px;
+ }
+
+ .new-list {
+  display: inline-grid;
+ }
+
+ .new-list li a {
+  color: #000 !important;
  }
