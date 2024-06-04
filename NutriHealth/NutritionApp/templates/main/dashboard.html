@@ -18,23 +18,17 @@
        
         <div class="dashboard-items">
 
-            <h2>New Features Added</h2>
+            <h2>Your Daily Intake</h2>
+
+
+            {% for take in intake %}
+                {{ take.min_age }}
+            {% endfor %}
 
             <ul class="new-list">
-                <li><a href="#">New Feature</a></li>
-                <li><a href="#">Bug Fix</a></li>
-                <li><a href="#">Improved Performance</a></li>
-                <li><a href="#">Enhanced User Interface</a></li>
-                <li><a href="#">Security Enhancement</a></li>
-                <li><a href="#">Optimized Database Queries</a></li>
-                <li><a href="#">Added Documentation</a></li>
-                <li><a href="#">Refactored Codebase</a></li>
-                <li><a href="#">Streamlined Workflow</a></li>
-                <li><a href="#">Localization Support</a></li>
-                <li><a href="#">Accessibility Improvements</a></li>
-                <li><a href="#">Cross-browser Compatibility</a></li>
-                <li><a href="#">Responsive Design</a></li>
-                <li><a href="#">Integration with Third-party Services</a></li>
+
+                <li><a href="{% url 'daily_intake' %}">Add Food Item</a></li>
+
             </ul>
         </div>
 

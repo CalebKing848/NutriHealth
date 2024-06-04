@@ -55,3 +55,15 @@ class DailyIntakeItem(models.Model):
     @property
     def total_fat(self):
         return self.food_item.fat * self.quantity
+
+
+class RecomededIntake(models.Model):
+    meal = models.CharField(max_length=100) 
+    min_age = models.IntegerField()  
+    max_age = models.IntegerField()  
+    gender = models.CharField(max_length=100) 
+    total_protein = models.FloatField()
+    total_carbohydrates = models.FloatField()
+    total_fat = models.FloatField()
+
+

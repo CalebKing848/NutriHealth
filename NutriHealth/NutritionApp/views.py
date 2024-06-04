@@ -6,7 +6,7 @@ from django.contrib.auth.decorators import login_required
 from django.contrib.auth.models import User  # Import the User model
 from django.core.paginator import Paginator, PageNotAnInteger, EmptyPage
 from django.http import JsonResponse
-from .models import UserInformation, FoodItem, DailyIntakeItem, DailyIntake
+from .models import UserInformation, FoodItem, DailyIntakeItem, DailyIntake, RecomededIntake
 from django.db.models import Sum, F
 from matplotlib import pyplot as plt
 from collections import defaultdict
@@ -85,7 +85,9 @@ def contact(request):
 
 @login_required(login_url="/login")
 def dashboard(request):
-    return render(request, 'main/dashboard.html')
+    intake = FoodItem.objects.all()
+    return render(request, 'main/dashboard.html', {"intake": intake})
+
     
 def nutrition_database(request):
     query = request.GET.get('q')
@@ -133,9 +135,10 @@ def delete_food_item(request, pk):
     return JsonResponse({'success': False})
 
 
-
-
 def generate_pie_chart(daily_intake_items):
+    if not daily_intake_items:
+        return None  # Return None if no data is provided
+    
     # Calculate total protein, carbohydrates, and fat
     total_protein = daily_intake_items.aggregate(
         total_protein=Sum(F('food_item__protein') * F('quantity'))

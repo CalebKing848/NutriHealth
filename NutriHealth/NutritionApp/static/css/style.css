@@ -358,6 +358,8 @@ footer {
   display: flex;
   justify-content: space-between;
   padding: 10px;
+  width: 1000px;
+  margin: 0px auto;
 }
 
 .single-item {
@@ -409,6 +411,10 @@ margin: auto;
 
  .light-text {
     color: #c1c1c1;
+ }
+
+ .btn-update{
+  margin-right: 10px;
  }
 
  .space {
