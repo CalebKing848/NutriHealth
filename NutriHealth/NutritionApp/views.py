@@ -83,10 +83,52 @@ def contact(request):
         form = ContactInformationForm()
     return render(request, 'user-contact/contact.html', {"form": form})
 
+
 @login_required(login_url="/login")
 def dashboard(request):
-    intake = FoodItem.objects.all()
-    return render(request, 'main/dashboard.html', {"intake": intake})
+    user = request.user
+    today = datetime.date.today()
+
+    # Fetch daily intake items for the current user and today's date
+    daily_intake_items = DailyIntakeItem.objects.filter(
+        daily_intake__user=user,
+        daily_intake__date=today
+    )
+
+    # Perform aggregation for total protein, carbohydrates, and fat considering the quantity
+    total_protein = daily_intake_items.aggregate(
+        total_protein=Sum(F('food_item__protein') * F('quantity'))
+    )['total_protein'] or 0
+    total_carbohydrates = daily_intake_items.aggregate(
+        total_carbohydrates=Sum(F('food_item__carbohydrates') * F('quantity'))
+    )['total_carbohydrates'] or 0
+    total_fat = daily_intake_items.aggregate(
+        total_fat=Sum(F('food_item__fat') * F('quantity'))
+    )['total_fat'] or 0
+
+    # Calculate total intake
+    total_intake = total_protein + total_carbohydrates + total_fat
+
+    # Calculate percentages
+    total_protein_percentage = (total_protein / total_intake) * 100
+    total_carbohydrates_percentage = (total_carbohydrates / total_intake) * 100
+    total_fat_percentage = (total_fat / total_intake) * 100
+
+    # Generate pie chart
+    pie_chart = generate_pie_chart(daily_intake_items)
+
+    # You can further modify this to include other necessary data for the dashboard
+    context = {
+        'total_protein': total_protein,
+        'total_carbohydrates': total_carbohydrates,
+        'total_fat': total_fat,
+        'total_protein_percentage': round(total_protein_percentage, 2),
+        'total_carbohydrates_percentage': round(total_carbohydrates_percentage, 2),
+        'total_fat_percentage': round(total_fat_percentage, 2),
+        'pie_chart': pie_chart,
+    }
+    return render(request, 'main/dashboard.html', context)
+
 
     
 def nutrition_database(request):

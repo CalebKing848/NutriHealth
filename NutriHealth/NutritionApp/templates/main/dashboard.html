@@ -29,6 +29,32 @@
 
                 <li><a href="{% url 'daily_intake' %}">Add Food Item</a></li>
 
+                <h3>Pie Chart: Total Quantity by Category</h3>
+                <img src="data:image/png;base64,{{ pie_chart }}" alt="Pie Chart">
+
+
+                <div>
+                    <h2>Daily Nutrition Summary</h2>
+                    <p>Total Protein: {{ total_protein }} grams</p>
+                    <p>Total Carbohydrates: {{ total_carbohydrates }} grams</p>
+                    <p>Total Fat: {{ total_fat }} grams</p>
+                </div>
+
+
+                <div class="progress-label">Total Protein: {{ total_protein }} grams</div>
+                <div class="progress-bar">
+                    <div class="progress-fill" style="width: {{ total_protein_percentage }}%">{{ total_protein_percentage }}%</div>
+                </div>
+                <div class="progress-label">Total Carbohydrates: {{ total_carbohydrates }} grams</div>
+                <div class="progress-bar">
+                    <div class="progress-fill" style="width: {{ total_carbohydrates_percentage }}%">{{ total_carbohydrates_percentage }}%</div>
+                </div>
+                <div class="progress-label">Total Fat: {{ total_fat }} grams</div>
+                <div class="progress-bar">
+                    <div class="progress-fill" style="width: {{ total_fat_percentage }}%">{{ total_fat_percentage }}%</div>
+                </div>
+
+
             </ul>
         </div>
 
