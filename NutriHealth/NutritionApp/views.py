@@ -110,9 +110,12 @@ def dashboard(request):
     total_intake = total_protein + total_carbohydrates + total_fat
 
     # Calculate percentages
-    total_protein_percentage = (total_protein / total_intake) * 100
-    total_carbohydrates_percentage = (total_carbohydrates / total_intake) * 100
-    total_fat_percentage = (total_fat / total_intake) * 100
+    if total_intake != 0:
+        total_protein_percentage = (total_protein / total_intake) * 100
+        total_carbohydrates_percentage = (total_carbohydrates / total_intake) * 100
+        total_fat_percentage = (total_fat / total_intake) * 100
+    else:
+        total_protein_percentage = total_carbohydrates_percentage = total_fat_percentage = 0
 
     # Generate pie chart
     pie_chart = generate_pie_chart(daily_intake_items)
