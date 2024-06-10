@@ -14,11 +14,13 @@
     <div class="dashboard-main-container">
         <h1>Saved Daily Intakes</h1>
         <ul>
-            {% for intake in saved_intakes %}
-            <li>
-                <a href="{% url 'daily_intake_with_id' intake.pk %}">User: {{ intake.user }} - Date: {{ intake.date }}</a>
-            </li>
-            {% endfor %}
+            <div class="save-items">
+                {% for intake in saved_intakes %}
+                <li>
+                    <a href="{% url 'daily_intake_with_id' intake.pk %}">User: {{ intake.user }} - Date: {{ intake.date }}</a>
+                </li>
+                {% endfor %}
+            </div>
         </ul>
     </div>
 

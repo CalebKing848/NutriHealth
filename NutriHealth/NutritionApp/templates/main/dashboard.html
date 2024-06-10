@@ -18,8 +18,10 @@
        
         <div class="dashboard-items">
 
-            <h2>Your Daily Intake</h2>
-
+            <div class="dash-header">
+                <h2>Your Daily Intake</h2>
+                <li><a  class="btn btn-primary btn-add" href="{% url 'daily_intake' %}">Add Food Item</a></li>
+            </div>
 
             {% for take in intake %}
                 {{ take.min_age }}
@@ -27,18 +29,13 @@
 
             <ul class="new-list">
 
-                <li><a href="{% url 'daily_intake' %}">Add Food Item</a></li>
-
-                <h3>Pie Chart: Total Quantity by Category</h3>
                 <img src="data:image/png;base64,{{ pie_chart }}" alt="Pie Chart">
 
 
-                <div>
+
                     <h2>Daily Nutrition Summary</h2>
-                    <p>Total Protein: {{ total_protein }} grams</p>
-                    <p>Total Carbohydrates: {{ total_carbohydrates }} grams</p>
-                    <p>Total Fat: {{ total_fat }} grams</p>
-                </div>
+                   
+             
 
 
                 <div class="progress-label">Total Protein: {{ total_protein }} grams</div>

@@ -483,4 +483,25 @@ margin: auto;
 
 .progress-label {
   margin-bottom: 5px;
+  text-align: left;
+}
+
+.dash-header li a{
+  text-decoration: none !important;
+}
+
+.dash-header li{
+  list-style-type: none;
+}
+
+.btn-add {
+  margin-left: 10px;
+}
+
+.save-items li a {
+  color: #000 !important;
+}
+
+.save-items li a:hover {
+  color: #242424 !important;
 }
